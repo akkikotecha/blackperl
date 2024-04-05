@@ -1,0 +1,162 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Bold.eot');
+  src: local('Pilat Wide Bold'), local('PilatWide-Bold'),
+      url('./font/PilatWide-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Bold.woff2') format('woff2'),
+      url('./font/PilatWide-Bold.woff') format('woff'),
+      url('./font/PilatWide-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Thin.eot');
+  src: local('Pilat Wide Thin'), local('PilatWide-Thin'),
+      url('./font/PilatWide-Thin.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Thin.woff2') format('woff2'),
+      url('./font/PilatWide-Thin.woff') format('woff'),
+      url('./font/PilatWide-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide Demi';
+  src: url('./font/PilatWide-DemiBold.eot');
+  src: local('Pilat Wide DemiBold'), local('PilatWide-DemiBold'),
+      url('./font/PilatWide-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-DemiBold.woff2') format('woff2'),
+      url('./font/PilatWide-DemiBold.woff') format('woff'),
+      url('./font/PilatWide-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide Book';
+  src: url('./font/PilatWide-Book.eot');
+  src: local('Pilat Wide Book'), local('PilatWide-Book'),
+      url('./font/PilatWide-Book.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Book.woff2') format('woff2'),
+      url('./font/PilatWide-Book.woff') format('woff'),
+      url('./font/PilatWide-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Regular.eot');
+  src: local('Pilat Wide Regular'), local('PilatWide-Regular'),
+      url('./font/PilatWide-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Regular.woff2') format('woff2'),
+      url('./font/PilatWide-Regular.woff') format('woff'),
+      url('./font/PilatWide-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Black.eot');
+  src: local('Pilat Wide Black'), local('PilatWide-Black'),
+      url('./font/PilatWide-Black.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Black.woff2') format('woff2'),
+      url('./font/PilatWide-Black.woff') format('woff'),
+      url('./font/PilatWide-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Heavy.eot');
+  src: local('Pilat Wide Heavy'), local('PilatWide-Heavy'),
+      url('./font/PilatWide-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Heavy.woff2') format('woff2'),
+      url('./font/PilatWide-Heavy.woff') format('woff'),
+      url('./font/PilatWide-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Light.eot');
+  src: local('Pilat Wide Light'), local('PilatWide-Light'),
+      url('./font/PilatWide-Light.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Light.woff2') format('woff2'),
+      url('./font/PilatWide-Light.woff') format('woff'),
+      url('./font/PilatWide-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  line-height: normal;
+  background: #000;
+}
+:root {
+  /* fonts */
+  --font-pilat-wide: "Pilat Wide";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-76xl: 95px;
+  --font-size-28xl: 47px;
+  --font-size-9xl: 28px;
+  --font-size-3xl: 22px;
+  --font-size-7xl: 26px;
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-8xl: 27px;
+  --font-size-xl: 20px;
+  --font-size-15xl: 34px;
+  --font-size-19xl: 38px;
+  --font-size-11xl: 30px;
+  --font-size-4xl: 23px;
+  --font-size-33xl: 52px;
+  --font-size-23xl: 42px;
+  --font-size-12xl: 31px;
+  --font-size-6xl: 25px;
+  --font-size-36xl: 55px;
+  --font-size-25xl: 44px;
+  --font-size-14xl: 33px;
+  --font-size-sm: 14px;
+  --font-size-26xl: 45px;
+  --font-size-17xl: 36px;
+  --font-size-69xl: 88px;
+
+  /* Colors */
+  --a18: #050a18;
+  /* --a18: #ff0f0f; */
+  --color-gray-100: rgba(255, 255, 255, 0.35);
+  --color-gray-200: rgba(255, 255, 255, 0.34);
+  --color-gray-300: rgba(255, 255, 255, 0.1);
+  --color-gray-400: rgba(255, 255, 255, 0.5);
+  --color-gray-500: rgba(255, 255, 255, 0.55);
+  --white: #fff;
+  --black: #000;
+  --color-darkslategray: #383d4a;
+  --color-gainsboro: #e6e6e6;
+  --green: #10ff7c;
+  --f38e: #00f38e;
+
+ 
+}
+
+
+.CircularProgressbar {
+  width: 85%!important;
+  vertical-align: middle;
+}
