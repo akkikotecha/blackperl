@@ -15,7 +15,7 @@ import {
 } from "../components";
 // import Carousel from "../components/PortfolioServices/Service";
 import styles from "./css/Home.module.css";
-import Slider from "react-infinite-logo-slider";
+// import Slider from "react-infinite-logo-slider";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Carousel from "../components/PortfolioServices/Service";
