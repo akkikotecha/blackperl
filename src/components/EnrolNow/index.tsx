@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./EnrolNow.module.css";
 import EnrolNowService from "./EnrolNowService";
 const EnrolNow = () => {
