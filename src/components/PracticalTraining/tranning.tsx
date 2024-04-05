@@ -3,7 +3,7 @@ import styles from "./tranning.module.css";
 
 export type DetectType = {
   groupPrivacyPolicy?: string;
-  detect?: string;
+  detect: string;
   detect_data?: string;
   imageURL?: string;
 };

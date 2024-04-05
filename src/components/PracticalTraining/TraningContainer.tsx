@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./TranningContainer.module.css";
 import TranningCon from "./tranning";
 const TraningContainer = () => {
