@@ -17,3 +17,4 @@ export { default as Investigation } from "./Investigation";
 export { default as InvestigationCertificate } from "./Investigation/Certificates";
 export { default as PracticalTraining } from "./PracticalTraining/index";
 export { default as CompanyLogoSlider } from "./CompanyLogoSlider/index";
+export { default as TrainingTab } from "./TrainingTab/TrainingTab";

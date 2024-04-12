@@ -7,11 +7,11 @@ import {
     Footer,
     ReviewFooter
   } from "../components";
-  import styles from "./css/trainning.module.css";
+  import styles from "./css/Livetrainning.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
-  import './css/trainning.module.css';
+  import './css/Livetrainning.module.css';
   
-  function Trainning() {
+  function LiveTrainning() {
     return (
       <>
         <Navbar />
@@ -33,5 +33,5 @@ import {
     );
   }
   
-  export default Trainning;
+  export default LiveTrainning;
   

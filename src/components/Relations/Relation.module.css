@@ -30,8 +30,8 @@
 }
 .titleprimaryleftIcon {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  
+  width: 90%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -42,12 +42,32 @@
 }
 .maskGroupIcon {
   position: absolute;
-  top: 172px;
-  left: 46px;
-  width: 526px;
-  height: 658px;
+  top: 132px;
+  left: 36px;
   object-fit: cover;
   z-index: 1;
+  width: 75%;
+}
+@media screen and (max-width: 1398px) {
+  .maskGroupIcon {
+    position: absolute;
+    top: 102px;
+    left: 26px;
+    object-fit: cover;
+    z-index: 1;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .maskGroupIcon {
+    position: absolute;
+    top: 102px;
+    left: 26px;
+    object-fit: cover;
+    z-index: 1;
+    width: 75%;
+  }
+
 }
 .submitBtn {
   position: absolute;

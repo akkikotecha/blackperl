@@ -40,18 +40,18 @@ const GroupComponent: FunctionComponent = () => {
           </div>
           <div className={[styles.training, styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpen(true)}
         onMouseLeave={() => setIsSubMenuOpen(false)}>
-            <Link to="/trainning">
+            <Link to="/Training">
               <div className={styles.training1}>Training</div>
             </Link>
             {isSubMenuOpen && (
               <div className={styles.subMenu}>
-                <Link to="/trainning">
+                <Link to="/LiveTrainning">
                   <div className={styles.subMenuItem}>Academy</div>
                 </Link>
-                <Link to="/trainning">
+                <Link to="/LiveTrainning">
                   <div className={styles.subMenuItem}>Certifications</div>
                 </Link>
-                <Link to="/trainning">
+                <Link to="/LiveTrainning">
                   <div className={styles.subMenuItem}>Live Training</div>
                 </Link>
                 {/* Add more submenu items as needed */}

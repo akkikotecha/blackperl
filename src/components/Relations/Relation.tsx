@@ -58,6 +58,7 @@ const FrameComponent: FunctionComponent = () => {
             modules={[Navigation]}
             speed={1500}
             slidesPerView={2}
+            spaceBetween={2}
             loop={true}
             ref={swiperRef}
           >
@@ -80,22 +81,7 @@ const FrameComponent: FunctionComponent = () => {
               </SwiperSlide>
             ))}
 
-            <SwiperSlide>
-              <div className={styles.nameInput1}>
-                <div className={styles.vectorParent}>
-                  <img
-                    className={styles.vectorIcon}
-                    alt=""
-                    src="/vector-12.svg"
-                  />
-                  <img
-                    className={styles.maskGroupIcon1}
-                    alt=""
-                    src="/mask-group-1@2x.png"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
+            
           </Swiper>
         </div>
       </div>
