@@ -5,23 +5,25 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./style.css";
 import { Navigation } from "swiper/modules";
-
+import archan from '../../../public/training/archan.png';
+import souvik from '../../../public/training/souvik.png';
+import sayan from '../../../public/training/sayan.png';
 const Service = () => {
   const data = [
     {
-      imgURL:"../../../public/training/archan.png",
+      imgURL:archan,
       heading: "Archan",
       heading2:"Choudhury",
       content: "#",
     },
     {
-      imgURL:"../../../public/training/souvik.png",
+      imgURL:souvik,
       heading: `Souvik`,
       heading2:"Biswas",
       content: "#",
     },
     {
-      imgURL:"../../../public/training/sayan.png",
+      imgURL:sayan,
       heading: `Sayan`,
       heading2:"Kr Dey",
       content: "#",
