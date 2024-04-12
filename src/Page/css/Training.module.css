@@ -338,7 +338,7 @@ body {
     display: inline-block;
     margin-left: 1%;
     margin-right: auto;
-    z-index: 1;
+    
   }
   .weStrengthenOrganisationContainerWhite {
     margin: 0;
@@ -452,7 +452,7 @@ body {
     flex-wrap: wrap;
     margin-left: 7%;
     margin-right: auto;
-    z-index: 1;
+    
 
   }
   .row_second {
@@ -460,7 +460,7 @@ body {
     flex-wrap: wrap;
     margin-left: 7%;
     margin-right: auto;
-    z-index: 1;
+    
     margin-top: 30px;
 
   }

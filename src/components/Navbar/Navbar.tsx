@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const GroupComponent: FunctionComponent = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
+  const [isLiveTrainingSubMenuOpen, setIsSubMenuOpenClose] = useState(false);
 
   return (
     <header className={styles.rectangleParent}>
@@ -40,9 +41,8 @@ const GroupComponent: FunctionComponent = () => {
           </div>
           <div className={[styles.training, styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpen(true)}
         onMouseLeave={() => setIsSubMenuOpen(false)}>
-            <Link to="/Training">
               <div className={styles.training1}>Training</div>
-            </Link>
+            
             {isSubMenuOpen && (
               <div className={styles.subMenu}>
                 <Link to="/LiveTrainning">
@@ -51,11 +51,33 @@ const GroupComponent: FunctionComponent = () => {
                 <Link to="/LiveTrainning">
                   <div className={styles.subMenuItem}>Certifications</div>
                 </Link>
-                <Link to="/LiveTrainning">
-                  <div className={styles.subMenuItem}>Live Training</div>
+                <div className={[styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpenClose(true)}
+        onMouseLeave={() => setIsSubMenuOpenClose(false)}>
+            <Link to="/LiveTrainning">
+              <div className={`${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training</div>
+            </Link>
+
+            {isLiveTrainingSubMenuOpen && (
+              <div className={styles.subInsubMenu}>
+                <Link to="/BCAD">
+                  <div className={styles.subMenuItem}>BCAD</div>
                 </Link>
-                {/* Add more submenu items as needed */}
-              </div>
+                <Link to="/LiveTrainning">
+                  <div className={styles.subMenuItem}>BCCD</div>
+                </Link>
+                <Link to="/LiveTrainning">
+                  <div className={styles.subMenuItem}>BCDE</div>
+                </Link>
+                <Link to="/LiveTrainning">
+                  <div className={styles.subMenuItem}>TTIA</div>
+                </Link>
+                </div>
+            )}
+
+            </div>
+                      
+                  </div>
+                
             )}
           </div>
           <div className={[styles.reviews, styles.hover].join(" ")}>
