@@ -3,7 +3,7 @@
 .mainContainerData {
   width: 416px;
   height: 235px;
-  background-color: #10FF7C;
+  background-color: #00F38E;
   position: relative;
 
 }
@@ -27,7 +27,7 @@
 
 .mainContainerData:hover:before {
   color: #000;
-  background: linear-gradient(90deg, #10FF7C 0%, #10FF7C 100%);
+  background: linear-gradient(90deg, #00F38E 0%, #00F38E 100%);
   /* width: 100%; */
   /* height: 100%; */
   animation: slide 0.5s cubic-bezier(0, 0, 0.61, 1.0);

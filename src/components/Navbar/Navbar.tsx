@@ -54,7 +54,7 @@ const GroupComponent: FunctionComponent = () => {
                 <div className={[styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpenClose(true)}
         onMouseLeave={() => setIsSubMenuOpenClose(false)}>
             <Link to="/LiveTrainning">
-              <div className={`${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training</div>
+              <div className={`${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training </div>
             </Link>
 
             {isLiveTrainingSubMenuOpen && (

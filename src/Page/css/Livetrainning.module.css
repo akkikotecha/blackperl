@@ -152,9 +152,11 @@ body {
   --color-gray-400: rgba(255, 255, 255, 0.5);
   --color-gray-600: rgba(255, 255, 255, 0.41);
   --ffffff: #fff;
-  --green: #10ff7c;
+  --green: #00F38E
+  ;
   --black: #000;
-  --f38e: #00f38e;
+  --f38e: #00F38E
+  ;
   --color-darkslategray: #383d4a;
   --color-gainsboro: #e6e6e6;
 
@@ -366,7 +368,7 @@ body {
   .organisation {
     margin: 0;
     font-size: 33px;
-    color: #10ff7c;
+    color: #00F38E;
   }
   .desktop1,
   .reviewsAcademyGroup {

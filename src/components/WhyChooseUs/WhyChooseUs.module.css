@@ -44,14 +44,14 @@
 .link
 {
   
-  color: #10FF7C;
+  color: #00F38E;
   text-decoration: none;
 }
 
 .details_title {
   margin-top: 40px;
   margin-bottom: 40px;
-  color: #10FF7C;
+  color: #00F38E;
   font-size: 18px;
   font-weight: 600;
 }
@@ -105,7 +105,7 @@
   position: relative;
   top: -51%;
   left: -8%;
-  color: #10FF7C;
+  color: #00F38E;
   font-size: 52px;
   font-weight: 700;
 }
