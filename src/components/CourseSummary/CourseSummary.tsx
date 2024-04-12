@@ -3,6 +3,12 @@ import styles from "./CourseSummary.module.css";
 import Accordion from "react-bootstrap/Accordion";
 import Relation from '../Relations/Relation'
 
+import certificate_1 from '../../../public/training/certificate_1.png';
+import certificate_2 from '../../../public/training/certificate_2.png';
+
+
+
+
 import {Icon} from 'react-fa'
 const CourseSummary: FunctionComponent = () => {
   return (
@@ -241,12 +247,12 @@ const CourseSummary: FunctionComponent = () => {
       <div className={styles.span_disc}>
         <div className="row mt-5 mb-5 pb-5 pt-3">
           <div className="col-lg-9 px-0 ">
-              <img src='../../../public/training/certificate_1.png' className={styles.certificateWidthMain}/>
+              <img src={certificate_1} className={styles.certificateWidthMain}/>
           </div>
           <div className="col-lg-3">
-          <img src='../../../public/training/certificate_2.png' className={styles.certificateWidth} />
-          <img src='../../../public/training/certificate_2.png' className={`mt-4 ${styles.certificateWidth}`}/>
-          <img src='../../../public/training/certificate_2.png' className={`mt-4 ${styles.certificateWidth}`}/>
+          <img src={certificate_2} className={styles.certificateWidth} />
+          <img src={certificate_2} className={`mt-4 ${styles.certificateWidth}`}/>
+          <img src={certificate_2} className={`mt-4 ${styles.certificateWidth}`}/>
           </div>
           </div>
         </div>
