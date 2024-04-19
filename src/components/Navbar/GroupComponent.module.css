@@ -198,6 +198,10 @@
     text-transform: uppercase;
     font-weight: 800;
   }
+  .menu1
+  {
+    color: #000;
+  }
   .close {
     align-self: stretch;
     width: 67px;

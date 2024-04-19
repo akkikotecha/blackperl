@@ -48,7 +48,7 @@ const GroupComponent: FunctionComponent = () => {
                 <Link to="/LiveTrainning">
                   <div className={styles.subMenuItem}>Academy</div>
                 </Link>
-                <Link to="/LiveTrainning">
+                <Link to="/Certification">
                   <div className={styles.subMenuItem}>Certifications</div>
                 </Link>
                 <div className={[styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpenClose(true)}
@@ -81,12 +81,12 @@ const GroupComponent: FunctionComponent = () => {
             )}
           </div>
           <div className={[styles.reviews, styles.hover].join(" ")}>
-            <div className={styles.reviews1}>Reviews</div>
+            <Link to="/Review"><div className={styles.reviews1}>Reviews</div></Link>
           </div>
           <div className={[styles.menu, styles.hover].join(" ")}>
-            <div className={styles.reviewsAcademyTrainingAbout}>
+            <Link to="/GetInTouch"><div className={styles.reviewsAcademyTrainingAbout}>
               <div className={styles.menu1}>Contact</div>
-            </div>
+            </div></Link>
           </div>
         </div>
       </div>
