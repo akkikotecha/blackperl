@@ -3,7 +3,7 @@ import styles from "./CloudSecurityService.module.css";
 
 export type DetectType = {
   img_url?: string;
-  title?: string;
+  title: string | TrustedHTML;
   dis?: string;
 };
 

@@ -3,7 +3,7 @@ import styles from "./SecurityAnalystService.module.css";
 
 export type DetectType = {
   img_url?: string;
-  title?: string;
+  title: string;
   dis?: string;
 };
 
