@@ -8,6 +8,12 @@ const FooterSection: FunctionComponent = () => {
         <div className={styles.instaFbYTFrame}>
         <img className={styles.image1Icon} alt="" src="/image-1-1@2x.png" />
           <div className={styles.instaFbYTLabel}>
+          <img
+              className={styles.ytIcon}
+              loading="lazy"
+              alt=""
+              src="/yt.svg"
+            />
             <img
               className={styles.instaIcon}
               loading="lazy"
@@ -20,12 +26,7 @@ const FooterSection: FunctionComponent = () => {
               alt=""
               src="/fb.svg"
             />
-            <img
-              className={styles.ytIcon}
-              loading="lazy"
-              alt=""
-              src="/yt.svg"
-            />
+            
           </div>
         </div>
        

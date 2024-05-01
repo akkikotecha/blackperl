@@ -35,7 +35,7 @@ function LiveTrainning() {
           $19<span> / month</span>
           </h2>
           <h2 className={styles.priceMonthTag}>
-            1 Month
+            1 Months
           </h2>
           <p className={styles.priceDisTag}>
           Unleash the power of automation.
@@ -50,7 +50,7 @@ function LiveTrainning() {
           $54<span> / month</span>
           </h2>
           <h2 className={styles.priceMonthTag}>
-            3 Month
+            3 Months
           </h2>
           <p className={styles.priceDisTag}>
           Advanced tools to take your work to the next level.
@@ -65,7 +65,7 @@ function LiveTrainning() {
           $54<span> / month</span>
           </h2>
           <h2 className={styles.priceMonthTag}>
-            6 Month
+            6 Months
           </h2>
           <p className={styles.priceDisTag}>
           Advanced tools to take your work to the next level.
@@ -84,7 +84,7 @@ function LiveTrainning() {
           $89<span> / month</span>
           </h2>
           <h2 className={styles.PopularpriceMonthTag}>
-            12 Month
+            12 Months
           </h2>
           <p className={styles.PopularpriceDisTag}>
           Automation plus enterprise-grade features.

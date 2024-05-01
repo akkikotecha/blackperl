@@ -88,8 +88,8 @@ const Service = () => {
         style={{
           color: "white",
           width: "100%",
-          padding: "0 5px",
-        }}
+          padding: "0 15px",
+        }} className={styles.PaddingCarosulesSet}
       >
         <Swiper
           navigation={false}
@@ -103,7 +103,7 @@ const Service = () => {
         >
           {data.map((single, index) => (
             <SwiperSlide key={index}>
-              <div className="mainContainerLabs">
+              <div className={`mainContainerLabs ${styles.mainContainerLabsData}`}>
                 <div className="container">
                   <h1 className="textH1"> {single?.heading}</h1>
                   <h1 className="textH2"> {single?.heading2}</h1>

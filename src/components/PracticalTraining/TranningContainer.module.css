@@ -24,7 +24,8 @@
     margin-left: auto;
     margin-right: auto;
     padding: 38px;
-    margin-top: 120px;
+    margin-top: 70px;
+    padding-left: 0px!important;
 }
 .frameG {
   display: flex;
@@ -407,6 +408,10 @@ video{
   background-color: var(--a18);
   overflow: hidden;
   letter-spacing: normal;
+}
+@media screen and (max-width: 1250px) {
+.rectangleB
+{margin-top: 20px;}
 }
 @media screen and (max-width: 1250px) {
   .frameText {

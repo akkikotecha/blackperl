@@ -74,6 +74,7 @@
   /* margin-left: 25px; */
   padding: 25px;
   width: 80%;
+  text-transform: uppercase;
 }
 .textH2 {
   font-family: var(--font-pilat-wide);

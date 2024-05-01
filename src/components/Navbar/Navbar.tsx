@@ -1,12 +1,15 @@
 import { FunctionComponent, useState } from "react";
 import styles from "./GroupComponent.module.css";
-import { Link } from "react-router-dom";
+import { Link,useLocation } from "react-router-dom";
+
 
 const GroupComponent: FunctionComponent = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   const [isLiveTrainingSubMenuOpen, setIsSubMenuOpenClose] = useState(false);
+  const location = useLocation();
 
   return (
+    
     <header className={styles.rectangleParent}>
       <div className={styles.frameChild} />
       <Link to="/">
@@ -28,12 +31,12 @@ const GroupComponent: FunctionComponent = () => {
         <div className={styles.buttonFrame}>
           <div className={styles.aboutUs}>
             <Link to="/">
-              <div className={styles.home}>Home</div>
+              <div className={location.pathname === '/' ? `${styles.home} ${styles.greenMenu}` : styles.home}>Home</div>
             </Link>
           </div>
           <div className={[styles.aboutUs, styles.hover].join(" ")}>
             <Link to="/about">
-              <div className={styles.aboutUs1}>About Us</div>
+              <div className={location.pathname === '/about' ? `${styles.aboutUs1} ${styles.greenMenu}` : styles.aboutUs1} >About Us</div>
             </Link>
           </div>
           <div className={[styles.services, styles.hover].join(" ")}>
@@ -41,26 +44,26 @@ const GroupComponent: FunctionComponent = () => {
           </div>
           <div className={[styles.training, styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpen(true)}
         onMouseLeave={() => setIsSubMenuOpen(false)}>
-              <div className={styles.training1}>Training</div>
+              <div className={location.pathname === '/LiveTrainning' || location.pathname === '/Certification' || location.pathname === '/BCAD' ? `${styles.training1} ${styles.greenMenu}` : styles.training1} >Training</div>
             
             {isSubMenuOpen && (
               <div className={styles.subMenu}>
                 <Link to="/LiveTrainning">
-                  <div className={styles.subMenuItem}>Academy</div>
+                  <div className={location.pathname === '/Academy' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem} >Academy</div>
                 </Link>
                 <Link to="/Certification">
-                  <div className={styles.subMenuItem}>Certifications</div>
+                  <div className={location.pathname === '/Certification' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>Certifications</div>
                 </Link>
                 <div className={[styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpenClose(true)}
         onMouseLeave={() => setIsSubMenuOpenClose(false)}>
             <Link to="/LiveTrainning">
-              <div className={`${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training </div>
+              <div className={location.pathname === '/LiveTrainning' || location.pathname === '/BCAD' ? `${styles.subMenuItem} ${styles.paddingBottomSetting} ${styles.greenMenu}` : `${styles.subMenuItem} ${styles.paddingBottomSetting}`} >Live Training </div>
             </Link>
 
             {isLiveTrainingSubMenuOpen && (
               <div className={styles.subInsubMenu}>
                 <Link to="/BCAD">
-                  <div className={styles.subMenuItem}>BCAD</div>
+                  <div className={location.pathname === '/BCAD' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCAD</div>
                 </Link>
                 <Link to="/LiveTrainning">
                   <div className={styles.subMenuItem}>BCCD</div>
@@ -81,11 +84,11 @@ const GroupComponent: FunctionComponent = () => {
             )}
           </div>
           <div className={[styles.reviews, styles.hover].join(" ")}>
-            <Link to="/Review"><div className={styles.reviews1}>Reviews</div></Link>
+            <Link to="/Review"><div className={location.pathname === '/Review' ? `${styles.reviews1} ${styles.greenMenu}` : styles.reviews1} >Reviews</div></Link>
           </div>
-          <div className={[styles.menu, styles.hover].join(" ")}>
-            <Link to="/GetInTouch"><div className={styles.reviewsAcademyTrainingAbout}>
-              <div className={styles.menu1}>Contact</div>
+          <div className={location.pathname === '/GetInTouch' ? `${styles.menu} ${styles.menuButton} ${styles.hover}` : `${styles.menu} ${styles.hover}`}>
+            <Link to="/GetInTouch"><div  className={styles.reviewsAcademyTrainingAbout} >
+              <div className={styles.menu1} >Contact</div>
             </div></Link>
           </div>
         </div>

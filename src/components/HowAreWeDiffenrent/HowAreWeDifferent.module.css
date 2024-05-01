@@ -99,7 +99,7 @@
     margin: 0 !important;
     top: 24px;
     right: 0;
-    left: 0;
+    left: 8%;
     max-width: 100%;
     overflow: hidden;
     flex-shrink: 0;
@@ -340,3 +340,31 @@
     }
   }
   
+
+  @media screen and (max-width:1398px) {
+    .decadesOldExperienceContainer,.relationFirstContainer,.weBuildRelationsContainer,.mostAffordablePriceContainer
+    {
+      font-size: 32px!important;
+    }
+    .bestReturnOnContainer,.bestReturnOn
+    {
+      font-size: 32px;
+    }
+  }
+  
+
+  @media screen and (max-width:1230px) {
+.frameContactInfo{
+  padding: var(--padding-468xl) var(--padding-36xl) 4px 10px;
+}
+  .costlyCertificates
+  {
+      font-size: 26px;
+      top:206px;
+  }
+  .trueKnowledge
+  {
+    font-size: 45px;
+    top:250px;
+  }
+  }

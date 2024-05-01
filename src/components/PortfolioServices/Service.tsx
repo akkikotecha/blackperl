@@ -72,12 +72,12 @@ const Service = () => {
           <h1 className={styles.portfolio}>Portfolio</h1>
         </div>
       </section>
-      <div
+      <div className="paddingCarosuleSet"
         style={{
           color: "white",
 
           width: "100%",
-          padding: "0 95px",
+          padding: "0 75px",
         }}
       >
         <Swiper

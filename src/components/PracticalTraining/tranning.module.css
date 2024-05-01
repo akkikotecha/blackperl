@@ -42,9 +42,10 @@
 .detect_data {
   margin: 0;
   /* height: 31px; */
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
   color:#ffffff65;
-  /* line-height: 92px; */
+  line-height: 19.5px;
   /* text-transform: uppercase; */
   /* font-weight: 800; */
   /* font-family: inherit; */
@@ -87,6 +88,8 @@
 .detect {
   padding: var(--padding-22xl) var(--padding-13xl) var(--padding-22xl)
     var(--padding-3xl);
+  padding-left: 0px;
+  padding-right: 0px;
   box-sizing: border-box;
   position: relative;
   min-height: 187px;
@@ -95,6 +98,7 @@
   color: var(--white);
   font-family: var(--font-pilat-wide);
   margin-bottom: 40px;
+  width: 90%;
 }
 @media screen and (max-width: 750px) {
   .detect1 {

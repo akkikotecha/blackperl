@@ -41,6 +41,7 @@ video{
 {
   border: 1px solid #ffffff59;
   margin-top: 26px!important;
+  width: 94%;
 }
 .tagColor
 {
@@ -48,7 +49,7 @@ video{
 }
 .ModalCurv
 {
-  clip-path: polygon(70% 0, 100% 31.4%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(75% 0, 104% 29.4%, 100% 100%, 0 100%, 0 0);
   background: #00F38E;
   width: 100%;
   height: 100%;
@@ -69,14 +70,14 @@ video{
   color: #fff !important;
   font-size: 15px;
   line-height: 25px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .ModalCurv:before {
   content: "";
   width: 99.2%;
   height: 99%;
-  -webkit-clip-path: polygon(70% 0, 100% 31%, 100% 100%, 0 100%, 0 0);
-  clip-path: polygon(70% 0, 100% 31.5%, 100% 100%, 0 100%, 0 0);
+  -webkit-clip-path: polygon(75% 0, 104% 29.4%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(75% 0, 104% 29.4%, 100% 100%, 0 100%, 0 0);
   background: #2d3344;
   display: block;
   position: absolute;
@@ -141,21 +142,21 @@ video{
   width: 1388px;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 0 var(--padding-xl);
+  padding: 0 0 0 22px;
   gap: 40px 0;
 }
 .frameText {
   align-self: stretch;
   flex-direction: row;
   justify-content:center;
-  padding: 0 42px 324px;
+  padding: 0 42px 224px;
   text-align: left;
   font-size: var(--font-size-76xl);
   color: var(--white);
   font-family: var(--font-pilat-wide);
 }
 .learner {
-  margin-left: 55px;
+  margin-left: 0px;
   margin-right: -55px;
   height: 178px;
   flex: 1;
@@ -199,7 +200,7 @@ video{
 }
 .contentBoxes {
   width: 1495px;
-  padding: 120px 0 140px;
+  padding: 50px 0 140px;
   box-sizing: border-box;
   max-width: 104%;
   flex-shrink: 0;
@@ -223,19 +224,20 @@ video{
   text-transform: uppercase;
 }
 .servicesFrame {
-  width: 1352px;
+  width: 1377px;
   height: 262px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-xl) 147px;
+  padding: 0 0 147px;
   box-sizing: border-box;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-76xl);
   color: var(--white);
   font-family: var(--font-pilat-wide);
+  margin-top: 80px;
 }
 .infosysLogo1Icon {
   position: absolute;
@@ -439,11 +441,12 @@ video{
 }
 .academicPartners {
   align-self: center;
-  padding: 0 0 var(--padding-108xl);
+  padding: 0 0 0;
   gap: 0 24px;
   max-width: 100%;
   background: #000;
   width: 100%;
+  margin-bottom: 130px;
 }
 .desktop1,
 .reviewsAcademyGroup {
@@ -505,7 +508,7 @@ video{
 .sub_title
 {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 700;
   color:#fff;
   text-transform: uppercase;
   font-family: var(--font-pilat-wide);
@@ -552,7 +555,47 @@ video{
   font-weight: 600;
 }
 
+@media screen and (max-width: 1398px) {
+.whatRelationsAreContainer
+{
+  left: 74px;
+}
+.learner
+{
+  font-size: 234px;
+}
+.servicesFrame
+{
+  width: 1297px;
+  margin-top: 80px;
+}
+.workAt
+{
+  margin-left: 10px;
+}
+}
 @media screen and (max-width: 1250px) {
+  .workAt
+  {
+    margin-left: 10px;
+}
+  .servicesFrame
+  {
+    width: 1170px;
+    margin-top: 80px;
+  }
+  .learner
+  {
+    font-size: 210px;
+  }
+  .whatRelationsAreContainer
+{
+  left: 54px;
+}
+  .frameImage
+  {
+    padding-left: 0px;
+  }
   .frameText {
     padding-bottom: 211px;
     box-sizing: border-box;

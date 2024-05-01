@@ -410,3 +410,10 @@
   color: white;
   font-family: var(--font-montserrat);;
 }
+
+@media screen and (max-width:1398px) {
+  .BcadLabs
+  {
+    font-size: 70px;
+  } 
+}

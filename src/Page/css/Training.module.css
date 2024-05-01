@@ -345,7 +345,7 @@ body {
     height: 154px;
     width: 958px;
     position: relative;
-    font-size: 42px;
+    font-size: 44px;
     /* line-height: 92px; */
     text-transform: uppercase;
     font-weight: 800;
@@ -361,10 +361,10 @@ body {
     height: 154px;
     width: 958px;
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     /* line-height: 92px; */
     /* text-transform: uppercase; */
-    font-weight: 600;
+    font-weight: 500;
     font-family: inherit;
     display: inline-block;
     margin-left: 1%;
@@ -526,7 +526,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     gap: 0 19px;
-    top: 0;
+    
     z-index: 99;
     position: sticky;
     white-space: nowrap;
@@ -537,3 +537,23 @@ body {
     background-color: var(--color-gainsboro);
   }
 
+@media screen and (max-width:1398px)
+{
+  .weStrengthenOrganisationContainer,.weStrengthenOrganisationContainerWhite,.weStrengthenOrganisationContainerSmall
+  {
+    width: 810px;
+  }
+  
+}
+@media screen and (max-width:1230px)
+{
+  .weStrengthenOrganisationContainerSmall,.am:first-child
+  {
+    margin-top: 70px;
+  }
+  .ammm
+  {
+    margin-top: 7px!important;
+  }
+  
+}

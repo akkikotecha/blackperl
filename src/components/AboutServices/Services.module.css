@@ -99,7 +99,7 @@ video{
   font-family: var(--font-pilat-wide);
 }
 .learner {
-  margin-left: 55px;
+  margin-left: 0px;
   margin-right: -55px;
   height: 178px;
   flex: 1;

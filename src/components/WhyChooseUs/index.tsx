@@ -64,7 +64,7 @@ const WhyChooseUs: FunctionComponent = () => {
     </h1>
     <ReactVisibilitySensor onChange={0} delayedCall>
 
-    <div className={styles.row}>
+    <div className={`classROW ${styles.row}`}>
       <div className={`${styles.flex_row} ${styles['col-2']}`}>
       <CircularProgressbar value={percentage1} strokeWidth={stroke} styles={buildStyles({textSize: '16px',pathTransitionDuration: 2,pathColor: `rgba(256, 256, 256, ${percentage1 / 100})`,textColor: '#fff',trailColor: '#000',backgroundColor: '#fff',
   })}/>

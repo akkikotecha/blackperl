@@ -86,15 +86,14 @@ const GetInTouchForm: FunctionComponent = () => {
                 className={styles.byTappingSubmit}
               >{`By tapping Submit, you agree to the following  `}</p>
               <p className={styles.privacyPolicyTermsCondi}>
-                <b className={styles.privacyPolicy}>{`Privacy Policy `}</b>
+                <a href="https://blackperldfir.com/privacy-policy.html" target="_blank"><b className={styles.privacyPolicy}>{`Privacy Policy `}</b></a>
                 <span className={styles.span}>{`&`}</span>
-                <b
+                <a href="https://blackperldfir.com/terms-conditions.html"  target="_blank"><b
                   className={styles.termsConditions}
-                >{` Terms & Conditions`}</b>
+                >{` Terms & Conditions`}</b></a>
               </p>
             </div>
             {/* <button>
-              
               <img
                 className={styles.privacyPolicyTextChild}
                 loading="lazy"

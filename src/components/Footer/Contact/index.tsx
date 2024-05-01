@@ -13,9 +13,9 @@ const OurLogoFrame: FunctionComponent = () => {
               <p className={styles.touch}>Touch</p>
             </h1>
             <div className={styles.contactUsButton}>
-              <div className={styles.m91234}>M: +91 234 343 12</div>
+              <div className={styles.m91234}>Email :</div>
               <h3 className={styles.eHelloblackperlcom}>
-                e: hello@blackperl.com
+                support@blackperldfir.com
               </h3>
             </div>
           </div>

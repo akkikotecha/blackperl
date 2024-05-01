@@ -26,7 +26,7 @@
 .frameG {
   display: flex;
   flex-direction: column;
-  gap: 40px 0;
+  gap: 10px 0;
   max-width: 100%;
 }
 .frameF,
@@ -40,7 +40,7 @@ video{
 }
 .frameF {
   display: flex;
-  padding: 140px var(--padding-xl) 152px;
+  padding: 140px 0px 152px;
   box-sizing: border-box;
   max-width: 100%;
   text-align: left;
@@ -50,7 +50,7 @@ video{
 }
 .rectangleB {
   display: grid;
-  padding: 0 var(--padding-xl) var(--padding-281xl);
+  padding: 0 0px var(--padding-176xl);
   gap: 0 24px;
   grid-template-columns: repeat(3, minmax(312px, 1fr));
 }
@@ -405,7 +405,29 @@ video{
   overflow: hidden;
   letter-spacing: normal;
 }
+@media screen and (max-width: 1398px) {
+.frameF
+{
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+.rectangleB
+{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 140px;
+
+}
+}
 @media screen and (max-width: 1250px) {
+  .frameF
+{
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
   .frameText {
     padding-bottom: 211px;
     box-sizing: border-box;

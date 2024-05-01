@@ -43,6 +43,7 @@
   line-height: 92px;
   font-weight: 800;
   font-family: inherit;
+  margin-left: -20px;
 }
 .hackersGonnaHack {
   height: 11px;
@@ -53,6 +54,7 @@
   text-align: left;
   max-width: 100%;
   margin-top: 20px;
+  margin-left: -20px;
 }
 .reviewsAcademyTrainingAbout {
   width: 978px;

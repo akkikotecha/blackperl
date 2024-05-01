@@ -45,7 +45,7 @@
 .LineSet
 {
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
     background: #fff;
     color: #fff;
     opacity: 1;
@@ -132,18 +132,19 @@ a:focus:after {
 }
 .advance_button
 {
-  background: #00F38E;
-  color: #000;
-  padding-top: 7px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-bottom: 10px;
-  border-radius: 12px;
-  font-size: 15px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
+	background: #00F38E;
+    color: #000;
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 13px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    font-family: var(--font-pilat-wide);
   
   /* font-family: var(--font-pilat-wide); */
 }

@@ -54,7 +54,7 @@ const ReviewsAcademy: FunctionComponent = () => {
         </div>
         <div
           className={styles.privacyPolicy}
-        >{`Privacy & Policy     |     Term & Condition     |     Contact US`}</div>
+        ><span> <a href="https://blackperldfir.com/privacy-policy.html" target="_blank">Privacy & Policy</a> </span> <span> | </span> <span> <a href="https://blackperldfir.com/terms-conditions.html"  target="_blank">Term & Condition</a> </span> <span> | </span> <span> Contact US </span></div>
       </footer>
     </section>
   );

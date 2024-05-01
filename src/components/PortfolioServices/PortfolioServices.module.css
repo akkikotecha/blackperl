@@ -73,7 +73,7 @@
   width: 1204px;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 0 var(--padding-3xs) 0 0;
+  padding: 0 60px 0 0;
   box-sizing: border-box;
   min-height: 39px;
   row-gap: 20px;
@@ -118,7 +118,7 @@
   font-size: var(--font-size-19xl);
 } */
 .writeHereLabel {
-  width: 1336px;
+  width: 1377px;
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-xl) 120px;
@@ -137,6 +137,44 @@
   .writeHereLabel {
     padding-bottom: var(--padding-176xl);
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1398px) {
+  .agreeTermsCheckboxGroup
+  {
+    width: 1185px;
+  }
+  .services {
+    top:0;
+    left:40px;
+  }
+  .portfolio
+  {
+    left: 40px;
+  }
+  .subheaderFrame
+  {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1250px) {
+  .agreeTermsCheckboxGroup
+  {
+    width: 1185px;
+  }
+  .services {
+    top:0;
+    left:15px;
+  }
+  .portfolio
+  {
+    left: 15px;
+  }
+  .subheaderFrame
+  {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 750px) {

@@ -4,7 +4,7 @@ import styles from "./PortfolioServices.module.css";
 
 const WriteHereLabel: FunctionComponent = () => {
   return (
-    <section className={styles.writeHereLabel}>
+    <section className={styles.writeHereLabel} style={{"padding":"0px"}}>
       <div className={styles.agreeTermsCheckboxGroup}>
         <div className={styles.imageFrame}>
           <div className={styles.headerFrame}>

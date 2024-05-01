@@ -60,7 +60,7 @@ import {
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
-        <button className={styles.am}>
+        <button className={`${styles.am} ${styles.ammm}`}>
             <b className={styles.contactUs}>View More</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
           </button>

@@ -4,6 +4,7 @@ import ReactStars from "react-rating-stars-component";
 
 export type DetectType = {
   img_url?: string;
+  title_image_url?: string;
   title?: string;
   dis?: string;
 };
@@ -11,12 +12,13 @@ export type DetectType = {
 const EnrolNowService: FunctionComponent<DetectType> = ({
   title,
   dis,
-  img_url
+  img_url,
+  title_image_url
 }) => {
   return (
     <div className={styles.cards}>
     <div className={styles.cards_image}>
-      <img src="../../../training/zero_to_hero.png" />
+      <img src={title_image_url} />
     </div>
     
     <div className={styles.cards_box}>

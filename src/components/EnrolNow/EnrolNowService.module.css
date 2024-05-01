@@ -22,14 +22,18 @@
   margin-bottom: 30px;
 	padding: 0;
 	padding-top: 20px;
-	font-size: 22px;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: 900;
   font-family: var(--font-pilat-wide);
   color : #fff;
+  text-transform: uppercase;
+  line-height:31.3px
 }
 .cards_content p {
 	line-height: 1.8em;
-  color:white;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
 }
 .cards_footer {
 	display: block;
@@ -40,7 +44,7 @@
 }
 .cards_footer a {
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 700;
 	padding: 7px 0px;
 	display: inline-block;
 	position: relative;
@@ -48,10 +52,11 @@
 	border-radius: 2px;
   font-family: var(--font-pilat-wide);
 	text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   border-bottom: 2px solid #fff;
   color:#fff;
   margin-top: 15px;
+  text-transform: uppercase;
 }
 .cards_footer a:after {
 	content: '';
@@ -98,7 +103,7 @@ a:focus:after {
 }
 .advance
 {
-  background: #ffffff78;
+  background: #ffffff6b;
   color: white;
   padding-top: 7px;
   padding-left: 18px;
@@ -106,7 +111,7 @@ a:focus:after {
   padding-bottom: 10px;
   border-radius: 12px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   
   /* font-family: var(--font-pilat-wide); */
 }
@@ -120,7 +125,7 @@ a:focus:after {
   padding-bottom: 10px;
   border-radius: 12px;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   margin-left: auto;
   margin-right: auto;
   

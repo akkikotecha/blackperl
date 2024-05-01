@@ -372,3 +372,10 @@
 .col-2:not(:last-child) {
   margin-right: 15px;
 }
+
+@media screen and (max-width:1398px) {
+  .BcadLabs
+  {
+    font-size: 70px;
+  } 
+}

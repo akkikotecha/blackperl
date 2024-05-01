@@ -184,3 +184,38 @@
     /*/*line-height: 53px;*/
   }
 }
+
+
+
+@media screen and (max-width:1398px) {
+  
+  .worldClassSecurityContainer,.relationFirstContainer
+  {
+    font-size: 32px!important;
+  }
+  .mainSection
+  {
+    width: 1162px;
+  }
+  .frameContactInfo
+  {
+    gap: 126px 0px;
+  }
+}
+
+
+@media screen and (max-width:1230px) {
+  
+  .worldClassSecurityContainer,.relationFirstContainer
+  {
+    font-size: 32px!important;
+  }
+  .mainSection
+  {
+    width: 1035px;
+  }
+  .frameContactInfo
+  {
+    gap: 126px 0px;
+  }
+}

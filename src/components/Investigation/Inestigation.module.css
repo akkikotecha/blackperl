@@ -9,6 +9,7 @@
   .downloadOurSample {
     margin: 0;
   }
+  
   .investigationReport {
     margin: 0;
     font-size: var(--font-size-29xl);
@@ -120,6 +121,11 @@
     font-family: var(--font-pilat-wide);
   }
   @media screen and (max-width: 1250px) {
+    .downloadOurSampleContainer
+    {
+      width: 500px;
+      margin-top: -35px;margin-bottom: 0px;
+    }
     .collaborationPartners {
       flex: 1;
     }
@@ -157,3 +163,30 @@
     }
   }
   
+  
+@media screen and (max-width: 1398px) {
+  .collaborationPartners
+  {
+    gap:29px 0;
+  }
+  .image12Icon
+  {
+    height: 90%;
+    padding-top: 60px;
+  }
+  .downloadOurSampleContainer
+    {
+      width: 585px;
+      margin-top: -35px;margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 1250px) {
+  .downloadOurSampleContainer
+  {
+    width: 500px;
+    margin-top: -35px;margin-bottom: 0px;
+  }
+  .collaborationPartners {
+    flex: 1;
+  }
+}

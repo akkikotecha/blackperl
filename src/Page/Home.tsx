@@ -107,7 +107,7 @@ export default function App() {
     <div className="row mt-4">    
     <div className="col-lg-6">
     <h1 className={styles.data_box}>
-      <p className={styles.sub_title}>Limited Seat<span className={styles.tagColor}>!!</span></p>
+      <p className={`${styles.sub_title} ms-1`}>Limited Seat<span className={styles.tagColor}>!!</span></p>
     </h1>
    
       <div className="row col-lg-12 align-items-center mt-2">
@@ -134,7 +134,7 @@ export default function App() {
 
     </div>
     <div className="col-lg-6">
-    <h1 className={styles.data_box}>
+    <h1 className={`${styles.data_box} ms-1`}>
       <p className={styles.sub_title_new}>Cost: 16,000INR Only.</p>
     </h1>
    
@@ -167,7 +167,7 @@ export default function App() {
     <div className="row mt-4 mb-2">    
     <div className="col-lg-6">
     <div className="mt-1">
-      <h1 className={styles.data_box}>
+      <h1 className={`${styles.data_box} ms-1`}>
       <p className={styles.sub_title}>Benefits</p>
     </h1>
     </div>

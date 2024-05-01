@@ -35,9 +35,13 @@
   }
   .home {
     /* line-height: 11px; */
-    color: var(--green);
+    /* color: var(--green); */
     z-index: 1;
     text-decoration: none;
+  }
+  .greenMenu
+  {
+    color:var(--green);
   }
   .aboutUs1,
   .aboutUs2 {
@@ -202,6 +206,11 @@
   {
     color: #000;
   }
+  .greenMenuButton
+  {
+    color:#000;
+    background-color: var(--green);
+  }
   .close {
     align-self: stretch;
     width: 67px;
@@ -220,6 +229,20 @@
     box-sizing: border-box;
     gap: 0 9px;
     z-index: 1;
+  }
+  .reviewsAcademyTrainingAboutButton {
+    /* height: 16px; */
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0 15px;
+    box-sizing: border-box;
+    gap: 0 9px;
+    z-index: 1;
+    background-color: var(--green);
   }
   .menu,
   .rectangleParent,
@@ -242,6 +265,37 @@
     color: var(--a18);
     background-color: white;
     
+  }
+  .menu:hover {
+    width: 143px;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content:center;
+
+    box-sizing: border-box;
+    position: relative;
+
+    z-index: 1;
+    text-align: left;
+    color: var(--a18);
+    background-color: var(--green);
+    
+  }
+  
+  .menuButton
+  {
+    width: 143px;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content:center;
+
+    box-sizing: border-box;
+    position: relative;
+
+    z-index: 1;
+    text-align: left;
+    color: var(--a18);
+    background-color: var(--green);
   }
   .rectangleParent,
   .textInputField {

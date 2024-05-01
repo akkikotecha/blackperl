@@ -26,7 +26,7 @@ const FrameComponent: FunctionComponent = () => {
     <section className={styles.callToActionWrapper}>
       <div className={styles.callToAction}>
         <div className="container ps-5">
-      <div className="row">
+      <div className="row ps-1">
         
             {data.map((single) => (
               <div className="col-lg-6">

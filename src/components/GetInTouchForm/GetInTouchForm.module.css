@@ -36,6 +36,7 @@
   font-family: var(--font-pilat-wide)!important;
   font-size: 14px!important;
   padding: 10px!important;
+  border: none;
 }
 .titleprimaryleftIcon {
   position: absolute;
@@ -58,6 +59,12 @@
   width: 78%;
 }
 @media screen and (max-width: 1398px) {
+
+  .contactForm
+  {
+    min-width: 90%!important;
+    width: 97%!important;
+  }
   
   .maskGroupIcon {
     position: absolute;
@@ -157,7 +164,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 88px 165px;
+  padding: 0 88px 25px;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: -15%;

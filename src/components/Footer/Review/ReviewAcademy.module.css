@@ -138,6 +138,9 @@
     max-width: 100%;
    padding-bottom: 20px;
   }
+  .privacyPolicy span a {
+    color: #000!important;
+  }
   .footerFrame,
   .reviewsAcademy {
     align-self: stretch;
@@ -164,6 +167,13 @@
     gap: 64px 0;
     font-size: var(--font-size-5xl);
     color: var(--white);
+  }
+  @media screen and (max-width: 1398px) {
+.academicLogoFrame
+{
+  padding-left: 55px;
+    padding-right: 80px;
+}
   }
   @media screen and (max-width: 1100px) {
     .footerFrame,

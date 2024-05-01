@@ -422,6 +422,20 @@ video{
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1398px) {
+.rectangleB
+{
+  padding: 0px 70px!important;
+  margin-top: 00px;
+}
+}
+@media screen and (max-width: 1230px) {
+  .rectangleB
+  {
+    padding: 0px 80px!important;
+    margin-top: 50px;
+  }
+  }
 @media screen and (max-width: 1100px) {
   .rectangleB {
     justify-content: center;

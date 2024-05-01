@@ -33,11 +33,12 @@
 .p_tags
 {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 500;
+  line-height: 26px;
   color: #fff;
   margin-top: 30px;
   padding-top: 20px;
+  letter-spacing: 0.3px;
 }
 .p_tags_certificate
 {
@@ -135,13 +136,14 @@
   margin: 0;
   font-size: var(--font-size-15xl);
   color: var(--green);
+  text-transform: uppercase;
 }
 .whatRelationsAreContainer {
   height: 118px;
   position: absolute;
   margin: 0 !important;
   bottom: -58.8px;
-  left: 64px;
+  left: 60px;
   
   display: inline-block;
   z-index: 1;
@@ -221,7 +223,9 @@
   .contentBoxes
   {
     font-size: 230px;
+    padding-top: 120px;
   }
+  
 }
 @media screen and (max-width: 1250px) {
   .contentBoxes

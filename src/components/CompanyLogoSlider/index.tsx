@@ -9,10 +9,10 @@ const CompanyLogoSlider = (props: any) => {
   return (
     <section className={props.extraPadding ? styles.contactUsGroupPadding : styles.contactUsGroup}>
       <Swiper
-        speed={500}
+        speed={1500}
         autoplay={{
           reverseDirection: props.reverseDirection,
-          delay: 1500,
+          delay: 2000,
         }}
         slidesPerView={5}
         loop={true}

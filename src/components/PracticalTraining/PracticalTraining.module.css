@@ -107,3 +107,13 @@
 .col-2:not(:last-child) {
   margin-right: 15px;
 }
+
+
+@media screen and (max-width:1398px)
+{
+  .certification
+  {
+    margin-top: 70px;
+  }
+ 
+}

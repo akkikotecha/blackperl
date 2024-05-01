@@ -31,7 +31,7 @@ const Instructors: FunctionComponent = () => {
             </div>
 
             <div className="col-lg-12 mt-5">
-            <iframe width="100%" height="715" src="https://www.youtube.com/embed/96O9ghOyhbE?si=1ZAx6TyeYL_fIWkT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe width="100%" height="615" src="https://www.youtube.com/embed/96O9ghOyhbE?si=1ZAx6TyeYL_fIWkT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>
         </div>

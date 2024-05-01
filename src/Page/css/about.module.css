@@ -387,8 +387,10 @@ body {
   .title_disc
   {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
+    font-family: inherit;
+    letter-spacing: 0.3px;
   }
   .logicBranch {
     width: 1440px;

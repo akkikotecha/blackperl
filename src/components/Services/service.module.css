@@ -169,6 +169,13 @@
   font-family: var(--font-pilat-wide);
 }
 
+@media screen and (max-width: 1250px) {
+.frameHeader
+{
+  font-size: 12px;
+}
+}
+
 @media screen and (max-width: 750px) {
   .detect1 {
     font-size: var(--font-size-17xl);
