@@ -431,6 +431,15 @@ video{
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1020px) {
+  .rectangleB
+  {
+    margin-top: 40px;
+    gap:30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 @media screen and (max-width: 750px) {
   .ourServices {
     font-size: var(--font-size-28xl);

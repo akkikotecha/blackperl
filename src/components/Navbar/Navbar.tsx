@@ -45,7 +45,7 @@ const GroupComponent: FunctionComponent = () => {
               </Link>
               <Link to="/Review"><div className={location.pathname === '/Review' ? `${styles.reviews1} ${styles.greenMenu}` : styles.reviews1}>Reviews</div></Link>
 
-              <div className={location.pathname === '/GetInTouch' ? `mt-4 ${styles.menu} ${styles.menuButton} ${styles.hover}` : `mt-4 ${styles.menu} ${styles.hover}`}>
+              <div className={location.pathname === '/GetInTouch' ? `mt-4 mb-4 ${styles.menu} ${styles.menuButton} ${styles.hover}` : `mt-4 ${styles.menu} ${styles.hover}`}>
               <Link to="/GetInTouch" className="mt-0 pt-0"><div className={styles.reviewsAcademyTrainingAbout}>
                 <div className={styles.menu1}>Contact</div>
               </div></Link>

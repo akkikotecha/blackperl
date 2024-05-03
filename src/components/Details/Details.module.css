@@ -97,3 +97,22 @@
 .col-2:not(:last-child) {
   margin-right: 15px;
 }
+
+@media screen and (max-width:1020px) {
+  .certification
+  {
+    margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+  .title_flex
+  {
+    font-size: 20px;
+  }
+  .float_img
+  {
+    margin-top: -4px;
+  }
+}
