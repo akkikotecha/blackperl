@@ -331,6 +331,31 @@
       box-sizing: border-box;
     }
   }
+  .frameChild
+{
+  display: wrap;
+}
+  @media screen and (max-width: 950px) {
+.rectangleParent
+{
+  display: none;
+}
+.topnav
+{
+  display:flex!important;
+  align-self: stretch;
+    background-color: var(--black);
+    justify-content: space-between;
+    padding: 0px 43px 0px 43px;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    z-index: 1;
+    text-align: right;
+    font-size: var(--font-size-base);
+    color: var(--white);
+    font-family: var(--font-pilat-wide);
+}
+  }
   @media screen and (max-width: 750px) {
     .buttonFrame {
       min-width: 100%;
@@ -350,7 +375,7 @@
   }
   .hoverButton:hover{
      color: var(--black);
-     background-color: var(--green);
+     /* background-color: var(--green); */
   }
 
   
@@ -406,3 +431,76 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+  display: none;
+  width: 100%;
+  align-items: center;
+}
+
+.myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  /* background-color: #ddd; */
+  color: black;
+}
+
+.active {
+  /* background-color: #04AA6D; */
+  color: white;
+}
+.menuAnimation
+{
+  transition: transform 0.5s ease; /* Animation transition property */
+  transform: translateY(-100%); /* Initially hide the menu above */
+}
+
+.show {
+  display: grid;
+  width: 100%;
+  padding-left: 8%;
+  background-color: #000;
+  padding-bottom: 40px;
+  font-size: 21px;
+  transform:translateY(-0%); 
+
+}
+
+
+.show a {
+  padding-top: 20px;
+}
+

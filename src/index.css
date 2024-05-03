@@ -384,6 +384,13 @@ body {
   }
 }
 
+@media screen and (max-width:1020) {
+  .swipeaa
+  {
+    width: 280px!important;
+  }
+
+}
 .swiper-container 
 {
     width: 100%;

@@ -174,12 +174,24 @@
   padding-left: 55px;
     padding-right: 80px;
 }
+.academicPartnersCollabFrame
+{
+  font-size: 14px;
+}
   }
   @media screen and (max-width: 1100px) {
     .footerFrame,
     .reviewsParent {
       flex-wrap: wrap;
     }
+  }
+  @media screen and (max-width: 1020px) {
+    .footerFrame
+    {
+      font-size: 14px!important;
+      padding: 11px 30px var(--padding-xs)!important;
+    }
+    
   }
   @media screen and (max-width: 750px) {
     .logoFrameA {

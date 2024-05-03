@@ -137,6 +137,25 @@
       box-sizing: border-box;
     }
   }
+  @media screen and (max-width: 1020px) {
+.downloadOurSampleContainer
+{
+  width: 99%!important;
+}
+.image12Icon
+{
+  padding-top: 10px!important;
+}
+.lineElement
+{
+  margin-bottom: 30px;
+}
+.collaborationPartners
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+  }
   @media screen and (max-width: 750px) {
     .downloadOurSampleContainer {
       font-size: var(--font-size-7xl);

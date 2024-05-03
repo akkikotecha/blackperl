@@ -145,11 +145,13 @@
   color: var(--white);
   font-family: var(--font-pilat-wide);
 }
+
 @media screen and (max-width: 1250px) {
   .mainSection {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (max-width: 750px) {
   .bestReturnOn,
   .worldClassSecurityContainer {
@@ -217,5 +219,12 @@
   .frameContactInfo
   {
     gap: 126px 0px;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .mainSection
+  {
+    display: none;
   }
 }

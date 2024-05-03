@@ -433,6 +433,12 @@ video {
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1100px) {
+  .contactUsGroupPadding
+  {
+      padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 750px) {
   .ourServices {
     font-size: var(--font-size-28xl);
@@ -482,6 +488,21 @@ video {
     padding-bottom: var(--padding-31xl);
     box-sizing: border-box;
   }
+}
+@media screen and (max-width: 1020px) {
+  .swipperPushTp
+  {
+    margin-top: -52px;
+  }
+.swipeaa {
+  position: absolute;
+  top: 48.4px;
+  left: 30.7px;
+  width: 140px!important;
+  height: 34.5px;
+  object-fit: cover;
+}
+
 }
 @media screen and (max-width: 450px) {
   .ourServices {

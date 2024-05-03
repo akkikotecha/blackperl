@@ -292,6 +292,29 @@ padding-left: 30px;
       min-width: 100%;
     }
   }
+  @media screen and (max-width: 1020px) {
+    .socialMediaLinksFrameInner
+    {
+      padding-top: 0px;
+      
+    }
+    .socialMediaLinksFrame
+    {
+      padding: 0 0px;
+    }
+    .contactUsButton
+    {
+      gap:20px 0px;
+    }
+    .phoneNumberFrame
+    {
+      width: 709px;margin-top: 30px;
+    }
+    .phoneNumberSubframe,.writeHereInput
+    {
+      width: 709px;
+    }
+  }
   @media screen and (max-width: 750px) {
     .getInTouchContainer {
       font-size: var(--font-size-28xl);

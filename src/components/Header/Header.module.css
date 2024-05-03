@@ -274,6 +274,44 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1020px) {
+.wrapperMaskGroup {
+  width: 1393px;
+  height: 110%;
+  position: absolute;
+  top:-12%;
+  right: 0px;
+}
+.reviewsAcademyTrainingAbout
+{
+  width: 846px;
+}
+.forDefendersByContainer
+{
+  font-size: 65px;
+  line-height: 76px;
+}
+.hackersGonnaHack
+{
+  font-size: 14px;
+    font-weight: 800;
+}
+.column
+{
+  left: auto;
+}
+.frameFooter{
+  flex-direction: column;
+  min-width: 30%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.am{
+  margin-top: 40px;
+}
+}
 @media screen and (max-width: 750px) {
   .forDefendersByContainer {
     font-size: var(--font-size-25xl);

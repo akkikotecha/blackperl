@@ -617,6 +617,36 @@ video{
     padding-bottom: 83px;
     box-sizing: border-box;
   }
+  .howAre
+  {
+    font-size: 76px;
+  }
+  
+}
+
+@media screen and (max-width: 1250px) {
+  .frameText{
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .whatRelationsAreContainer {
+    font-size: 65px;
+
+  }
+.learner
+{
+  font-size: 130px;
+}
+.servicesFrame
+{
+  font-size: 70px;
+  padding: 0 24px 147px;
+}
+.swiper
+{ margin-top: -20px;
+
+}
 }
 @media screen and (max-width: 750px) {
   .ourServices {

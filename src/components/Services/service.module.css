@@ -175,7 +175,17 @@
   font-size: 12px;
 }
 }
-
+@media screen and (max-width: 1020px) {
+.detect1
+{
+  height: 14px;
+  font-size: 36px;
+}
+.rectangleB
+{
+  padding-bottom: 80px;
+}
+}
 @media screen and (max-width: 750px) {
   .detect1 {
     font-size: var(--font-size-17xl);

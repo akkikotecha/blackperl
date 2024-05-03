@@ -450,6 +450,17 @@ video{
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1020px) {
+  .ourServices
+  {
+    font-size: 76px;
+  }
+  .areTailored
+  {
+    height: 0;
+    font-size: 26px;
+  }
+}
 @media screen and (max-width: 750px) {
   .ourServices {
     font-size: var(--font-size-28xl);

@@ -177,6 +177,33 @@
     max-width: 100%;
   }
 }
+.agreeTermsCheckboxGroupTest
+{
+  display: none;
+}
+@media screen and (max-width: 1020px) {
+  .writeHereLabel
+  {
+    padding-bottom: 60px;
+  }
+.marginTopPorfolio
+{
+  margin-top: -30px!important;
+}
+.agreeTermsCheckboxGroup
+{
+  display: none;
+}
+
+.agreeTermsCheckboxGroupTest
+{
+  display: block;
+}
+  .services
+  {
+    font-size: 76px;
+  }
+}
 @media screen and (max-width: 750px) {
   .services {
     font-size: var(--font-size-28xl);

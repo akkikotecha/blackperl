@@ -113,6 +113,17 @@
       box-sizing: border-box;
     }
   }
+  @media screen and (max-width: 1020px) {
+    .screenshot20240305At703Wrapper
+    {
+      /* padding-left: 11px; */
+      padding:0px 0px 0px 0px;
+    } 
+    .collaborationPartners
+    {
+      padding: 50px 30px 50px 30px;
+    }
+  }
   @media screen and (max-width: 750px) {
     .goForOurContainer {
       font-size: var(--font-size-7xl);
