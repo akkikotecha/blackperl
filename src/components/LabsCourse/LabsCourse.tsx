@@ -7,11 +7,11 @@ const LabsCourse: FunctionComponent = () => {
       <section className={` ${styles.contentBoxes}`}>
         <div className={`container ${styles.paddingView} `}>
           <div className="row ">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <p className={styles.BcadLabs}>BCAD Labs</p>
               <p className={styles.SetupIn}>Setup Includes</p>
             </div>
-            <div className="col-lg-6 d-flex justify-content-end align-items-start">
+            <div className="col-lg-6  col-md-6 d-flex justify-content-end align-items-start">
               <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />
@@ -20,9 +20,9 @@ const LabsCourse: FunctionComponent = () => {
           </div>
 
           <div className="row mt-5 justify-content-between pt-5">
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6 ">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -30,15 +30,15 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                   Sysmon: Endpoint Perimeter/System Detection
                 </h5>
               </div>
             </div>
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6 ">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -46,7 +46,7 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                   Threat Profiling using MITRE ATT&CK Navigator
                 </h5>
@@ -54,9 +54,9 @@ const LabsCourse: FunctionComponent = () => {
             </div>
           </div>
           <div className="row mt-5 justify-content-between">
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6 ">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -64,15 +64,15 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                 MISP: Malware Information Sharing Platform
                 </h5>
               </div>
             </div>
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -80,7 +80,7 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                 Sample Collection (memory, triage, and disk images)
                 </h5>
@@ -88,9 +88,9 @@ const LabsCourse: FunctionComponent = () => {
             </div>
           </div>
           <div className="row mt-5 justify-content-between">
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6 ">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -98,15 +98,15 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                 Windows Forensics Investigation Case
                 </h5>
               </div>
             </div>
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6 ">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -114,7 +114,7 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                 Linux Forensics Investigation Case
                 </h5>
@@ -122,9 +122,9 @@ const LabsCourse: FunctionComponent = () => {
             </div>
           </div>
           <div className="row mt-5 justify-content-between">
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6 ">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -132,15 +132,15 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                 Memory Forensics Investigation Case
                 </h5>
               </div>
             </div>
-            <div className="row col-lg-6 ">
+            <div className="row col-lg-6 col-md-6 ">
               <div
-                className={`col-lg-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0`}
                 style={{ width: "55px" }}
               >
                 <img
@@ -148,7 +148,7 @@ const LabsCourse: FunctionComponent = () => {
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0">
                 <h5 className={styles.title_flex}>
                 Network Forensics Investigation Case
                 </h5>

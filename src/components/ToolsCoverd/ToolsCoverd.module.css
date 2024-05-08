@@ -379,3 +379,28 @@
     font-size: 70px;
   } 
 }
+
+@media screen and (max-width:1020px) {
+  .BcadLabs
+  {
+    font-size: 46px;
+    margin-top: 28px;
+  }
+  .SetupIn
+  {
+    font-size: 22px;
+  }
+  .paddingView
+  {
+    margin-left: 15px!important;
+    padding-right: 0px!important;
+  }
+  .title_flex
+  {
+    font-size: 15px;
+  }
+  .title_flex_tools
+  {
+    font-size: 14px!important;
+  }
+}

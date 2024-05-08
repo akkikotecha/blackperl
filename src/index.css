@@ -385,6 +385,8 @@ body {
 }
 
 @media screen and (max-width:1020) {
+  
+  
   .swipeaa
   {
     width: 280px!important;
@@ -437,8 +439,65 @@ body {
 
 }
 
+.myCarousleSet
+{
+  display: none;
+}
 @media screen and (max-width:1020px) {
+  
+  .myCarousleSet > .carousel-inner > .carousel-item > .mainContainerInstructor
+  {
+    left: 23%!important;
+  }
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 800px;
+}
+.myCarousleSet > .carousel-indicators
+{
+  bottom: -100px;
+}
+  .mySwiperaddtab
+  {
+    display: none;
+  }
  .CircularProgressbar {
   width: 100% !important;
  }
+ .myCarousleSet
+ {
+  display: block;
+ }
+
+ .carousel-control-prev
+{
+  left: -100px;
+}
+
+.carousel-control-next
+{
+  right: -70px;
+}
+
+.carousel-indicators {
+    left: -53px;
+    bottom: -25px;
+  }
+
+  .nav-tabs .nav-item .nav-link
+  {
+    font-size: 12px!important;
+  }
+  .accordion-button 
+    {
+      font-size: 25px;
+    }
+
+    .myCarousleSet  > .carousel-control-prev
+    {
+      left: 0px!important;
+    }
+    .myCarousleSet  > .carousel-control-next
+    {
+      right: 0px!important;
+    }
 }

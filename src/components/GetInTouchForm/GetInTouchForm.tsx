@@ -22,7 +22,7 @@ const GetInTouchForm: FunctionComponent = () => {
       <div className="row mb-5 align-self-start">
         <div className="col-lg-6 px-0">
         <div className="map-container">
-        <div className="map">
+        <div className={`map ${styles.map_wdith}`}>
 
   <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4551165681614!2d77.74910980426615!3d12.94270349049472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d9f7fc7320d%3A0x6f922fb8c2b9c2b2!2sSamudri%20nilaya!5e0!3m2!1sen!2sin!4v1713423621140!5m2!1sen!2sin&night_mode=true" width="100%" height="680"  loading="lazy"  style={{"filter": "invert(90%)"}}></iframe>
   <div className="zoom-controls">
@@ -39,14 +39,14 @@ const GetInTouchForm: FunctionComponent = () => {
             <div className="row px-0 w-100">
             <div className="col-lg-6 paddingSetLG">
             <input
-                className={styles.enterName}
+                className={`${styles.enterName} ${styles.enyerSecondNameWidth}`}
                 placeholder="First Name"
                 type="text"
               />
           </div>
-          <div className="col-lg-6 px-2 paddingSetLGRight">
+          <div className={ `${styles.paddingSetLGRightSet} col-lg-6 paddingSetLGRight `}>
           <input
-                className={styles.enterName}
+                className={`${styles.enterName} ${styles.enyerSecondName}`}
                 placeholder="Last Name"
                 type="text"
               />

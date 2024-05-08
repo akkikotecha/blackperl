@@ -64,7 +64,7 @@ const CourseSummary: FunctionComponent = () => {
                   <div className={styles.row}>
                       <div className="row col-lg-12">
                         <div
-                          className={`col-lg-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -72,7 +72,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11 px-0">
+                        <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                             Basic understanding of Windows and Linux operating
                             systems.
@@ -81,7 +81,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -89,7 +89,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0">
                           <h5 className={styles.title_flex}>
                             Basic understanding of Networking, TCP/IP Protocols,
                             IT Infrastructure will work as a Plus
@@ -98,7 +98,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -106,7 +106,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11 px-0">
+                        <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Hunger for learning, problem solving skills for Assessment Challenges
                           </h5>
@@ -114,7 +114,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -122,7 +122,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0">
                           <h5 className={styles.title_flex}>
                           Familiarity with basic system administration, networks, and security concepts.
                           </h5>
@@ -130,7 +130,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -138,7 +138,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11 px-0">
+                        <div className="col-lg-11   col-md-11 px-0">
                           <h5 className={styles.title_flex}>
                           Own Laptop/PC with minimum of 8GB RAM, with Admin Access. For smooth access on the work, we would like to dedicate 4GB RAM to the VMs.
                           </h5>
@@ -146,7 +146,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -154,17 +154,17 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-3 px-0">
+                        <div className="col-lg-3  col-md-8 px-0">
                           <h5 className={styles.title_flex}>
                           Download Oracle Virtual Box using the 
 
                           </h5>
                         </div>
-                        <div className="col-lg-4 px-0"><span><a href="#" className={styles.LinkSet}>Link   <Icon name="arrow-right" className={styles.rotated_icon} /></a></span></div>
+                        <div className="col-lg-4  col-md-2 px-0"><span><a href="#" className={styles.LinkSet}>Link   <Icon name="arrow-right" className={styles.rotated_icon} /></a></span></div>
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -172,7 +172,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11 px-0">
+                        <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Good broadband/internet speed, microphone to talk to the instructors.
                           </h5>
@@ -231,7 +231,7 @@ const CourseSummary: FunctionComponent = () => {
       </section>
       <Relation />
 
-      <section className={` ${styles.contentBoxes}`}>
+      <section className={` ${styles.contentBoxes} ${styles.contentBoxesNew}`}>
         <div className={styles.frameParent}>
           <b className={styles.whatRelationsAreContainer}>
             <p className={styles.whatRelations}>Get Certified</p>
@@ -244,10 +244,10 @@ const CourseSummary: FunctionComponent = () => {
       </section>
       <div className={styles.span_disc}>
         <div className="row mt-5 mb-5 pb-5 pt-3">
-          <div className="col-lg-9 px-0 ">
+          <div className="col-lg-9 px-0 col-md-9">
               <img src={certificate_1} className={styles.certificateWidthMain}/>
           </div>
-          <div className="col-lg-3">
+          <div className={`col-lg-3 col-md-3 ${styles.paddingRightOff}`}>
           <img src={certificate_2} className={styles.certificateWidth} />
           <img src={certificate_2} className={`mt-4 ${styles.certificateWidth}`}/>
           <img src={certificate_2} className={`mt-4 ${styles.certificateWidth}`}/>

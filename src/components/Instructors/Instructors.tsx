@@ -30,7 +30,7 @@ const Instructors: FunctionComponent = () => {
             <div className="col-lg-1 d-flex justify-content-end align-items-start">
             </div>
 
-            <div className="col-lg-12 mt-5">
+            <div className={`col-lg-12 mt-5 ${styles.paddingRightOff}`}>
             <iframe width="100%" height="615" src="https://www.youtube.com/embed/96O9ghOyhbE?si=1ZAx6TyeYL_fIWkT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>

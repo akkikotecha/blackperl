@@ -170,6 +170,35 @@
     box-sizing: border-box;
   }
 }
+.mobileShow
+  {
+    display: none!important;
+  }
+@media screen and (max-width:1020px) {
+  .titleprimaryleftIcon
+  {
+    width: 85%;
+  }
+  .maskGroupIcon
+  {
+    position: absolute;
+        top: 82px;
+        left: 26px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        z-index: 1;
+        width: 75%;
+    
+  }
+  .mobileShowHide
+  {
+    display: none!important;
+  }
+  .mobileShow
+  {
+    display: block!important;
+  } 
+}
 @media screen and (max-width: 750px) {
   .nameInput,
   .nameInput1 {

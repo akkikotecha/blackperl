@@ -8,7 +8,7 @@ const FaqTab: FunctionComponent = () => {
       <section className={` ${styles.contentBoxes}`}>
         <div className={`container ${styles.paddingView} `}>
           <div className={`${styles.row} mt-0 pt-0`}>
-          <Accordion className={`col-lg-12 mt-0 pt-0`}>
+          <Accordion className={`col-lg-12 mt-0 pt-0 ${styles.paddingOff}`}>
           <Accordion.Item eventKey="0">
             <Accordion.Header className={`ps-0`}>How is the BCAD course delivered?</Accordion.Header>
             <Accordion.Body className={styles.content_body}> 

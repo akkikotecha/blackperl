@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./ReviewCertificate.module.css";
+import Carousel from 'react-bootstrap/Carousel';
 const FrameComponent: FunctionComponent = () => {
   const data = [
     {
@@ -26,10 +27,10 @@ const FrameComponent: FunctionComponent = () => {
     <section className={styles.callToActionWrapper}>
       <div className={styles.callToAction}>
         <div className="container ps-5">
-      <div className="row ps-1">
+      <div className={`row ps-1 ${styles.mobileShowHide}`}>
         
             {data.map((single) => (
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className={styles.nameInput}>
                   
                     <img
@@ -46,6 +47,55 @@ const FrameComponent: FunctionComponent = () => {
                   
                </div>
             ))}         
+        </div>
+
+      <div className={`row ps-1 justify-content-center ${styles.mobileShow}`}>
+
+        <Carousel>
+
+        {data.map((single) => (
+      <Carousel.Item>
+
+<div className="col-lg-12 col-md-12 ps-5">
+                <div className={styles.nameInput}>
+                  
+                    <img
+                      className={styles.titleprimaryleftIcon}
+                      alt=""
+                      src="/vector-12.svg"
+                    />
+                    <img
+                      className={styles.maskGroupIcon}
+                      alt=""
+                      src={single.imgURL}
+                    />
+                  </div>
+                  
+               </div>
+               </Carousel.Item>
+
+            ))} 
+      {/* <Carousel.Item>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item> */}
+    </Carousel>
         </div>
         </div>
         <div className="container ps-0">

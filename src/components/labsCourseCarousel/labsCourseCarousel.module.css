@@ -169,6 +169,46 @@
     box-sizing: border-box;
   }
 }
+.agreeTermsCheckboxGroupTest{
+  display: none;
+}
+@media screen and (max-width:1020px) {
+  .PaddingCarosulesSet
+  {
+    padding: 0px 0px 51px!important;
+  }
+
+  .subheaderFrame
+  {
+    min-width:663px!important;
+  }
+  .marginTopPorfolio
+{
+  margin-top: -30px!important;
+  padding-left: 0px!important;
+}
+  .agreeTermsCheckboxGroupTest
+  {
+    display: block;
+  }
+  .agreeTermsCheckboxGroup
+  {
+    display: none;
+  }
+  .writeHereLabel
+  {
+    padding: 0px 33px 80px;
+  }
+  .services
+  {
+    font-size: 65px;
+    line-height: 114px;
+  }
+  .portfolio
+  {
+    font-size: 25px;
+  }
+}
 @media screen and (max-width: 750px) {
   .services {
     font-size: var(--font-size-28xl);

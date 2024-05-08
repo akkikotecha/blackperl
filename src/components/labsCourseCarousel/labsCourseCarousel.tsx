@@ -83,6 +83,42 @@ const Service = () => {
           </div>
           <h1 className={styles.portfolio}>Outline (High Level)</h1>
         </div>
+
+
+         <div className={styles.agreeTermsCheckboxGroupTest}>
+          <div className={styles.imageFrame}>
+            
+              <div className="row">
+                <div className="col-lg-6">
+              <div className={styles.subheaderFrame}>
+                <h1 className={styles.services}>BCAD Course</h1>
+                
+              </div>
+              <h1 className={`mt-5 pt-5 ${styles.portfolio}`}>Outline (High Level)</h1>
+              </div>
+              <div className={`col-lg-6 ${styles.marginTopPorfolio}`}>
+                <button onClick={goToPrevSlide}>
+                  <img
+                    className={styles.textChild}
+                    loading="lazy"
+                    alt=""
+                    src="/group-1171276224@2x.png"
+                  />
+                </button>
+              
+              <button className={` ms-4 ${styles.rightButton}`} onClick={goToNextSlide}>
+                <img
+                  className={styles.headerFrameChild}
+                  alt=""
+                  src="/group-457-2.svg"
+                />
+              </button>
+              </div>
+              </div>
+            
+          </div>
+          
+        </div>
       </section>
       <div
         style={{

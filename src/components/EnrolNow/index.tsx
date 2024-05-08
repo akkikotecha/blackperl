@@ -4,6 +4,8 @@ const EnrolNow = () => {
   return (
     <>
       <section className={styles.rectangleB}>
+        <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-6  mt-5">
         <EnrolNowService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="BlackPerl Certified Advanced Defender- Cyber Career Surge Framework"
@@ -11,6 +13,9 @@ const EnrolNow = () => {
           img_url="../../../training/enrol_1.png"
           title_image_url="../../../training/zero_to_hero.png"
         />
+        </div>
+        <div className="col-lg-4 col-md-6  mt-5">
+     
          <EnrolNowService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="BlackPerl Certified Advanced Defender- Cyber Career Surge Framework"
@@ -18,6 +23,9 @@ const EnrolNow = () => {
           img_url="../../../training/enrol_2.png"
           title_image_url="../../../training/secondTraining.png"
         />
+         </div>
+         <div className="col-lg-4 col-md-6 mt-5">
+     
          <EnrolNowService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="BlackPerl Certified Advanced Defender- Cyber Career Surge Framework"
@@ -25,6 +33,8 @@ const EnrolNow = () => {
           img_url="../../../training/enrol_3.png"
           title_image_url="../../../training/zero_to_hero.png"
         />
+        </div>
+        </div>
       </section>
     </>
   );

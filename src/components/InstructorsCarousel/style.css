@@ -125,3 +125,12 @@
   width: 120px;
   color: #1e222f;
 }
+
+
+@media screen and (max-width:1020px) {
+  .swiiperpadding
+  {
+    display: block!important;
+  }
+  
+}

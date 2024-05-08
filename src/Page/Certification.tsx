@@ -30,7 +30,7 @@ function LiveTrainning() {
 
       <div className={`container mt-5 pt-0 mb-5 pb-0 ${styles.containerSet}`}>
         <div className={`row ${styles.postionSetRelative}`}>
-          <div className="col-lg-3 p-5">
+          <div className="col-lg-3 col-md-6 p-5">
           <h2 className={styles.priceTag}>
           $19<span> / month</span>
           </h2>
@@ -45,7 +45,7 @@ function LiveTrainning() {
           <button className={`btn btn-warning mx-auto ${styles.PriceChooseButton}`}>Choose plan</button>
           </div>
           </div>
-          <div className="col-lg-3 p-5">
+          <div className="col-lg-3 col-md-6 p-5">
           <h2 className={styles.priceTag}>
           $54<span> / month</span>
           </h2>
@@ -60,7 +60,7 @@ function LiveTrainning() {
           <button className={`btn btn-warning mx-auto ${styles.PriceChooseButton}`}>Choose plan</button>
           </div>
           </div>
-          <div className="col-lg-3 p-5">
+          <div className="col-lg-3 col-md-6 p-5">
           <h2 className={styles.priceTag}>
           $54<span> / month</span>
           </h2>
@@ -74,7 +74,7 @@ function LiveTrainning() {
           <button className={`btn btn-warning mx-auto ${styles.PriceChooseButton}`}>Choose plan</button>
           </div>
           </div>
-          <div className={`col-lg-3 p-5 ${styles.PopularSet}`}>
+          <div className={`col-lg-3 col-md-6 p-5 ${styles.PopularSet}`}>
           <div className="text-right mb-4">
           <span className={styles.populartext}>
           MOST POPULAR

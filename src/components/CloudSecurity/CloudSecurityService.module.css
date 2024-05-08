@@ -181,3 +181,12 @@ a:focus:after {
   margin-left: 8px;
   
 }
+
+
+@media screen and (max-width:1020px) {
+	.cards_footer a {
+		
+		font-size: 11px;
+	}
+	
+}

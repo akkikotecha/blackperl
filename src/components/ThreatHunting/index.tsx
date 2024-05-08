@@ -11,7 +11,7 @@ const ThreatHunting = () => {
 
         <div className="container">
             <div className="row mb-5 justify-content-center">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-6">
           <ThreatHuntingService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="Security Operation <br/> (SecOps) 101"
@@ -19,7 +19,7 @@ const ThreatHunting = () => {
           img_url="../../../certificate/certificate_1.png"
         />
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4  col-md-6">
         <ThreatHuntingService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="Security Operation <br/> (SecOps) 101"

@@ -566,3 +566,13 @@ body {
   overflow: hidden;
   letter-spacing: normal;
 }
+
+@media screen and (max-width:1020px) {
+  .weStrengthenOrganisationContainer
+  {
+    font-size: 65px;
+    width: auto;
+    height: 420px;
+  
+  }
+}

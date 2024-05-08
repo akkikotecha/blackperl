@@ -35,12 +35,12 @@ const CloudSecurityService: FunctionComponent<DetectType> = ({
     <div className={styles.cards_footer}>
     <h1 className={styles.cards_footer_title}>₹ 1,500.00</h1>
     <div className="row px-0">
-    <div className="col-lg-6 text-start">
+    <div className="col-lg-6 col-md-6 text-start">
    
     <a href="#">Start Free Trial</a>
  
     </div>
-    <div className="col-lg-6 text-end">
+    <div className="col-lg-6  col-md-6 text-end">
     <button className={styles.advance_button}>BUY NOW</button>  
     </div>
     </div>

@@ -557,3 +557,40 @@ body {
   }
   
 }
+@media screen and (max-width:1020px) {
+  .row{
+    margin-left: 4%;
+  }
+  .row_second
+  {
+    margin-left: 4%;
+  }
+  .row_third{
+    padding-left: 4%;
+  }
+  .enrollNow
+  {
+    margin-top: 30px!important;
+    margin-bottom: 40px;
+  }
+  .weStrengthenOrganisationContainer
+  {
+    font-size: 35px;
+    width: auto;
+  }
+  .weStrengthenOrganisationContainerSmall
+  {
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+  }
+  .weStrengthenOrganisationContainerWhite
+  {
+    width: auto;
+    font-size: 35px;
+  }
+  .weStrengthenSmall
+  {
+    margin-top: 5px;
+  }
+}

@@ -52,11 +52,11 @@ video{
   font-family: var(--font-pilat-wide);
 }
 .rectangleB {
-  display: grid;
+  /* display: grid; */
   padding: 0 var(--padding-xl) 60px;
   gap: 0 24px;
   grid-template-columns: repeat(3, minmax(312px, 1fr));
-  margin-top: -10px;
+  margin-top: -30px;
 }
 .frameImage,
 .frameText,
@@ -444,6 +444,14 @@ video{
   .academicPartners {
     padding-bottom: 83px;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .rectangleB
+  {
+    margin-top: 10%;
+    padding:0px 20px!important
   }
 }
 @media screen and (max-width: 750px) {

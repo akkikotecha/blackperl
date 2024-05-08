@@ -382,3 +382,29 @@
   font-weight: 500;
   width: 80%;
 }
+
+
+@media screen and (max-width:1020px) {
+  .paddingRightOff
+  {
+    padding-right: 0px!important;
+  }
+  .BcadLabs
+  {
+    font-size: 46px;
+    margin-top: 28px;
+  }
+  .SetupIn
+  {
+    font-size: 22px;
+  }
+  .paddingView
+  {
+    margin-left: 15px!important;
+    padding-right: 0px!important;
+  }
+  .paddingOff
+  {
+    padding: 0px!important;
+  }
+}
