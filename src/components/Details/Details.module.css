@@ -116,3 +116,10 @@
     margin-top: -4px;
   }
 }
+@media screen and (max-width:580px) {
+  .title_text
+  {
+    font-size: 36px;
+  }
+
+}

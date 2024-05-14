@@ -574,10 +574,18 @@ body {
       gap: 27px 54px;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
     .weStrengthenOrganisationContainer {
-      font-size: var(--font-size-7xl);
+      font-size: 32px;
       line-height: 37px;
+    }
+      .certification
+      {
+        margin-bottom: 30px;
+      }
+    .title_text
+    {
+      font-size:22px;
     }
   }
 

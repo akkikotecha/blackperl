@@ -504,7 +504,7 @@ video {
 }
 
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
   .ourServices {
     font-size: var(--font-size-9xl);
     /*/*line-height: 53px;*/
@@ -533,7 +533,7 @@ video {
     /*/*line-height: 53px;*/
   }
   .contactUsGroup {
-    padding-bottom: 157px;
+    padding-bottom: 45px;
     box-sizing: border-box;
   }
 }

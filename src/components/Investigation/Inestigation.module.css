@@ -169,7 +169,15 @@
       min-width: 100%;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
+    .downloadOurSample
+    {
+      font-size: 22px;
+    }
+    .investigationReport
+    {
+      font-size: 36px;
+    }
     .downloadOurSampleContainer {
       font-size: var(--font-size-lgi);
       /*/*line-height: 53px;*/

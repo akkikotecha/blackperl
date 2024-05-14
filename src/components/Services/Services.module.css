@@ -511,14 +511,22 @@ video{
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
+  .rectangleB
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+  }
   .ourServices {
-    font-size: var(--font-size-9xl);
-    /*/*line-height: 53px;*/
+    font-size: 36px;
+    line-height: 15px;
+    margin-top: 30px;
   }
   .areTailored {
-    font-size: var(--font-size-xl);
+    font-size: 22px;
     /*/*line-height: 53px;*/
+    margin-bottom: 30px;
   }
   .frameG {
     gap: 20px 0;
@@ -542,6 +550,12 @@ video{
   .contactUsGroup {
     padding-bottom: 157px;
     box-sizing: border-box;
+  }
+  .frameF
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 45px;
   }
 }
 

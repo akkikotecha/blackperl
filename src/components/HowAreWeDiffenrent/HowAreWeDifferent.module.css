@@ -326,9 +326,10 @@
       min-width: 100%;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
     .weDifferent {
-      font-size: var(--font-size-xl);
+      font-size: 22px;
+      margin-top: -10px!important;
       /*/*line-height: 53px;*/
     }
     .bestReturnOnContainer,
@@ -426,4 +427,46 @@
   { 
     display: none;
   }
+}
+
+@media screen and (max-width:580px)
+{
+  .rectangleShapeData
+  {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+
+  .decadesOldExperienceContainer,.relationFirstContainer,.weBuildRelationsContainer,.mostAffordablePriceContainer
+    {
+      font-size: 22px!important;
+      line-height: 36px;
+      font-weight: 500;
+
+    }
+    .bestReturnOnContainer,.bestReturnOn
+    {
+      font-size: 32px;
+    }
+}
+
+@media screen and (max-width:385px)
+{
+  .rectangleShapeData
+  {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+
+  .decadesOldExperienceContainer,.relationFirstContainer,.weBuildRelationsContainer,.mostAffordablePriceContainer
+    {
+      font-size: 18px!important;
+      line-height: 36px;
+      font-weight: 500;
+
+    }
+    .bestReturnOnContainer,.bestReturnOn
+    {
+      font-size: 32px;
+    }
 }

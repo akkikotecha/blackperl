@@ -335,10 +335,15 @@ padding-left: 30px;
       box-sizing: border-box;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
+    
+    .ourLogoFrame
+    {
+      padding-top: 0px;
+    }
     .getInTouchContainer {
-      font-size: var(--font-size-9xl);
-      /*/*line-height: 53px;*/
+      font-size:60px;
+      line-height: 74px;
     }
     .eHelloblackperlcom,
     .m91234 {
@@ -355,8 +360,13 @@ padding-left: 30px;
       height: 1px;
     }
     .phoneNumberSubframe {
-      flex-wrap: wrap;
-      gap: 0 24px;
+      flex-wrap: inherit;
+      gap: 0 0px;
     }
+
+    /* .phoneNumberSubframe
+    {
+      flex-wrap: inherit!important;
+    } */
   }
   

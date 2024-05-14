@@ -405,7 +405,7 @@ body {
   }
   .priceMonthTag {
     
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 500;
     color: #000!important;
     text-transform: none;
@@ -481,13 +481,13 @@ body {
     right: 4%;
     width: 300px;
     top: -50px;
-    padding: 36px !important;
+    padding: 28px !important;
     border-radius: 20px;
     box-shadow: 0px 37px 17px -16px #201f60;
   }
   .PopularpriceTag {
     margin: 0;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 800;
     color: #000;
     text-transform: uppercase;
@@ -511,7 +511,7 @@ body {
   }
   .PopularpriceMonthTag {
     
-    font-size: 28px;
+    font-size: 17px;
     font-weight: 500;
     color: #000!important;
     text-transform: none;
@@ -540,7 +540,7 @@ body {
     font-family: var(--font-pilat-wide);
     background-color: #fff;
     border-color: #fff;
-    margin-top: 60%;
+    margin-top: 55%;
     margin-bottom: 26%;
     border-radius: 12px;
     padding-left: 25px;
@@ -581,6 +581,7 @@ body {
     .PopularSet
     {
       right: 0%;
+      top:-10px;
     }
     
   }

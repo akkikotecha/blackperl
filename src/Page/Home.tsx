@@ -20,6 +20,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Carousel from "../components/PortfolioServices/Service";
 import { useEffect, useState } from "react";
 import Modal from 'react-bootstrap/Modal';
+import { Link } from "react-router-dom";
 
 
 export default function App() {
@@ -114,51 +115,51 @@ export default function App() {
         <div className="col-lg-2 width-set pe-0" >
           <img  src="../../../about/right.png" style={{"width":"70%"}} /></div>
         <div className="col-lg-10 px-0 pt-2">
-          <h5 className={styles.title_flex_1}>Batch starts from 15 - 04 - 2024 and ends on 31 - 05 - 2024</h5>
+          <h5 className={styles.title_flex_1}>Next Batch starting June 1st week, <br/>2024.</h5>
           </div>
       </div>
-      <div className="row col-lg-12 align-items-center mt-0">
+      {/* <div className="row col-lg-12 align-items-center mt-0">
         <div className="col-lg-2 width-set pe-0" >
           <img  src="../../../about/right.png" style={{"width":"70%"}} /></div>
         <div className="col-lg-10 px-0 pt-2">
           <h5 className={styles.title_flex_1}>You will get the same content what you get from BCAD and given below.</h5>
           </div>
-      </div>
+      </div> */}
       <div className="row col-lg-12 align-items-center mt-0">
         <div className="col-lg-2 width-set pe-0" >
           <img  src="../../../about/right.png" style={{"width":"70%"}} /></div>
         <div className="col-lg-10 px-0 pt-2">
-          <h5 className={styles.title_flex_1}>Lifetime Content Access.</h5>
+          <h5 className={styles.title_flex_1}>Total 3 months of Engagement with 2 months Live Interaction of 30+hours</h5>
           </div>
       </div>
 
     </div>
     <div className="col-lg-6">
     <h1 className={`${styles.data_box} ms-1`}>
-      <p className={styles.sub_title_new}>Cost: 16,000INR Only.</p>
+      <p className={styles.sub_title_new}>Cost 20,060INR Only</p>
     </h1>
    
       <div className="row col-lg-12 align-items-center mt-2">
         <div className="col-lg-2 width-set pe-0" >
           <img  src="../../../about/right.png" style={{"width":"70%"}} /></div>
         <div className="col-lg-10 px-0 pt-2">
-          <h5 className={styles.title_flex_1}>Total 1.5 months of engagement. You will get ~7 Live interaction.</h5>
+          <h5 className={styles.title_flex_1}>1 year Access.</h5>
           </div>
       </div>
       <div className="row col-lg-12 align-items-center mt-0">
         <div className="col-lg-2 width-set pe-0" >
           <img  src="../../../about/right.png" style={{"width":"70%"}} /></div>
         <div className="col-lg-10 px-0 pt-2">
-          <h5 className={styles.title_flex_1}>You connect with us weekly once for FastTrack your learning and solve queries.</h5>
+          <h5 className={styles.title_flex_1}>You will connect weekly twice with us to FastTrack your learning and follow our mentorship.</h5>
           </div>
       </div>
-      <div className="row col-lg-12 align-items-center mt-0">
+      {/* <div className="row col-lg-12 align-items-center mt-0">
         <div className="col-lg-2 width-set pe-0" >
           <img  src="../../../about/right.png" style={{"width":"70%"}} /></div>
         <div className="col-lg-10 px-0 pt-2">
           <h5 className={styles.title_flex_1}> 2 Exam Attempts included.</h5>
           </div>
-      </div>
+      </div> */}
    
      
     </div>
@@ -205,6 +206,10 @@ export default function App() {
       </div>
      
     </div>
+    <div className="col-lg-12 text-center">
+    <Link to="/Certification"><button className="btn btn-primary text-black fw-700 border-0"  style={{"background":"#00F38E","fontWeight":"600"}}>Know More</button></Link>
+   
+  </div>
     </div>
 
       </Modal.Body>

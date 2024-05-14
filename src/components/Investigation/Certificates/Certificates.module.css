@@ -140,10 +140,38 @@
       min-width: 100%;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
+    .viewNowFrame
+    {
+      cursor: pointer;
+    border: 0;
+    padding: 16px;
+    background-color: var(--a18);
+    width: 167px;
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    z-index: 1;
+    margin-top: 42px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    }
+    .viewNow
+    {
+      font-size: 16px;
+    }
     .goForOurContainer {
       font-size: var(--font-size-lgi);
+      width: auto;
       /*/*line-height: 53px;*/
+    }
+    .certificationsToBoost
+    {
+      font-size: 36px;
     }
     .collaborationPartners {
       gap: 16px 0;

@@ -81,7 +81,7 @@ const Service = () => {
                 <h1 className={styles.services}>Services</h1>
                 
               </div>
-              <h1 className={`mt-5 pt-5 ${styles.portfolio}`}>Portfolio</h1>
+              <h1 className={`mt-lg-5 mt-md-5 pt-md-5 pt-lg-5 ${styles.portfolio}`}>Portfolio</h1>
               </div>
               <div className={`col-lg-6 ${styles.marginTopPorfolio}`}>
                 <button onClick={goToPrevSlide}>
@@ -110,7 +110,6 @@ const Service = () => {
       <div className="paddingCarosuleSet"
         style={{
           color: "white",
-
           width: "100%",
           padding: "0 75px",
         }}
@@ -120,10 +119,22 @@ const Service = () => {
           modules={[Navigation]}
           className="mySwiper"
           speed={1500}
-          slidesPerView={3}
+          // slidesPerView={3}
           loop={true}
           autoplay={{ delay: 3000 }}
           ref={swiperRef}
+          breakpoints={{
+            // when window width is >= 768px
+            720: {
+              slidesPerView: 3,
+            },
+            425: {
+              slidesPerView: 1,
+            },
+            320: {
+              slidesPerView: 1,
+            },
+          }}
         >
           {data.map((single, index) => (
             <SwiperSlide key={index}>

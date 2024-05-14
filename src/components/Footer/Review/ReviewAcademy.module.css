@@ -191,7 +191,12 @@
       font-size: 14px!important;
       padding: 11px 30px var(--padding-xs)!important;
     }
-    
+   .academicLogoFrame
+   {
+    padding-left: 55px;
+    padding-right: 55px;
+
+   } 
   }
   @media screen and (max-width: 750px) {
     .logoFrameA {
@@ -209,7 +214,7 @@
       gap: 32px 0;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
     .aboutUs,
     .academy,
     .contact,
@@ -224,5 +229,21 @@
     .reviewsAcademy {
       gap: 16px 0;
     }
+    .image15Icon
+    {
+      display: inline!important;
+    }
+    .academicLogoFrame
+   {
+    padding-left: 17px;
+    padding-right: 17px;
+
+   } 
+  .footerFrame
+   {
+     padding: 11px 9px var(--padding-xs) !important;
+     justify-content: center;
+   }
+
   }
   

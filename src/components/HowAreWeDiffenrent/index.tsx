@@ -69,7 +69,7 @@ const RectangleShape: FunctionComponent = () => {
     <div className='row'>
         <h1 className={styles.weDifferent}>WE DIFFERENT</h1>
         <div className={styles.backgroundImageSet}>
-        <div className="row mt-5 pt-4 ps-3">
+        <div className="row mt-1 mt-md-5 mt-lg-5 pt-4 ps-3">
             <div className="col-lg-11 col-sm-12 mt-5 pt-5">
             
         <h1 className={styles.mostAffordablePriceContainer}>
@@ -80,15 +80,15 @@ const RectangleShape: FunctionComponent = () => {
           </div>
           
 
-          <div className="row mt-5 pt-4 ps-3">
-            <div className="col-lg-1 col-sm-2">
+          <div className="row mt-0 mt-md-5 mt-lg-5 pt-4 ps-3">
+            <div className="col-lg-1 col-2 col-sm-2">
             <img
               className={styles.phoneNumberFrameChild}
               loading="lazy"
               alt=""
               src="/group-465.svg" />
             </div>
-            <div className="col-lg-11 col-sm-10">
+            <div className="col-lg-11 col-10 col-sm-10">
             <h1 className={styles.mostAffordablePriceContainer}>
             <p className={styles.mostAffordable}>{`MOST AFFORDABLE `}</p>
             <p className={styles.price}>PRICE</p>
@@ -96,15 +96,15 @@ const RectangleShape: FunctionComponent = () => {
             </div>
           </div>
 
-          <div className="row mt-3 pt-0 ps-3">
-            <div className="col-lg-1 col-sm-2">
+          <div className="row mt-0 mt-md-5 mt-lg-5 pt-0 ps-3">
+            <div className="col-lg-1 col-2 col-sm-2">
             <img
               className={styles.phoneNumberFrameChild}
               loading="lazy"
               alt=""
               src="/group-465.svg" />
             </div>
-            <div className="col-lg-11 col-sm-10">
+            <div className="col-lg-11 col-10 col-sm-10">
             <h1 className={styles.mostAffordablePriceContainer}>
             <p className={styles.mostAffordable}>{`BEST RETURN ON `}</p>
             <p className={styles.price}>INVESTMENT</p>
@@ -113,15 +113,15 @@ const RectangleShape: FunctionComponent = () => {
           </div>
 
 
-          <div className="row mt-3 pt-0 ps-3">
-            <div className="col-lg-1 col-sm-2">
+          <div className="row mt-0 mt-md-5 mt-lg-5 pt-0 ps-3">
+            <div className="col-lg-1 col-2 col-sm-2">
             <img
               className={styles.phoneNumberFrameChild}
               loading="lazy"
               alt=""
               src="/group-465.svg" />
             </div>
-            <div className="col-lg-11 col-sm-10">
+            <div className="col-lg-11 col-10 col-sm-10">
             <h1 className={styles.mostAffordablePriceContainer}>
             <p className={styles.mostAffordable}>{`DECADES OLD `}</p>
             <p className={styles.price}>EXPERIENCE</p>
@@ -129,15 +129,15 @@ const RectangleShape: FunctionComponent = () => {
             </div>
           </div>
 
-          <div className="row mt-3 pt-0 ps-3">
-            <div className="col-lg-1 col-sm-2">
+          <div className="row mt-0 mt-md-5 mt-lg-5 pt-0 ps-3">
+            <div className="col-lg-1 col-2 col-sm-2">
             <img
               className={styles.phoneNumberFrameChild}
               loading="lazy"
               alt=""
               src="/group-465.svg" />
             </div>
-            <div className="col-lg-11 col-sm-10">
+            <div className="col-lg-11 col-10 col-sm-10">
             <h1 className={styles.mostAffordablePriceContainer}>
             <p className={styles.mostAffordable}>{`WE BUILD RELATIONS `}</p>
             <p className={styles.price}>NOT CLIENT</p>
@@ -145,15 +145,15 @@ const RectangleShape: FunctionComponent = () => {
             </div>
           </div>
 
-          <div className="row mt-3 pt-0 ps-3">
-            <div className="col-lg-1 col-sm-2">
+          <div className="row mt-0 mt-md-5 mt-lg-5 pt-0 ps-3">
+            <div className="col-lg-1 col-2 col-sm-2">
             <img
               className={styles.phoneNumberFrameChild}
               loading="lazy"
               alt=""
               src="/group-465.svg" />
             </div>
-            <div className="col-lg-11 col-sm-10">
+            <div className="col-lg-11 col-10 col-sm-10">
             <h1 className={styles.mostAffordablePriceContainer}>
             <p className={styles.mostAffordable}>{`WOrLD CLASS `}</p>
             <p className={styles.price}>SECURITY EXPERTS</p>
@@ -161,15 +161,15 @@ const RectangleShape: FunctionComponent = () => {
             </div>
           </div>
 
-          <div className="row mt-3 pt-0 ps-3">
-            <div className="col-lg-1 col-sm-2">
+          <div className="row mt-0 mt-md-5 mt-lg-5 pt-0 ps-3">
+            <div className="col-lg-1 col-2 col-sm-2">
             <img
               className={styles.phoneNumberFrameChild}
               loading="lazy"
               alt=""
               src="/group-465.svg" />
             </div>
-            <div className="col-lg-11 col-sm-10">
+            <div className="col-lg-11 col-10 col-sm-10">
             <h1 className={styles.mostAffordablePriceContainer}>
             <p className={styles.mostAffordable}>{`RELATION FIRST – `}</p>
             <p className={styles.price}>CUSTOM SOLUTION</p>

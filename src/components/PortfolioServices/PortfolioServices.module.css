@@ -227,9 +227,15 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
+  .marginTopPorfolio
+  {
+    padding-left: 0px!important;
+  }
   .services {
-    font-size: var(--font-size-9xl);
+    font-size: 36px;
+    line-height: 96px;
+    left: -3px;
     /*/*line-height: 53px;*/
   }
   .portfolio,
@@ -238,9 +244,11 @@
     /*/*line-height: 53px;*/
   }
   .portfolio {
-    font-size: var(--font-size-xl);
+    font-size: 22px;
+    left: -3px;
   }
   .writeHereLabel {
     gap: 22px 0;
+    padding-bottom: 20px;
   }
 }

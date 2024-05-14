@@ -35,8 +35,7 @@ const OurLogoFrame: FunctionComponent = () => {
             <div className={styles.frameWithPhoneNumber}>
               <div className={styles.book}>+91</div>
             </div>
-            <div className={styles.phoneNumberSubframeChild} />
-            {/* <div className={styles.phoneNumberSubframeItem} /> */}
+  
             <input
               className={styles.frameWithPhoneNumber1}
               placeholder="Phone Number"

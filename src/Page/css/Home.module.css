@@ -156,7 +156,7 @@ video{
   font-family: var(--font-pilat-wide);
 }
 .learner {
-  margin-left: 0px;
+  margin-left: 16px;
   margin-right: -55px;
   height: 178px;
   flex: 1;
@@ -649,6 +649,12 @@ video{
 }
 }
 @media screen and (max-width: 750px) {
+  .servicesFrame
+  {
+    padding-bottom: 30px;
+    height: 160px;
+  
+  }
   .ourServices {
     font-size: var(--font-size-28xl);
     /*/*line-height: 53px;*/
@@ -698,7 +704,29 @@ video{
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
+  .academicPartners
+  {
+    margin-bottom: 0px;
+  }
+  .areTelling,.workAt
+  {
+    font-size: 36px;
+  }
+  .whatRelations,.ourRelations
+  {
+    font-size: 22px;
+  }
+  .workAt
+  {
+    margin-left: 0px;
+  }
+  .frameText
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+  }
   .ourServices {
     font-size: var(--font-size-9xl);
     /*/*line-height: 53px;*/
@@ -711,11 +739,11 @@ video{
     gap: 20px 0;
   }
   .howAre {
-    font-size: var(--font-size-9xl);
+    font-size: 36px;
     /*/*line-height: 53px;*/
   }
   .learner {
-    font-size: 63px;
+    font-size: 66px;
     /*/*line-height: 53px;*/
   }
   .ourRelationsWorkContainer,
@@ -730,5 +758,15 @@ video{
     padding-bottom: 157px;
     box-sizing: border-box;
   }
+  .whatRelationsAreContainer
+  {
+    left:28px;
+  bottom: 0px;
+  }
+  .contentBoxes
+  {
+    padding: 50px 0 0px!important;
+  }
+  
 }
 

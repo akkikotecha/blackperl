@@ -232,7 +232,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
   .services {
     font-size: var(--font-size-9xl);
     /*/*line-height: 53px;*/
@@ -248,4 +248,5 @@
   .writeHereLabel {
     gap: 22px 0;
   }
+  
 }
