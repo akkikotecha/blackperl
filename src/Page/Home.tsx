@@ -143,7 +143,7 @@ export default function App() {
         <div className="col-lg-2 width-set pe-0" >
           <img  src="../../../about/right.png" style={{"width":"70%"}} /></div>
         <div className="col-lg-10 px-0 pt-2">
-          <h5 className={styles.title_flex_1}>1 year Access.</h5>
+          <h5 className={styles.title_flex_1}>1 Year Full Access</h5>
           </div>
       </div>
       <div className="row col-lg-12 align-items-center mt-0">
