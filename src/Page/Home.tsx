@@ -98,7 +98,8 @@ export default function App() {
       <Modal.Header closeButton className={styles.positionFix}>
         
       </Modal.Header>
-      <Modal.Body className={styles.ModalCurv}>
+      <Link to="/BCAD" >
+        <Modal.Body className={styles.ModalCurv}>
         {/* <h4>JOIN OUR</h4> */}
         <h1 className={styles.data_box}>
       <p className={styles.title_text}>JOIN OUR</p>
@@ -213,6 +214,7 @@ export default function App() {
     </div>
 
       </Modal.Body>
+      </Link>
      
     </Modal>
     </div>

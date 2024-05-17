@@ -405,7 +405,7 @@ body {
   }
   .priceMonthTag {
     
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     color: #000!important;
     text-transform: none;
@@ -575,6 +575,11 @@ body {
     padding-right: 15px;
     
 
+  }
+  .UlCertificare li
+  {
+    padding-bottom: 10px;
+    font-size:15px;
   }
 
   @media (max-width:1398px) {

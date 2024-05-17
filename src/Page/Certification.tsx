@@ -38,7 +38,14 @@ function LiveTrainning() {
             1 Months
           </h2>
           <p className={styles.priceDisTag}>
-          Access to our entire academy(Course, Lab, Certification) for one month. Billing renews monthly unless cancelled. This is a subscription product billed on a monthly basis until you cancel. Cancel anytime. Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.
+          
+          <ul style={{"listStyle": "outside","paddingLeft":"1rem"}} className={styles.UlCertificare}>
+              <li>Access to our entire academy(Course, Lab, Certification) for one month.  </li>
+              <li>Billing renews monthly unless cancelled.</li>
+              <li>This is a subscription product billed on a monthly basis until you cancel. </li>
+              <li>Cancel anytime. </li>
+              <li>Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.</li>
+            </ul>
           </p>
 
           <div className="text-center">
@@ -53,7 +60,13 @@ function LiveTrainning() {
           3 Month (Save 998INR)
           </h2>
           <p className={styles.priceDisTag}>
-          Access to our entire academy(Course, Lab, Certification) for three months. Billing renews 3 monthly unless cancelled. This is a subscription product billed on a monthly basis until you cancel. Cancel anytime. Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.
+            <ul style={{"listStyle": "outside","paddingLeft":"1rem"}} className={styles.UlCertificare}>
+              <li>Access to our entire academy(Course, Lab, Certification) for three months. </li>
+              <li>Billing renews 3 monthly unless cancelled. </li>
+              <li>This is a subscription product billed on a monthly basis until you cancel. </li>
+              <li>Cancel anytime. </li>
+              <li>Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.</li>
+            </ul>
           </p>
 
           <div className="text-center">
@@ -68,7 +81,14 @@ function LiveTrainning() {
           6 Month (Save 2995INR)
           </h2>
           <p className={styles.priceDisTag}>
-          Access to our entire academy(Course, Lab, Certification) for three months. Billing renews 6 monthly unless cancelled. This is a subscription product billed on a monthly basis until you cancel. Cancel anytime. Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.
+          <ul style={{"listStyle": "outside","paddingLeft":"1rem"}} className={styles.UlCertificare}>
+              <li>Access to our entire academy(Course, Lab, Certification) for three month.  </li>
+              <li> Billing renews 6 monthly unless cancelled.</li>
+              <li>This is a subscription product billed on a monthly basis until you cancel. </li>
+              <li>Cancel anytime. </li>
+              <li>Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.</li>
+            </ul>
+
           </p>
           <div className="text-center">
           <button className={`btn btn-warning mx-auto ${styles.PriceChooseButton}`}>Choose plan</button>
@@ -87,7 +107,13 @@ function LiveTrainning() {
           12 Month (Save 5,989INR)
           </h2>
           <p className={styles.PopularpriceDisTag}>
-          Access to our entire academy(Course, Lab, Certification) for three months. Billing renews yearly unless cancelled. This is a subscription product billed on a monthly basis until you cancel. Cancel anytime. Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.
+          <ul style={{"listStyle": "outside","paddingLeft":"1rem"}} className={styles.UlCertificare}>
+              <li>Access to our entire academy(Course, Lab, Certification) for three months. </li>
+              <li>Billing renews yearly unless cancelled.</li>
+              <li>This is a subscription product billed on a monthly basis until you cancel. </li>
+              <li>Cancel anytime. </li>
+              <li>Subscription Plan doesn’t include our Engagement Program. i.e. Cyber Career Surge aka BCAD.</li>
+            </ul>
           </p>
           <div className="text-center">
           <button className={`btn btn-warning mx-auto ${styles.PopularPriceChooseButton}`}>Choose plan</button>
