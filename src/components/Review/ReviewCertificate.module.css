@@ -215,7 +215,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
   .group {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
@@ -227,6 +227,28 @@
   .callToAction {
     gap: 17px 0;
   }
+  .callToActionWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-top: -15%;
+  }
+
+  .maskGroupIcon {
+    position: absolute;
+    top: 53px;
+    left: 17px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+    width: 74%;
+}
+
 }
 
 @media screen and (max-width: 1398px) {
@@ -242,4 +264,11 @@
     height: 630px!important;
   }
 
+}
+@media screen and (max-width:580px)
+{
+  .nameInput
+{
+  height: 430px!important;
+}
 }

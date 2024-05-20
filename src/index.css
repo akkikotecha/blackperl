@@ -101,6 +101,7 @@ body {
   margin: 0;
   line-height: normal;
   background: #000;
+  font-family: "Montserrat"!important;
 }
 :root {
   /* fonts */
@@ -508,4 +509,14 @@ body {
   {
     padding: 0px 00px!important;
   }
+  .carousel-control-prev
+  {
+    left: -25px;
+  }
+  
+  .carousel-control-next
+  {
+    right: 24px;
+  }
+  
 }

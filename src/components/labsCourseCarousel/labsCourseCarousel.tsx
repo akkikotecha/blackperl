@@ -6,6 +6,8 @@ import "swiper/css/navigation";
 import "./style.css";
 import { Navigation } from "swiper/modules";
 import styles from "./labsCourseCarousel.module.css";
+
+
 const Service = () => {
   const data = [
     {
@@ -25,18 +27,73 @@ const Service = () => {
     },
     {
       heading: "Module:",
-      heading2:"01",
-      content: "Create your own SIEM FOOS LAB",
+      heading2:"04",
+      content: "Digital Forensics and Advanced Incident Response (OS Components, RAM/Disk/Targetted Acquisition, Disk Analysis, Windows Live Response, NTFS, File Carving)",
     },
     {
       heading: `Module:`,
-      heading2:"02",
-      content: "Incident Detection and Response, SIEM-101",
+      heading2:"05",
+      content: "Incident Response with Windows Registry",
     },
     {
       heading: `Module:`,
-      heading2:"03",
-      content: "Incident Detection and Response, SIEM-201",
+      heading2:"06",
+      content: "Incident Response with Windows Key Artefacts (Prefetch, Amcache, Shimcache, ShellBags, UserAssist)",
+    },
+   
+    {
+      heading: `Module:`,
+      heading2:"07",
+      content: "USB Artefacts Analysis and implement that in Incident Response",
+    },
+   
+    {
+      heading: `Module:`,
+      heading2:"08",
+      content: "Windows Event log Analysis and SYSMON Deep Dive",
+    },
+   
+    {
+      heading: `Module:`,
+      heading2:"09",
+      content: "Analysis of Email Artefacts- Email Forensics",
+    },
+
+
+    {
+      heading: `Module:`,
+      heading2:"10",
+      content: "Malware Analysis for Incident Responders",
+    },
+    {
+      heading: `Module:`,
+      heading2:"11",
+      content: "Incident Response and Threat Hunt with Advanced Memory Forensics",
+    },
+    {
+      heading: `Module:`,
+      heading2:"12",
+      content: "Cloud Incident Response- AWS EC2 IR",
+    },
+    {
+      heading: `Module:`,
+      heading2:"13",
+      content: "Introduction to Mobile Forensics",
+    },
+    {
+      heading: `Module:`,
+      heading2:"14",
+      content: "Incident Response with Linux Live and Memory Artefacts",
+    },
+    {
+      heading: `Module:`,
+      heading2:"15",
+      content: "Threat Intelligence and Threat Hunting",
+    },
+    {
+      heading: `Module:`,
+      heading2:"16",
+      content: "Career Objective, Resume Enhancement, Job Market Enablement",
     },
    
   ];

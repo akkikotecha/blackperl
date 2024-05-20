@@ -41,7 +41,7 @@ import {
         
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainerSmall}>
-            <p className={styles.weStrengthen}>BCAD is a vendor-neutral, hands-on Blue Team/InfoSec training and certification Program. It is designed to prepare the next generation of SOC analysts, security blue teams, threat hunters, and DFIR professionals.</p>
+            <p className={styles.weStrengthen}>BCAD-Accelerated is a fast track version of BCAD which is a vendor-neutral, hands-on Blue Team/InfoSec training and certification Program. It is designed to prepare the next generation of SOC analysts, security blue teams, threat hunters, and DFIR professionals. This program is also defined for someone who wants to switch their career from any other IT background to Cyber Security.</p>
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>

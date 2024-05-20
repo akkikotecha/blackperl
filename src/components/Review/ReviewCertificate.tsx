@@ -56,7 +56,7 @@ const FrameComponent: FunctionComponent = () => {
         {data.map((single) => (
       <Carousel.Item>
 
-<div className="col-lg-12 col-md-12 ps-5">
+<div className="col-lg-12 col-md-12 ps-lg-5 ps-sm-5 ps-md-5">
                 <div className={styles.nameInput}>
                   
                     <img
