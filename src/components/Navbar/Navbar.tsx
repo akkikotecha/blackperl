@@ -1,6 +1,7 @@
 import { FunctionComponent, useState } from "react";
 import styles from "./GroupComponent.module.css";
 import { Link,useLocation } from "react-router-dom";
+import Modal from 'react-bootstrap/Modal';
 
 
 const GroupComponent: FunctionComponent = () => {
@@ -8,9 +9,22 @@ const GroupComponent: FunctionComponent = () => {
   const [isLiveTrainingSubMenuOpen, setIsSubMenuOpenClose] = useState(false);
   const location = useLocation();
   const [showMenu, setShowMenu] = useState(false);
+  // 
+  const [showModal, setShowModal] = useState(false);
+
+  const handleClose = () => {
+    setShowModal(false);
+    // sessionStorage.setItem("HomeModal", "false");
+  };
+
+  const handleShow = () => {
+    setShowModal(true);
+  };
+
 
   return (
-    
+  
+
         <>
     
     
@@ -106,9 +120,9 @@ const GroupComponent: FunctionComponent = () => {
                         <Link to="/BCAD">
                           <div className={location.pathname === '/BCAD' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCAD</div>
                         </Link>
-                        <Link to="/BCCD">
-                          <div className={location.pathname === '/BCCD' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCCD</div>
-                        </Link>
+                        
+                          <div style={{"cursor":"pointer"}} className={styles.subMenuItem} onClick={handleShow}>BCCD</div>
+                        
                         <Link to="/BCDE">
                           <div className={location.pathname === '/BCDE' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCDE</div>
                         </Link>
@@ -134,7 +148,36 @@ const GroupComponent: FunctionComponent = () => {
             </div>
           </div>
         </div>
-      </header></>
+      </header>
+      <Modal
+       show={showModal}
+       onHide={handleClose}
+       backdrop="static"
+       keyboard={false}    
+      size="sm"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+
+    >
+      <Modal.Header closeButton className={styles.positionFix}>
+        
+      </Modal.Header>
+      <Link to="/BCAD" >
+        <Modal.Body className={styles.ModalCurv}>
+        {/* <h4>JOIN OUR</h4> */}
+        <h1 className={styles.data_box}>
+      <p className={styles.title_text}>BCCD</p>
+      <p className={styles.title_text_2}>COMING SOON!</p>
+    </h1>
+    
+
+      </Modal.Body>
+      </Link>
+     
+    </Modal>
+      </>
+
+
 
   );
 };
