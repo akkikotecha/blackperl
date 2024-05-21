@@ -4,7 +4,7 @@ import {
     ContactForm,
     Footer,
     ReviewFooter,
-    BcdeTrainingTab
+    TiteTrainingTab
   } from "../components";
   import styles from "./css/bcde.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
@@ -68,7 +68,7 @@ import {
           </div>
         </section>
 
-        <BcdeTrainingTab />
+        <TiteTrainingTab />
 
         <section className={styles.reviewsAcademyGroup}>
         <ContactForm />

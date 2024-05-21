@@ -22,6 +22,7 @@ export { default as InvestigationCertificate } from "./Investigation/Certificate
 export { default as PracticalTraining } from "./PracticalTraining/index";
 export { default as CompanyLogoSlider } from "./CompanyLogoSlider/index";
 export { default as TrainingTab } from "./TrainingTab/TrainingTab";
+export { default as TiteTrainingTab } from "./TiteTrainingTab/TiteTrainingTab";
 export { default as BccdTrainingTab } from "./BccdTrainingTab/BccdTrainingTab";
 export { default as BcdeTrainingTab } from "./BcdeTrainingTab/BcdeTrainingTab";
 export { default as GetInTouchForm } from "./GetInTouchForm/GetInTouchForm";
