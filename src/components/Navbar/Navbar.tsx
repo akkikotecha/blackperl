@@ -85,7 +85,7 @@ const GroupComponent: FunctionComponent = () => {
             </div>
             <div className={[styles.training, styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpen(true)}
               onMouseLeave={() => setIsSubMenuOpen(false)}>
-              <div className={location.pathname === '/LiveTrainning' || location.pathname === '/Certification' || location.pathname === '/BCAD' ? `${styles.training1} ${styles.greenMenu}` : styles.training1}>Training</div>
+              <div className={location.pathname === '/LiveTrainning' || location.pathname === '/Certification' || location.pathname === '/BCAD' || location.pathname === '/BCCD' || location.pathname === '/BCDE' || location.pathname === '/TTIA' ? `${styles.training1} ${styles.greenMenu}` : styles.training1}>Training</div>
 
               {isSubMenuOpen && (
                 <div className={styles.subMenu}>
@@ -98,7 +98,7 @@ const GroupComponent: FunctionComponent = () => {
                   <div className={[styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpenClose(true)}
                     onMouseLeave={() => setIsSubMenuOpenClose(false)}>
                     <Link to="/LiveTrainning">
-                      <div className={location.pathname === '/LiveTrainning' || location.pathname === '/BCAD' ? `${styles.subMenuItem} ${styles.paddingBottomSetting} ${styles.greenMenu}` : `${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training </div>
+                      <div className={location.pathname === '/LiveTrainning' || location.pathname === '/BCAD' || location.pathname === '/BCCD' || location.pathname === '/BCDE' || location.pathname === '/TTIA'  ? `${styles.subMenuItem} ${styles.paddingBottomSetting} ${styles.greenMenu}` : `${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training </div>
                     </Link>
 
                     {isLiveTrainingSubMenuOpen && (
@@ -106,14 +106,14 @@ const GroupComponent: FunctionComponent = () => {
                         <Link to="/BCAD">
                           <div className={location.pathname === '/BCAD' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCAD</div>
                         </Link>
-                        <Link to="/LiveTrainning">
-                          <div className={styles.subMenuItem}>BCCD</div>
+                        <Link to="/BCCD">
+                          <div className={location.pathname === '/BCCD' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCCD</div>
                         </Link>
-                        <Link to="/LiveTrainning">
-                          <div className={styles.subMenuItem}>BCDE</div>
+                        <Link to="/BCDE">
+                          <div className={location.pathname === '/BCDE' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCDE</div>
                         </Link>
-                        <Link to="/LiveTrainning">
-                          <div className={styles.subMenuItem}>TTIA</div>
+                        <Link to="/TTIA">
+                          <div className={location.pathname === '/TTIA' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>TTIA</div>
                         </Link>
                       </div>
                     )}
