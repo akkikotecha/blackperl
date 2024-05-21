@@ -103,16 +103,16 @@ const GroupComponent: FunctionComponent = () => {
 
               {isSubMenuOpen && (
                 <div className={styles.subMenu}>
-                  <Link to="/LiveTrainning">
-                    <div className={location.pathname === '/Academy' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>Academy</div>
-                  </Link>
+                  <a href="https://academy.blackperldfir.com/learn" target="_blank">
+                     <div style={{"cursor":"pointer"}}  className={location.pathname === '/Academy' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>Academy</div>
+                  </a>
                   <Link to="/Certification">
-                    <div className={location.pathname === '/Certification' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>Certifications</div>
+                    <div  className={location.pathname === '/Certification' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>Certifications</div>
                   </Link>
                   <div className={[styles.hover].join(" ")} onMouseEnter={() => setIsSubMenuOpenClose(true)}
                     onMouseLeave={() => setIsSubMenuOpenClose(false)}>
                     <Link to="/LiveTrainning">
-                      <div className={location.pathname === '/LiveTrainning' || location.pathname === '/BCAD' || location.pathname === '/BCCD' || location.pathname === '/BCDE' || location.pathname === '/TTIA'  ? `${styles.subMenuItem} ${styles.paddingBottomSetting} ${styles.greenMenu}` : `${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training </div>
+                      <div className={location.pathname === '/LiveTrainning' || location.pathname === '/BCAD' || location.pathname === '/BCDE' || location.pathname === '/TTIA'  ? `${styles.subMenuItem} ${styles.paddingBottomSetting} ${styles.greenMenu}` : `${styles.subMenuItem} ${styles.paddingBottomSetting}`}>Live Training </div>
                     </Link>
 
                     {isLiveTrainingSubMenuOpen && (
@@ -121,7 +121,7 @@ const GroupComponent: FunctionComponent = () => {
                           <div className={location.pathname === '/BCAD' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCAD</div>
                         </Link>
                         
-                          <div style={{"cursor":"pointer"}} className={styles.subMenuItem} onClick={handleShow}>BCCD</div>
+                          <div style={{"cursor":"pointer","color":"white"}} className={location.pathname === '/BCCD' ? `${styles.subMenuItem}` : styles.subMenuItem} onClick={handleShow}>BCCD</div>
                         
                         <Link to="/BCDE">
                           <div className={location.pathname === '/BCDE' ? `${styles.subMenuItem} ${styles.greenMenu}` : styles.subMenuItem}>BCDE</div>

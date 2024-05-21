@@ -41,7 +41,7 @@ import {
         
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainerSmall}>
-            <p className={styles.weStrengthen}>The course is aimed to provide learners with comprehensive knowledge and practical skills in the subject of Detection Engineering Process. This course takes you from novice to expert, from learning the principles to hands-on experience. </p>
+            <p className={styles.weStrengthen}>The course is aimed to provide learners with comprehensive knowledge and practical skills in the subject of Detection Engineering Process. This course takes you from novice to expert, from learning the principles to hands-on experience.</p>
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
