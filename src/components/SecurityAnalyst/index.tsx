@@ -16,15 +16,19 @@ const SecurityAnalyst = () => {
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="Security Operation <br/> (SecOps) 101"
           dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
+          img_url="../../../certificate/Secops1.png"
+          redirect_url="https://academy.blackperldfir.com/learn/secops101"
+          price="1,500.00"
         />
         </div>
         <div className="col-lg-4 col-md-6">
         <SecurityAnalystService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
+          title="Security Mastery with QRadar SIEM"
           dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
+          img_url="../../../certificate/Security Master1.png"
+          redirect_url="https://academy.blackperldfir.com/learn/QRadar-Pro"
+          price="2,500.00"
         />
         </div>
         </div>
