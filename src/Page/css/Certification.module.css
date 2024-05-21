@@ -477,9 +477,9 @@ body {
   .PopularSet
   {
     background-color: #10FF7C;
-    position: absolute;
-    right: 4%;
-    width: 300px;
+    position: absolute!important;
+    right: 2.3%;
+    width: 330px;
     top: -50px;
     padding: 28px !important;
     border-radius: 20px;
@@ -540,7 +540,7 @@ body {
     font-family: var(--font-pilat-wide);
     background-color: #fff;
     border-color: #fff;
-    margin-top: 55%;
+    margin-top: 63%;
     margin-bottom: 26%;
     border-radius: 12px;
     padding-left: 25px;
@@ -588,9 +588,24 @@ body {
       right: 0%;
       top:-10px;
     }
+    .priceMonthTag
+    {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width:1250px) {
+    .PopularPriceChooseButton
+  {
+    margin-bottom:21%;
+    margin-top:50%;
     
   }
-
+  .PopularSet
+  {
+    width: 280px;
+    top:-17px
+  }
+  }
   @media screen and (max-width:1020px) {
     .weStrengthenOrganisationContainer {
       margin: 0;
