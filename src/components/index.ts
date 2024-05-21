@@ -30,3 +30,8 @@ export { default as BccdCourseSummary } from "./BccdCourseSummary/BccdCourseSumm
 export { default as BccdLabsCourse } from "./BccdLabsCourse/BccdLabsCourse";
 export { default as BccdInstructors } from "./BccdInstructors/BccdInstructors";
 export { default as BccdFaqTab } from "./BccdFaqTab/BccdFaqTab";
+export { default as DigitalForensics } from "./DigitalForensics/index";
+export { default as MalwareAnalysis } from "./MalwareAnalysis/index";
+export { default as DefenderLabs } from "./DefenderLabs/index";
+export { default as DefendersCheatSheets } from "./DefendersCheatSheets/index";
+export { default as CourseBundles } from "./CourseBundles/index";

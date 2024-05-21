@@ -6,6 +6,12 @@ import {
   ThreatHunting,
   CloudSecurity,
   ReviewFooter,
+  DigitalForensics,
+  MalwareAnalysis,
+  DefenderLabs,
+  DefendersCheatSheets,
+  CourseBundles
+
 } from "../components";
 import styles from "./css/Certification.module.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -125,6 +131,13 @@ function LiveTrainning() {
       <SecurityAnalyst />
       <ThreatHunting />
       <CloudSecurity />
+
+      
+      <DigitalForensics />
+      <MalwareAnalysis />
+      <DefenderLabs />
+      <DefendersCheatSheets />
+      <CourseBundles />
       <section className={styles.reviewsAcademyGroup}>
         <ContactForm />
         <Footer />
