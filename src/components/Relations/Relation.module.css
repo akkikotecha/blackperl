@@ -42,31 +42,32 @@
 }
 .maskGroupIcon {
   position: absolute;
-  top: 132px;
+  top: 57px;
   left: 36px;
+  -o-object-fit: cover;
   object-fit: cover;
   z-index: 1;
-  width: 75%;
+  width: 67%;
 }
 
 @media screen and (max-width: 1398px) {
   .maskGroupIcon {
     position: absolute;
-    top: 102px;
+    top: 57px;
     left: 26px;
     object-fit: cover;
     z-index: 1;
-    width: 75%;
+    width: 67%;
   }
 }
 @media screen and (max-width: 1250px) {
   .maskGroupIcon {
     position: absolute;
-    top: 102px;
+    top: 27px;
     left: 26px;
     object-fit: cover;
     z-index: 1;
-    width: 75%;
+    width: 67%;
   }
 
 }

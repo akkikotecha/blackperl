@@ -8,13 +8,40 @@ import { Navigation } from "swiper/modules";
 const FrameComponent: FunctionComponent = () => {
   const data = [
     {
-      imgURL: "/mask-group-1@2x.png",
+      imgURL: "/bcad_review/f1.PNG",
     },
     {
-      imgURL: "/mask-group-1@2x.png",
+      imgURL: "/bcad_review/f2.PNG",
     },
     {
-      imgURL: "/mask-group-1@2x.png",
+      imgURL: "/bcad_review/f3.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f4.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f5.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f6.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f7.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f8.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f9.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f10.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f11.PNG",
+    },
+    {
+      imgURL: "/bcad_review/f12.PNG",
     },
   ];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
