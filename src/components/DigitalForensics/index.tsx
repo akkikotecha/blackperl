@@ -14,17 +14,21 @@ const DigitalForensics = () => {
               <div className="col-lg-4 col-md-6">
           <DigitalForensicsService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
-          dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
+          title="Memory Forensics Masterclass for Incident Responders"
+          dis="This is a course focused on Memory Forensics for Incident Responders and SOC Analysts."
+          img_url="../../../certificate/Data Forencis 01.png"
+          redirect_url="https://academy.blackperldfir.com/learn/MemFor-IR"
+          price="4,500.00"
         />
         </div>
         <div className="col-lg-4 col-md-6">
         <DigitalForensicsService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
-          dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
+          title="DFIR 101 Master Class"
+          dis="THE DFIR MASTERCLASS, Specially Designed for Security Analysts, SOC professionals who wants to upskill their game in modern world. This was a LIVE Workshop took place on 6th May &amp; 7th May and we are releasing..."
+          img_url="../../../certificate/Data Forencis 02.png"
+          redirect_url="https://academy.blackperldfir.com/learn/DFIR-101-Master-Class"
+          price="2,999.00"
         />
         </div>
         </div>

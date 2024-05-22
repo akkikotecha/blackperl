@@ -5,15 +5,17 @@ export type DetectType = {
   img_url?: string;
   title: string | TrustedHTML;
   dis?: string;
+  redirect_url?: string;
+  price?: string;
 };
 
 const CloudSecurityService: FunctionComponent<DetectType> = ({
   title,
   dis,
-  img_url
+  img_url,redirect_url,price
 }) => {
   return (
-    <div className={styles.cards}>
+    <a href={redirect_url} target="_blank"><div className={styles.cards}>
     <div className={styles.cards_image}>
       <img src={img_url}/>
     </div>
@@ -33,20 +35,22 @@ const CloudSecurityService: FunctionComponent<DetectType> = ({
     </div>
     <hr className={styles.LineSet} />
     <div className={styles.cards_footer}>
-    <h1 className={styles.cards_footer_title}>₹ 1,500.00</h1>
+    <h1 className={styles.cards_footer_title}>₹ {price}</h1>
     <div className="row px-0">
     <div className="col-lg-6 col-md-6 text-start">
    
     <a href="#">Start Free Trial</a>
  
     </div>
-    <div className="col-lg-6  col-md-6 text-end">
+    <div className="col-lg-6 col-md-6 text-end">
     <button className={styles.advance_button}>BUY NOW</button>  
     </div>
     </div>
     </div>
   </div>
+  </a>
   );
 };
+
 
 export default CloudSecurityService;

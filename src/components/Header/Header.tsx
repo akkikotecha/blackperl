@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 const FrameTitle: FunctionComponent = () => {
   return (
@@ -33,10 +34,11 @@ const FrameTitle: FunctionComponent = () => {
             >{`Need Attack Investigation?     `}</p>
             <p className={styles.needToBuild}>Need to build your Expertise?</p>
           </b>
-          <button className={styles.am}>
-            <b className={styles.contactUs}>Contact Us</b>
-            <img className={styles.amChild} alt="" src="/group-457.svg" />
-          </button>
+          <Link to="/GetInTouch">
+            <button className={styles.am}>
+              <b className={styles.contactUs}>Contact Us</b>
+              <img className={styles.amChild} alt="" src="/group-457.svg" />
+          </button></Link>
         </div>
         <div className={styles.rectangleA}>
           <div className={styles.textInput}>
@@ -51,10 +53,10 @@ const FrameTitle: FunctionComponent = () => {
               alt=""
               src="/image-11@2x.png"
             />
-            <button className={styles.column}>
+            <Link to="/BCAD"><button className={styles.column}>
               <b className={styles.knowMore}>Know more</b>
               <img className={styles.columnChild} alt="" src="/group-457.svg" />
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>

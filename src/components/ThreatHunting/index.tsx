@@ -14,17 +14,21 @@ const ThreatHunting = () => {
               <div className="col-lg-4 col-md-6">
           <ThreatHuntingService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
-          dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
+          title="Threat Hunting 101"
+          dis="Threat Hunting 101 to create your basic understanding about Threat Hunting and also to introduce you with right approach of doing Threat Hunt with Live Labs"
+          img_url="../../../certificate/Threat Hunting 1.png"
+          redirect_url="https://academy.blackperldfir.com/learn/Threat-Hunting-101"
+          price="1,500.00"          
         />
         </div>
         <div className="col-lg-4  col-md-6">
         <ThreatHuntingService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
-          dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
+          title="Threat Hunting 201"
+              dis="Threat Hunting 201 is highly focused on hunting against 2 APT groups. The course is built with real life practical experience."
+              img_url="../../../certificate/Threat Hunting 2.png"
+              redirect_url="https://academy.blackperldfir.com/learn/Threat-Hunting-201"
+              price="2,000.00"
         />
         </div>
         </div>
