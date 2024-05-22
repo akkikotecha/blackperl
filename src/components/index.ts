@@ -6,6 +6,7 @@ export { default as HowAreWeDiffenrent } from "./HowAreWeDiffenrent";
 export { default as MainSection } from "./MainSection/MainSection";
 export { default as PortfolioServices } from "./PortfolioServices";
 export { default as Relation } from "./Relations/Relation";
+export { default as TTIARelation } from "./TTIARelation/TTIARelation";
 export { default as ReviewCertificate } from "./Review/ReviewCertificate";
 export { default as ReviewCertificateAll } from "./ReviewAll/ReviewCertificateAll";
 export { default as Details } from "./Details/Details";
