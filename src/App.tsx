@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import { AboutUs, Home,LiveTrainning,Training,Review,GetInTouch,Certification,BCCD,BCDE,TTIA } from "./Page";
+import { AboutUs, Home,LiveTrainning,Training,Review,GetInTouch,Certification,BCCD,BCDE,TTIA,ReviewAll } from "./Page";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Route path="/Review" element={<Review />} />
       <Route path="/GetInTouch" element={<GetInTouch />} />
       <Route path="/Certification" element={<Certification />} />
+      <Route path="/ReviewAll" element={<ReviewAll />} />
     </Routes>
   );
 }

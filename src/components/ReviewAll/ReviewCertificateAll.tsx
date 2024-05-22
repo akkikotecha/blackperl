@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import styles from "./ReviewCertificate.module.css";
+import styles from "./ReviewCertificateAll.module.css";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "react-router-dom";
 const FrameComponent: FunctionComponent = () => {
@@ -22,6 +22,67 @@ const FrameComponent: FunctionComponent = () => {
     {
       imgURL: "/review/21.png",
     },
+    {
+      imgURL: "/review/22.png",
+    },
+    {
+      imgURL: "/review/23.png",
+    },
+    {
+      imgURL: "/review/24.png",
+    },
+    {
+      imgURL: "/review/24_1.png",
+    },
+    {
+      imgURL: "/review/25.png",
+    },
+    {
+      imgURL: "/review/25_1.png",
+    },
+    {
+      imgURL: "/review/26.png",
+    },
+    {
+      imgURL: "/review/27.png",
+    },
+    {
+      imgURL: "/review/28.png",
+    },
+    {
+      imgURL: "/review/28_1.png",
+    },
+    {
+      imgURL: "/review/29.png",
+    },
+    {
+      imgURL: "/review/30.png",
+    },
+    {
+      imgURL: "/review/31.png",
+    },
+    {
+      imgURL: "/review/32.png",
+    },
+    {
+      imgURL: "/review/33.PNG",
+    },
+    {
+      imgURL: "/review/34.PNG",
+    },
+    {
+      imgURL: "/review/35.PNG",
+    },
+    {
+      imgURL: "/review/36.PNG",
+    },
+    {
+      imgURL: "/review/37.png",
+    },
+    {
+      imgURL: "/review/38.png",
+    },
+
   ];
 
   return (
@@ -95,8 +156,8 @@ const FrameComponent: FunctionComponent = () => {
         <div className="container ps-0">
           <div className="row">
             <div className="col-lg-12 text-center mt-5 ps-0">
-              <Link to="/ReviewAll"><button className={`btn btn-warning ${styles.btnViewMore}`}>
-                View More
+              <Link to="/review"> <button className={`btn btn-warning ${styles.btnViewMore}`}>
+                Back
               </button></Link>
             </div>
           </div>

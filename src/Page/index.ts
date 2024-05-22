@@ -8,3 +8,4 @@ export { default as Certification } from "./Certification";
 export { default as BCCD } from "./bccd";
 export { default as BCDE } from "./bcde";
 export { default as TTIA } from "./ttia";
+export { default as ReviewAll } from "./ReviewAll";
