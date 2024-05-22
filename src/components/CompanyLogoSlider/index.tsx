@@ -24,7 +24,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Arete.png"
+              src="/logo/Frame 25.png"
             />
           </div>
         </SwiperSlide>
@@ -33,7 +33,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Energy Australia.svg"
+              src="/logo/Frame 27.png"
             />
           </div>
         </SwiperSlide>
@@ -42,7 +42,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/EY.svg"
+              src="/logo/Frame 28.png"
             />
 
             
@@ -54,7 +54,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 1.png"
+              src="/logo/Frame 29.png"
             />
           </div>
         </SwiperSlide>
@@ -64,7 +64,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 2.png"
+              src="/logo/Frame 32.png"
             />
           </div>
         </SwiperSlide>
@@ -74,7 +74,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 3.png"
+              src="/logo/Frame 33.png"
             />
           </div>
         </SwiperSlide>
@@ -83,7 +83,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 4.png"
+              src="/logo/Frame 34.png"
             />
           </div>
         </SwiperSlide>
@@ -92,7 +92,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 5.png"
+              src="/logo/Frame 35.png"
             />
           </div>
         </SwiperSlide>
@@ -101,7 +101,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 6.png"
+              src="/logo/Frame 36.png"
             />
           </div>
         </SwiperSlide>
@@ -110,7 +110,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 7.png"
+              src="/logo/Frame 37.png"
             />
           </div>
         </SwiperSlide>
@@ -119,7 +119,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 8.png"
+              src="/logo/Frame 38.png"
             />
           </div>
         </SwiperSlide>
@@ -128,7 +128,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 9.png"
+              src="/logo/Frame 39.png"
             />
           </div>
         </SwiperSlide>
@@ -137,7 +137,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Frame 10.png"
+              src="/logo/Frame 40.png"
             />
           </div>
         </SwiperSlide>
@@ -146,7 +146,7 @@ const CompanyLogoSlider = (props: any) => {
             <img
               loading="lazy"
               alt=""
-              src="/logo/Government_of_India_logo.svg"
+              src="/logo/Frame 41.png"
             />
           </div>
         </SwiperSlide>
