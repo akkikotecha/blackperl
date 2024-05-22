@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 const FooterSection: FunctionComponent = () => {
   return (
@@ -33,15 +34,15 @@ const FooterSection: FunctionComponent = () => {
 
       </div>
       <div className={styles.reviewsParent}>
-        <h3 className={styles.reviews}>{`Reviews  `}</h3>
-        <h3 className={styles.academy}>Academy</h3>
-        <h3 className={styles.training}>Training</h3>
+        <Link to="/Review"><h3 className={styles.reviews}>{`Reviews  `}</h3></Link>
+        <a href="https://academy.blackperldfir.com/learn" target="_blank"><h3 className={styles.academy}>Academy</h3></a>
+        <Link to="/LiveTrainning"><h3 className={styles.training}>Training</h3></Link>
       </div>
 
       <div className={styles.reviewsParent}>
-        <h3 className={styles.aboutUs}>About us</h3>
-        <h3 className={styles.services}>Services</h3>
-        <h3 className={styles.contact}>Contact</h3>
+      <Link to="/about"><h3 className={styles.aboutUs}>About us</h3></Link>
+      <Link to="/"><h3 className={styles.services}>Services</h3></Link>
+      <Link to="/GetInTouch"> <h3 className={styles.contact}>Contact</h3></Link>
       </div>
     </div>
   );
