@@ -22,72 +22,136 @@ const CompanyLogoSlider = (props: any) => {
         <SwiperSlide className="swipeaa">
           <div className={styles.abcde}>
             <img
-              className={styles.logo1Icon}
               loading="lazy"
               alt=""
-              src="/logo-1@2x.png"
+              src="/logo/Arete.png"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swipeaa" >
           <div className={styles.itemcell}>
             <img
-              className={styles.tcs1Icon}
               loading="lazy"
               alt=""
-              src="/tcs-1@2x.png"
+              src="/logo/Energy Australia.svg"
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.itemcell1}>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
             <img
-              className={styles.wiproLogo1Icon}
               loading="lazy"
               alt=""
-              src="/wiprologo-1@2x.png"
+              src="/logo/EY.svg"
             />
+
+            
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.secondaryLeft}>
-            <img className={styles.logo1Icon1} alt="" src="/logo-1-1@2x.png" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.abcde1}>
-            <img className={styles.logo1Icon2} alt="" src="/logo-1-2@2x.png" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.buttonseeall}>
-            <img className={styles.logo1Icon3} alt="" src="/logo-1-3@2x.png" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.itemcell2}>
-            <img className={styles.tcs1Icon1} alt="" src="/tcs-1-1@2x.png" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.itemcell3}>
+       
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
             <img
-              className={styles.wiproLogo1Icon1}
+              loading="lazy"
               alt=""
-              src="/wiprologo-1-1@2x.png"
+              src="/logo/Frame 1.png"
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.logo1Wrapper}>
-            <img className={styles.logo1Icon4} alt="" src="/logo-1-4@2x.png" />
+
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 2.png"
+            />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swipeaa">
-          <div className={styles.headercell}>
-            <img className={styles.logo1Icon5} alt="" src="/logo-1-5@2x.png" />
+
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 3.png"
+            />
           </div>
         </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 4.png"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 5.png"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 6.png"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 7.png"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 8.png"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 9.png"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Frame 10.png"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swipeaa" >
+          <div className={styles.itemcell}>
+            <img
+              loading="lazy"
+              alt=""
+              src="/logo/Government_of_India_logo.svg"
+            />
+          </div>
+        </SwiperSlide>
+
+
       </Swiper>
     </section>
   );
