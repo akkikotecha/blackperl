@@ -57,7 +57,7 @@ const ReviewsAcademy: FunctionComponent = () => {
         </div>
         <div
           className={styles.privacyPolicy}
-        ><span> <Link to="/PrivacyPolicy">Privacy & Policy</Link> </span> <span> | </span> <span> <Link to="/TermAndCondition">Term & Condition</Link> </span> <span> | </span> <span> Contact US </span></div>
+        ><span> <Link to="/PrivacyPolicy">Privacy & Policy</Link> </span> <span> | </span> <span> <Link to="/TermAndCondition">Term & Condition</Link> </span> <span> | </span> <Link to="/GetInTouch"><span> Contact US </span></Link></div>
       </footer>
     </section>
   );
