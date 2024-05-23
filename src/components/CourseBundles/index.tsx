@@ -14,11 +14,11 @@ const CourseBundles = () => {
               <div className="col-lg-4 col-md-6">
           <CourseBundlesService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
-          dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
-          redirect_url=""
-          price="1,500.00"
+          title="Blue Team Bundle"
+          dis="Blue Team Bundle<br/><br/><br/><br/><br/>"
+          img_url="../../../certificate/power_bundle.png"
+          redirect_url="https://academy.blackperldfir.com/learn/blueteam-bundle"
+          price="17,150.00"
 
         />
         </div>

@@ -14,22 +14,22 @@ const DefendersCheatSheets = () => {
               <div className="col-lg-4 col-md-6">
           <DefendersCheatSheetsService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
-          dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
-          redirect_url=""
-          price="1,500.00"
+          title="Tactical Threat Intelligence Analyst"
+          dis="The course is aimed to provide learners with comprehensive knowledge and practical skills in the subject of threat intelligence. This course takes you from novice to expert, from learning the principles to hands-on experience. "
+          img_url="../../../certificate/tita_one.png"
+          redirect_url="https://academy.blackperldfir.com/learn/ttia-join"
+          price="1,999.00"
 
         />
         </div>
         <div className="col-lg-4 col-md-6">
         <DefendersCheatSheetsService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Security Operation <br/> (SecOps) 101"
-          dis="We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly."
-          img_url="../../../certificate/certificate_1.png"
-          redirect_url=""
-          price="1,500.00"
+          title="BCDE- BlackPerl Certified Detection Engineer"
+          dis="The course is aimed to provide learners with comprehensive knowledge and practical skills in the subject of Detection Engineering Process. This course takes you from novice to expert, from learning..."
+          img_url="../../../certificate/tita_one.png"
+          redirect_url="https://academy.blackperldfir.com/learn/bcde-live"
+          price="2,999.00"
 
         />
         </div>

@@ -10,8 +10,13 @@ import {
   import styles from "./css/Livetrainning.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
   import './css/Livetrainning.module.css';
+import { useEffect } from "react";
   
   function LiveTrainning() {
+    useEffect(() => {
+      // Scroll to top when the component is mounted
+      window.scrollTo(0, 0);
+    }, []);
     return (
       <>
         <Navbar />

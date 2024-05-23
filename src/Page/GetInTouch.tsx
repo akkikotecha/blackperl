@@ -8,8 +8,13 @@ import {
   import styles from "./css/GetInTouch.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
   import './css/GetInTouch.module.css';
+import { useEffect } from "react";
   
   function GetInTouch() {
+    useEffect(() => {
+      // Scroll to top when the component is mounted
+      window.scrollTo(0, 0);
+    }, []);
     return (
       <>
         <Navbar />

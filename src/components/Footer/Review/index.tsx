@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./ReviewAcademy.module.css";
+import { Link } from "react-router-dom";
 
 const ReviewsAcademy: FunctionComponent = () => {
   return (
@@ -56,7 +57,7 @@ const ReviewsAcademy: FunctionComponent = () => {
         </div>
         <div
           className={styles.privacyPolicy}
-        ><span> <a href="https://blackperldfir.com/privacy-policy.html" target="_blank">Privacy & Policy</a> </span> <span> | </span> <span> <a href="https://blackperldfir.com/terms-conditions.html"  target="_blank">Term & Condition</a> </span> <span> | </span> <span> Contact US </span></div>
+        ><span> <Link to="/PrivacyPolicy">Privacy & Policy</Link> </span> <span> | </span> <span> <Link to="/TermAndCondition">Term & Condition</Link> </span> <span> | </span> <span> Contact US </span></div>
       </footer>
     </section>
   );

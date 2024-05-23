@@ -9,3 +9,5 @@ export { default as BCCD } from "./bccd";
 export { default as BCDE } from "./bcde";
 export { default as TTIA } from "./ttia";
 export { default as ReviewAll } from "./ReviewAll";
+export { default as TermAndCondition } from "./TermAndCondition";
+export { default as PrivacyPolicy } from "./PrivacyPolicy";

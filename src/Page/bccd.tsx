@@ -9,8 +9,13 @@ import {
   import styles from "./css/bccd.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
   import './css/bccd.module.css';
+import { useEffect } from "react";
   
   function Bccd() {
+    useEffect(() => {
+      // Scroll to top when the component is mounted
+      window.scrollTo(0, 0);
+    }, []);
     return (
       <>
         <Navbar />

@@ -43,7 +43,7 @@ const DigitalForensicsService: FunctionComponent<DetectType> = ({
  
     </div>
     <div className="col-lg-6 col-md-6 text-end">
-    <button className={styles.advance_button}>BUY NOW</button>  
+    <button className={styles.advance_button}>KNOW MORE</button>  
     </div>
     </div>
     </div>

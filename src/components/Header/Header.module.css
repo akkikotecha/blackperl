@@ -275,6 +275,10 @@
   }
 }
 @media screen and (max-width: 1020px) {
+  .column
+  {
+    left:68px!important
+  }
 .wrapperMaskGroup {
   width: 1393px;
   height: 110%;
@@ -290,6 +294,7 @@
 {
   font-size: 65px;
   line-height: 76px;
+  margin-left: 0px;
 }
 .hackersGonnaHack
 {
@@ -327,6 +332,11 @@
   }
 }
 @media screen and (max-width: 580px) {
+  .column
+  {
+    left:90px!important
+  }
+  
   .forDefendersByContainer {
     margin: 0;
     /* align-self: stretch; */

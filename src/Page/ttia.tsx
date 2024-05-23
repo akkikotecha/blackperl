@@ -9,8 +9,13 @@ import {
   import styles from "./css/bcde.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
   import './css/bcde.module.css';
+import { useEffect } from "react";
   
   function Ttia() {
+    useEffect(() => {
+      // Scroll to top when the component is mounted
+      window.scrollTo(0, 0);
+    }, []);
     return (
       <>
         <Navbar />
@@ -51,21 +56,7 @@ import {
           </button>
           </div>
           </div>
-        <div className={styles.row_third}>
-        
-          <div className={`${styles.flex_row} ${styles['col-2']}`}>
-          <h1 className={styles.weStrengthenOrganisationContainerWhite}>
-            <p className={styles.weStrengthenSmall}>JOIN OUR BCAD<br/>
-              ACCELERATED PROGRAM</p>
-          </h1>
-          </div>
-          <div className={`${styles.flex_row} ${styles['col-2']}`}>
-        <button className={`${styles.am} ${styles.ammm}`}>
-            <b className={styles.contactUs}>View More</b>
-            <img className={styles.amChild} alt="" src="/group-457.svg" />
-          </button>
-          </div>
-          </div>
+       
         </section>
 
         <TiteTrainingTab />

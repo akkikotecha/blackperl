@@ -94,7 +94,7 @@ const FrameComponent: FunctionComponent = () => {
         </div>
         <div className="container ps-0">
           <div className="row">
-            <div className="col-lg-12 text-center mt-5 ps-0">
+            <div className="col-lg-12 text-center mt-5 ps-0 mb-5">
               <Link to="/ReviewAll"><button className={`btn btn-warning ${styles.btnViewMore}`}>
                 View More
               </button></Link>

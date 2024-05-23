@@ -387,8 +387,10 @@ body {
   .title_disc
   {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
+    font-family: inherit;
+    letter-spacing: 0.3px;
   }
   .logicBranch {
     width: 1440px;
@@ -409,7 +411,7 @@ body {
   }
   .weStrengthenOrganisationContainer {
     margin: 0;
-    height: 594px;
+    height: 154px;
     width: 958px;
     position: relative;
     font-size: inherit;
@@ -428,14 +430,14 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 100px 0px 0px;
+    padding: 100px 0px 40px;
     text-align: center;
     font-size: var(--font-size-69xl);
     color: var(--ffffff);
     font-family: var(--font-pilat-wide);
-    background: url('../../../public/review/reviewBanner.png');
-    background-position: center center;
+    background: url('../../../public/about/Mask group.png');
     background-size: cover;
+    /* height: fit-content; */
   }
   .certification
   {
@@ -523,6 +525,40 @@ body {
     gap: 54px;
     letter-spacing: normal;
   }
+  @media screen and (max-width: 1020px) {
+  .weStrengthenOrganisationContainer
+  {
+    margin: 0;
+    height: fit-content; 
+    width: fit-content;
+    position: relative;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+  }
+
+  .title_text
+  {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 45px;
+  }
+  .title_disc
+  {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: inherit;
+    letter-spacing: 0.3px;
+  }
+  }
   @media screen and (max-width: 750px) {
     .weStrengthenOrganisationContainer {
       font-size: var(--font-size-25xl);
@@ -538,10 +574,18 @@ body {
       gap: 27px 54px;
     }
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
     .weStrengthenOrganisationContainer {
-      font-size: var(--font-size-7xl);
+      font-size: 32px;
       line-height: 37px;
+    }
+      .certification
+      {
+        margin-bottom: 30px;
+      }
+    .title_text
+    {
+      font-size:22px;
     }
   }
 
@@ -567,26 +611,14 @@ body {
   letter-spacing: normal;
 }
 
-@media screen and (max-width:1020px) {
-  .weStrengthenOrganisationContainer
-  {
-    font-size: 65px;
-    width: auto;
-    height: 420px;
-  }
-  
+.p_tags
+{
+    font-size: 16px;
+    margin-bottom: 70px;
+    line-height: 25px;
 }
-@media screen and (max-width: 580px) {
-  .weStrengthenOrganisationContainer {
-    font-size: 32px;
-    line-height: 37px;
-  }
-    .certification
-    {
-      margin-bottom: 30px;
-    }
-  .title_text
-  {
-    font-size:22px;
-  }
+.p_tags strong
+{
+    font-size: 26px;
+
 }

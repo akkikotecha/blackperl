@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./GetInTouchForm.module.css";
+import { Link } from "react-router-dom";
 const GetInTouchForm: FunctionComponent = () => {
   // const mapRef = useRef(null); // Specify the type of ref
 
@@ -86,11 +87,11 @@ const GetInTouchForm: FunctionComponent = () => {
                 className={styles.byTappingSubmit}
               >{`By tapping Submit, you agree to the following  `}</p>
               <p className={styles.privacyPolicyTermsCondi}>
-                <a href="https://blackperldfir.com/privacy-policy.html" target="_blank"><b className={styles.privacyPolicy}>{`Privacy Policy `}</b></a>
+              <Link to="/PrivacyPolicy"><b className={styles.privacyPolicy}>{`Privacy Policy `}</b></Link>
                 <span className={styles.span}>{`&`}</span>
-                <a href="https://blackperldfir.com/terms-conditions.html"  target="_blank"><b
+                <Link to="/TermAndCondition"><b
                   className={styles.termsConditions}
-                >{` Terms & Conditions`}</b></a>
+                >{` Terms & Conditions`}</b></Link>
               </p>
             </div>
             {/* <button>

@@ -16,6 +16,7 @@
   left: 3px;
 }
 
+
 .mainContainer,
 .mainContainer:before {
   -webkit-clip-path: polygon(70% 0, 100% 31%, 100% 100%, 0 100%, 0 0);
@@ -87,7 +88,7 @@
 }
 .readMoreContainer h1 {
   font-family: var(--font-pilat-wide);
-  font-size: 34px;
+  font-size: 26px;
   font-weight: 700;
   text-transform: uppercase;
   width: 120px;

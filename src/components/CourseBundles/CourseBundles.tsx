@@ -4,7 +4,7 @@ import styles from "./CourseBundlesService.module.css";
 export type DetectType = {
   img_url?: string;
   title: string;
-  dis?: string;
+  dis: string;
   redirect_url?: string;
   price?: string;
 };
@@ -26,8 +26,8 @@ const CourseBundlesService: FunctionComponent<DetectType> = ({
       <h1 className={styles.cards_title} dangerouslySetInnerHTML={{__html: title}}></h1>
 
       <div className={styles.cards_content}>
-        <p>
-        {dis}
+        <p dangerouslySetInnerHTML={{__html: dis}}>
+        
         </p>
       </div>
       
@@ -43,7 +43,7 @@ const CourseBundlesService: FunctionComponent<DetectType> = ({
  
     </div>
     <div className="col-lg-6 col-md-6 text-end">
-    <button className={styles.advance_button}>BUY NOW</button>  
+    <button className={styles.advance_button}>KNOW MORE</button>  
     </div>
     </div>
     </div>

@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./Contact.module.css";
+import { Link } from "react-router-dom";
 
 const OurLogoFrame: FunctionComponent = () => {
   return (
@@ -54,11 +55,11 @@ const OurLogoFrame: FunctionComponent = () => {
                 className={styles.byTappingSubmit}
               >{`By tapping Submit, you agree to the following  `}</p>
               <p className={styles.privacyPolicyTermsCondi}>
-                <b className={styles.privacyPolicy}>{`Privacy Policy `}</b>
+              <Link to="/PrivacyPolicy"><b className={styles.privacyPolicy}>{`Privacy Policy `}</b></Link>
                 <span className={styles.span}>{`&`}</span>
-                <b
+                <Link to="/TermAndCondition"><b
                   className={styles.termsConditions}
-                >{` Terms & Conditions`}</b>
+                >{` Terms & Conditions`}</b></Link>
               </p>
             </div>
             <button>

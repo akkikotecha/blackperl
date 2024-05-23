@@ -350,7 +350,7 @@ body {
 }
 
 .map{
-  height: 100vh;
+  height: 270vh;
   filter: grayscale(100%) invert(7%) contrast(100%)!important;
 }
 
@@ -504,6 +504,10 @@ body {
 }
 
 @media screen and (max-width:580px) {
+  .map{
+    height: 230vh;
+    /* filter: grayscale(100%) invert(7%) contrast(100%)!important; */
+  }
   
   .paddingCarosuleSet
   {

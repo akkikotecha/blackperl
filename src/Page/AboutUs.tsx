@@ -12,8 +12,15 @@ import {
 import styles from "./css/about.module.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/about.module.css';
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function Trainning() {
+  useEffect(() => {
+    // Scroll to top when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
       <Navbar />
@@ -27,10 +34,10 @@ function Trainning() {
           <p className={styles.title_text}>Costly Certificates != True Knowledge</p>
           <p className={styles.title_disc}>We believe in equal learning opportunities around the world on InfoSec Domain. Our instructors design courses that are easily accessible to everyone and MOST Budget friendly. You can download handful resources during each course for better learning. We are dedicated to bring more courses so you can have a larger variety of courses to choose from. Our main focus is to provide you BEST KNOWLEDGE yet in Cost effective way!</p>
         </h1>
-        <button className={styles.am}>
+        <Link to="/GetInTouch"><button className={styles.am}>
             <b className={styles.contactUs}>Contact Us</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
-          </button>
+          </button></Link>
         </div>
       </section>
       <Details />

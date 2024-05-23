@@ -117,9 +117,19 @@
   }
 }
 @media screen and (max-width:580px) {
+  .flex_row
+  {
+    display: flex;
+  }
   .title_text
   {
     font-size: 36px;
+  }
+  .float_img
+  {
+    /* width:10% */
+    height: 30px;
+    margin-top: 1px;
   }
 
 }

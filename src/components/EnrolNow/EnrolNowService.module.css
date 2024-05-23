@@ -127,7 +127,7 @@ a:focus:after {
   font-size: 15px;
   font-weight: 600;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;width: 100%;
   
   /* font-family: var(--font-pilat-wide); */
 }

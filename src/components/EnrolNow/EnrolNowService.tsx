@@ -1,19 +1,22 @@
 import { FunctionComponent } from "react";
 import styles from "./EnrolNowService.module.css";
 import ReactStars from "react-rating-stars-component";
+import { Link } from "react-router-dom";
 
 export type DetectType = {
   img_url?: string;
   title_image_url?: string;
   title?: string;
   dis?: string;
+  redirectURL?: string;
 };
 
 const EnrolNowService: FunctionComponent<DetectType> = ({
   title,
   dis,
   img_url,
-  title_image_url
+  title_image_url,
+  redirectURL
 }) => {
   return (
     <div className={styles.cards}>
@@ -49,8 +52,8 @@ const EnrolNowService: FunctionComponent<DetectType> = ({
     </div>
 
     <div className={styles.cards_footer}>
-    <button className={styles.advance_button}>Start: 4th March 2024 | End: 29th June 2024</button>
-      <a href="#">Enrol Now</a>
+    <button className={styles.advance_button}>Next Batch Coming Soon</button>
+      <Link to={`/${redirectURL}`}><div>Enrol Now</div></Link>
     </div>
   </div>
   );
