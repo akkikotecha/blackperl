@@ -1,20 +1,73 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { FunctionComponent } from "react";
 import styles from "./GetInTouchForm.module.css";
 import { Link } from "react-router-dom";
+import emailjs from 'emailjs-com';
+import { yupResolver } from "@hookform/resolvers/yup";
+
+import * as yup from "yup";
+import { useForm } from "react-hook-form";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+  
+
 const GetInTouchForm: FunctionComponent = () => {
-  // const mapRef = useRef(null); // Specify the type of ref
+  const schema = yup
+  .object({
+    firstname: yup.string().required("First name is required"),
+    lastname: yup.string().required("Last name is required"),
+    query: yup.string().required("Query is required"),
+    message: yup.string().required("Message is required"),
+    email: yup.string().email("Invalid email").required("Email ID is required"),
+  })
+  .required();
 
-  // const handleZoomIn = () => {
-  //   if (mapRef.current) { // Check if mapRef.current is not null
-  //     mapRef.current.contentWindow.postMessage('{"event":"command","func":"zoomIn"}', '*');
-  //   }
-  // };
+ 
+  const {
+    register,
+    formState: { errors },
+    handleSubmit, reset
+  } = useForm({
+    defaultValues: {
+      firstname: "",
+      lastname: "",
+      email: "",
+      query: "",
+      message: "",
+    },
+    resolver: yupResolver(schema),
+    //
+    mode: "all",
+  });
 
-  // const handleZoomOut = () => {
-  //   if (mapRef.current) { // Check if mapRef.current is not null
-  //     mapRef.current.contentWindow.postMessage('{"event":"command","func":"zoomOut"}', '*');
-  //   }
-  // };
+  const onSubmit = (data:any) => {
+    console.log(data)
+
+    const templateParams = {
+          firstname: data.firstname,
+          lastname: data.lastname,
+          email: data.email,
+          query: data.query,
+          message: data.message,
+        };
+    
+        emailjs.send(
+          'service_w88rxcu', // Replace with your EmailJS service ID
+          'template_c1yrhdm', // Replace with your EmailJS template ID
+          templateParams,
+          'ALrrO1yCkmX3Hx990' // Replace with your EmailJS user ID
+        ).then((response) => {
+          
+          toast.success("Mail sent Successfully")
+          console.log('SUCCESS!', response.status, response.text);
+          reset();
+
+        }).catch((err) => {
+          toast.error('FAILED...', err)
+          reset();
+
+        });
+  }
 
 
   return (
@@ -36,78 +89,93 @@ const GetInTouchForm: FunctionComponent = () => {
         </div>
         <div className="col-lg-6 ps-5">
           <h1 className={styles.title_text}>Get in touch</h1>
-          <div className={styles.contactForm}>
-            <div className="row px-0 w-100">
-            <div className="col-lg-6 paddingSetLG">
-            <input
-                className={`${styles.enterName} ${styles.enyerSecondNameWidth}`}
-                placeholder="First Name"
-                type="text"
-              />
-          </div>
-          <div className={ `${styles.paddingSetLGRightSet} col-lg-6 paddingSetLGRight `}>
-          <input
-                className={`${styles.enterName} ${styles.enyerSecondName}`}
-                placeholder="Last Name"
-                type="text"
-              />
-          </div>
-          </div>
-        
-          <div className="row w-100">
-
-              <input
-                className={styles.enterName}
-                placeholder="Email Address"
-                type="text"
-              />
-              {/* <div className={styles.caseClassification} /> */}
-            
-          </div>
-          <div className="row w-100">
-
-              <input
-                className={styles.enterName}
-                placeholder="Your Query"
-                type="text"
-              />
-              {/* <div className={styles.caseClassification} /> */}
-            
-          </div>
-          <div className="row w-100">
-          <textarea
-            className={styles.writeHereInput}
-            placeholder="Your Message Here"
-            
-          />
-          </div>
-          <div className={styles.privacyPolicyText}>
-            <div className={styles.byTappingSubmitContainer}>
-              <p
-                className={styles.byTappingSubmit}
-              >{`By tapping Submit, you agree to the following  `}</p>
-              <p className={styles.privacyPolicyTermsCondi}>
-              <Link to="/PrivacyPolicy"><b className={styles.privacyPolicy}>{`Privacy Policy `}</b></Link>
-                <span className={styles.span}>{`&`}</span>
-                <Link to="/TermAndCondition"><b
-                  className={styles.termsConditions}
-                >{` Terms & Conditions`}</b></Link>
-              </p>
-            </div>
-            {/* <button>
-              <img
-                className={styles.privacyPolicyTextChild}
-                loading="lazy"
-                alt=""
-                src="/group-1171276214.svg"
-              />
-            </button> */}
-             <button className={styles.am}>
-            <b className={styles.contactUs}>Submit</b>
-            <img className={styles.amChild} alt="" src="/group-457.svg" />
-          </button>
-          </div>
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+  <div className={styles.contactForm}>
+    <div className="row px-0 w-100">
+      <div className="col-lg-6 paddingSetLG">
+        <input
+          className={`${styles.enterName} ${styles.enyerSecondNameWidth}`}
+          placeholder="First Name"
+          type="text"
+          {...register("firstname")}
+        />
+        <div className={`mt-2 text-danger block text-sm`}>
+          {errors?.firstname?.message}
         </div>
+      </div>
+      <div className={`${styles.paddingSetLGRightSet} col-lg-6 paddingSetLGRight`}>
+        <input
+          className={`${styles.enterName} ${styles.enyerSecondName}`}
+          placeholder="Last Name"
+          type="text"
+          {...register("lastname")}
+        />
+        <div className={`mt-2 text-danger block text-sm`}>
+          {errors?.lastname?.message}
+        </div>
+      </div>
+    </div>
+
+    <div className="row w-100">
+      <input
+        className={styles.enterName}
+        placeholder="Email Address"
+        type="text"
+        {...register("email")}
+      />
+      <div className={`mt-2 text-danger block text-sm`}>
+        {errors?.email?.message}
+      </div>
+    </div>
+
+    <div className="row w-100">
+      <input
+        className={styles.enterName}
+        placeholder="Your Query"
+        type="text"
+        {...register("query")}
+      />
+      <div className={`mt-2 text-danger block text-sm`}>
+        {errors?.query?.message}
+      </div>
+    </div>
+
+    <div className="row w-100">
+      <textarea
+        className={styles.writeHereInput}
+        placeholder="Your Message Here"
+        {...register("message")}
+      />
+      <ToastContainer />
+      <div className={`mt-2 text-danger block text-sm`}>
+        {errors?.message?.message}
+      </div>
+    </div>
+
+    <div className={styles.privacyPolicyText}>
+      <div className={styles.byTappingSubmitContainer}>
+        <p className={styles.byTappingSubmit}>
+          {`By tapping Submit, you agree to the following `}
+        </p>
+        <p className={styles.privacyPolicyTermsCondi}>
+          <Link to="/PrivacyPolicy">
+            <b className={styles.privacyPolicy}>{`Privacy Policy `}</b>
+          </Link>
+          <span className={styles.span}>{`&`}</span>
+          <Link to="/TermAndCondition">
+            <b className={styles.termsConditions}>{` Terms & Conditions`}</b>
+          </Link>
+        </p>
+      </div>
+      <button className={styles.am} type="submit">
+        <b className={styles.contactUs}>Submit</b>
+        <img className={styles.amChild} alt="" src="/group-457.svg" />
+      </button>
+    </div>
+  </div>
+</form>
+
+
         </div>
         </div>
         

@@ -350,7 +350,7 @@ body {
 }
 
 .map{
-  height: 270vh;
+  height: 100vh;
   filter: grayscale(100%) invert(7%) contrast(100%)!important;
 }
 
@@ -367,6 +367,7 @@ body {
 
 
 @media screen and (max-width:1398px) {
+  
   .swiper-slide
   {
     width: 440px!important;
@@ -385,9 +386,12 @@ body {
   }
 }
 
-@media screen and (max-width:1020) {
+@media screen and (max-width:1020px) {
   
-  
+  .map{
+    height: 320vh;
+    filter: grayscale(100%) invert(7%) contrast(100%)!important;
+  }
   .swipeaa
   {
     width: 280px!important;
@@ -505,7 +509,7 @@ body {
 
 @media screen and (max-width:580px) {
   .map{
-    height: 230vh;
+    height: 280vh;
     /* filter: grayscale(100%) invert(7%) contrast(100%)!important; */
   }
   

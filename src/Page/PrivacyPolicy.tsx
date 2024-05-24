@@ -26,7 +26,7 @@ function PrivacyPolicy() {
     <div className="container mt-5 pt-4">
         <section className={styles.span_disc}>
         <p className={ `${styles.p_tags} text-white`}>
-        <strong>PRIVACY POLICY:</strong><br/><br/>
+        <strong>Privacy Policy:</strong><br/><br/>
         
 Last updated: 11th November 2022 BlackPerl DFIR operates https://blackperldfir.comThis privacy policy sets out how we use and protect any information that you give BlackPerl DFIR when you use this website.
 <br/><br/>
