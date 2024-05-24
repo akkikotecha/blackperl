@@ -12,7 +12,7 @@ function Services() {
   return (
     <>
       <Navbar />
-      <section className={`${styles.dataMerger} mt-5`}>
+      <section className={`${styles.dataMerger}`}>
         <h1 className={styles.weStrengthenOrganisationContainer}>
           <p className={styles.weStrengthen}>SERVICES</p>
         </h1>

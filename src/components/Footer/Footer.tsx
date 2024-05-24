@@ -41,7 +41,7 @@ const FooterSection: FunctionComponent = () => {
 
       <div className={styles.reviewsParent}>
       <Link to="/about"><h3 className={styles.aboutUs}>About us</h3></Link>
-      <Link to="/"><h3 className={styles.services}>Services</h3></Link>
+      <Link to="/Services"><h3 className={styles.services}>Services</h3></Link>
       <Link to="/GetInTouch"> <h3 className={styles.contact}>Contact</h3></Link>
       </div>
     </div>

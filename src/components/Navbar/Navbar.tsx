@@ -71,7 +71,7 @@ const GroupComponent: FunctionComponent = () => {
             About Us
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/Services">
           <div
             className={
               location.pathname === "/Services"
@@ -275,9 +275,9 @@ const GroupComponent: FunctionComponent = () => {
                 </div>
               </Link>
             </div>
-            <div className={[styles.services, styles.hover].join(" ")}>
+            <Link to="/Services"><div className={[styles.services, styles.hover].join(" ")}>
               <div className={styles.services1}>Services</div>
-            </div>
+            </div></Link>
             <div
               className={[styles.training, styles.hover].join(" ")}
               onMouseEnter={() => setIsSubMenuOpen(true)}
