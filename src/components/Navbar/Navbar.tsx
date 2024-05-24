@@ -276,7 +276,11 @@ const GroupComponent: FunctionComponent = () => {
               </Link>
             </div>
             <Link to="/Services"><div className={[styles.services, styles.hover].join(" ")}>
-              <div className={styles.services1}>Services</div>
+              <div className={
+                    location.pathname === "/Services"
+                      ? `${styles.services1} ${styles.greenMenu}`
+                      : styles.services1
+                  }>Services</div>
             </div></Link>
             <div
               className={[styles.training, styles.hover].join(" ")}
