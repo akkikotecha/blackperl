@@ -26,7 +26,7 @@ import { useEffect } from "react";
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainer}>
-            <p className={styles.weStrengthen}>BlackPerl Certified Advanced Defender- Cyber Career Surge Framework</p>
+            <p className={styles.weStrengthen}>Tactical Threat Intelligence Analyst</p>
           </h1>
           <div className={styles.row_right}>
             <div className={`${styles.flex_row} ${styles['col-2']}`}>
@@ -46,7 +46,8 @@ import { useEffect } from "react";
         
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainerSmall}>
-            <p className={styles.weStrengthen}>BCAD-Accelerated is a fast track version of BCAD which is a vendor-neutral, hands-on Blue Team/InfoSec training and certification Program. It is designed to prepare the next generation of SOC analysts, security blue teams, threat hunters, and DFIR professionals. This program is also defined for someone who wants to switch their career from any other IT background to Cyber Security.</p>
+            <p className={styles.weStrengthen}>The course is aimed to provide learners with comprehensive knowledge and practical skills in the subject of threat intelligence. This course takes you from novice to expert, from learning the principles to hands-on experience.
+</p>
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>

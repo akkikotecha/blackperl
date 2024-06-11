@@ -6,16 +6,27 @@ import Relation from '../TTIARelation/TTIARelation'
 import certificate_1 from '../../../public/training/certificate_1.png';
 import certificate_2 from '../../../public/training/certificate_2.png';
 
-
-
-
-import {Icon} from 'react-fa'
+// import {Icon} from 'react-fa'
 const TiteCourseSummary: FunctionComponent = () => {
   return (
     <>
       <section className={styles.span_disc}>
         <p className={styles.p_tags}>
-        This is a 3 months (2+1) intensive, career driven training program which introduces you to real-world cyber threats, defenders experience in their networks and the tools used to defend against them. You will learn defense strategies, threat-hunting techniques, adversary detection, and how to investigate security intrusions and perform forensic analysis through real world experience. You choose a training plan based on your need and get engaged with us and we will take walk with you to redefine your career.
+        Cyber Threat Intelligence (CTI) refers to the knowledge and information collected, analyzed, and disseminated regarding potential cyber threats and risks that could pose harm to an organization's information systems, networks, and overall cybersecurity posture. CTI is a proactive approach to understanding and mitigating cybersecurity threats by providing relevant and timely information to decision-makers.<br/><br/>
+
+Key aspects of Cyber Threat Intelligence include:<br/><br/>
+1. Data Collection:  Gathering data from various sources, such as open-source intelligence (OSINT), dark web monitoring, incident reports, malware analysis, and information sharing platforms.<br/><br/>
+2. Analysis:  Analyzing collected data to identify patterns, trends, and potential indicators of compromise (IoCs) that could signify a cyber threat.<br/><br/>
+3. Contextualization: Providing context to the raw data by understanding the motives, tactics, techniques, and procedures (TTPs) of threat actors. This involves understanding the "who, what, where, when, why, and how" of cyber threats.<br/><br/>
+4. Threat Indicators: Identifying specific indicators of compromise (IoCs) that can be used to detect and respond to ongoing or future cyber attacks. These indicators might include IP addresses, malware signatures, patterns of behavior, etc.<br/><br/>
+5. Information Sharing:  Sharing threat intelligence with relevant stakeholders, both within an organization and across the broader cybersecurity community. Collaborative sharing helps create a collective defense against cyber threats.<br/><br/>
+6. Tactical, Operational, and Strategic Intelligence:  Providing intelligence at different levels to cater to various stakeholders' needs. Tactical intelligence assists in immediate incident response, operational intelligence supports ongoing security operations, and strategic intelligence aids in long-term planning and risk management.<br/><br/>
+7. Risk Mitigation: Enabling organizations to make informed decisions to proactively mitigate cyber risks and enhance their overall cybersecurity posture.
+<br/><br/>
+Cyber Threat Intelligence is crucial for organizations to stay ahead of evolving cyber threats, understand their threat landscape, and take proactive measures to protect their information assets. It involves a combination of technology, processes, and human expertise to effectively gather, analyze, and act upon relevant threat information.
+<br/><br/>
+This Course will explore the complexities of threat intelligence, including terminologies, intelligence types, frameworks, Dark Web research, data collecting methodologies, hands-on tools, and practical case studies. The course concludes with a detailed examination of a real-world threat scenario.
+
 
 
         </p>
@@ -37,7 +48,8 @@ const TiteCourseSummary: FunctionComponent = () => {
                         </div>
                         <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
-                          Security (SOC) analysts and Blue Teams
+                          Ideal for cybersecurity enthusiasts and researchers, analysts, IT administrators
+
                           </h5>
                         </div>
                       </div>
@@ -53,7 +65,8 @@ const TiteCourseSummary: FunctionComponent = () => {
                         </div>
                         <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
-                          Threat Hunters
+                          Any individual interested in learning more about cyber threats.
+
                           </h5>
                         </div>
                       </div>
@@ -69,55 +82,8 @@ const TiteCourseSummary: FunctionComponent = () => {
                         </div>
                         <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
-                          Digital forensic and incident response (DFIR) professionals
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Security Engineers
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Aspiring SOC Leads
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Someone looking to transition their career to Cyber Security
+                          This course is designed for both beginners and intermediate-level attendees who want to learn practical threat intelligence skills.
+
                           </h5>
                         </div>
                       </div>
@@ -140,8 +106,7 @@ const TiteCourseSummary: FunctionComponent = () => {
                         </div>
                         <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
-                            Basic understanding of Windows and Linux operating
-                            systems.
+                          Participants should be familiar with basic cybersecurity concepts.
                           </h5>
                         </div>
                       </div>
@@ -157,8 +122,7 @@ const TiteCourseSummary: FunctionComponent = () => {
                         </div>
                         <div className="col-lg-11  col-md-11 px-0">
                           <h5 className={styles.title_flex}>
-                            Basic understanding of Networking, TCP/IP Protocols,
-                            IT Infrastructure will work as a Plus
+                          For hands-on sessions, a laptop with internet connectivity is essential.
                           </h5>
                         </div>
                       </div>
@@ -174,7 +138,7 @@ const TiteCourseSummary: FunctionComponent = () => {
                         </div>
                         <div className="col-lg-11  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
-                          Hunger for learning, problem solving skills for Assessment Challenges
+                          Virtual Box/VMWare
                           </h5>
                         </div>
                       </div>
@@ -190,57 +154,7 @@ const TiteCourseSummary: FunctionComponent = () => {
                         </div>
                         <div className="col-lg-11  col-md-11 px-0">
                           <h5 className={styles.title_flex}>
-                          Familiarity with basic system administration, networks, and security concepts.
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11   col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Own Laptop/PC with minimum of 8GB RAM, with Admin Access. For smooth access on the work, we would like to dedicate 4GB RAM to the VMs.
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-4  col-md-9 px-0">
-                          <h5 className={styles.title_flex}>
-                          Download Oracle Virtual Box using the 
-
-                          </h5>
-                        </div>
-                        <div className="col-lg-4  col-md-2 px-0"><span><a href="#" className={styles.LinkSet}>Link   <Icon name="arrow-right" className={styles.rotated_icon} /></a></span></div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Good broadband/internet speed, microphone to talk to the instructors.
+                          All other materials would be delivered during the session
                           </h5>
                         </div>
                       </div>
@@ -392,279 +306,27 @@ const TiteCourseSummary: FunctionComponent = () => {
             </Accordion.Body> */}
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header>
-              Program Engagement Options -<br />
-              Choose what you need
-            </Accordion.Header>
-            <Accordion.Body>
-            <Accordion className="AccordionSub">
-                <Accordion.Item eventKey="77">
-                  <Accordion.Header className="AccordionTitle">
-                  Accelerated Engagement- Rs 20060 / USD 240
-                  </Accordion.Header>
-                  <Accordion.Body>
-                  <div className={styles.row}>
-                      <div className="row col-lg-12">
-                        <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          3 Months Engagement
-
-
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          300 GB+ Practice Dataset and 100+ Modules
-
-
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Self Paced learning with full recording of the Live Program for 1 Year
-
-
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Weekly 2 Live Session for Mentorship, Doubt Clearance and QnA
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11   col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Total 30+ hours of Live Interaction
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Join and Take the assessments (Total 10) on the scheduled dates
-
-                          </h5>
-                        </div>
-                        
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Take the Final Assessment which will mimic a Real world DFIR Engagement. Attempt it, prepare report and submit to us.
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          BCAD Certification upon clearing the Final Assessment. 2 attempts included
-                          </h5>
-                        </div>
-                      </div>
+          <Accordion.Header>How this can be beneficial for students?</Accordion.Header>
+          <Accordion.Body>
+          <div className={styles.row}>
+                      <p className={`${styles.p_tags} mt-0 pt-0`}>Participants will develop practical threat intelligence capabilities, allowing them to successfully identify and respond to online threats. The course provides a solid foundation for cybersecurity jobs and equips students to actively contribute to their organization's security posture and follow a career path as threat analyst or cyber threat intelligence researcher</p>
                     </div>
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="88">
-                  <Accordion.Header className="AccordionTitle">
-                  More Keynotes about the Program
-                  </Accordion.Header>
-                  <Accordion.Body>
-                  <div className={styles.row}>
-                      <div className="row col-lg-12">
-                        <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Learn using the best Industry relevant usecases
-
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          learn at your own pace but get Live Mentorship and guidance
-
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0">
-                          <h5 className={styles.title_flex}>
-                          Come with basic knowledge, learn with us from the dedicatedly curated Syllabus
-
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Program Start Date- 1st week of May 2024| Program End Date- Last week of June, 2024
-
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11   col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Minimum 5 Curated Assessments included from the base course to boost your knowledge
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </Accordion.Body>
+                    </Accordion.Body>
+          
           </Accordion.Item>
-          {/* <Accordion.Item eventKey="3">
-            <Accordion.Header>
-              Career Ready Engagement -<br />
-              Rs 74670 / USD 899
-            </Accordion.Header>
-            <Accordion.Body>
-            <p className={`${styles.p_tags} mt-0 pt-0`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </Accordion.Body>
-          </Accordion.Item> */}
+         
+          
         </Accordion>
 
       
        
       </section>
       
-      <section className={` ${styles.contentBoxes}`}>
+      <section className={` ${styles.contentBoxes} pt-2`}>
         <div className={styles.frameParent}>
           <b className={styles.learner}>Reviews</b>
           <b className={styles.whatRelationsAreContainer}>
-            <p className={styles.whatRelations}>BCAD Course</p>
+            <p className={styles.whatRelations}>TTIA Course</p>
             <p className={styles.areTelling}>Reviews</p>
           </b>
         </div>
@@ -675,14 +337,17 @@ const TiteCourseSummary: FunctionComponent = () => {
         <div className={styles.frameParent}>
           <b className={styles.whatRelationsAreContainer}>
             <p className={styles.whatRelations}>Get Certified</p>
-            <p className={styles.p_tags_certificate}>
-            The course is designed to equipt you all necessary skills to showcase excellence in your work! Once the course is completed, you will be certified from our vendor partner Certifier Grab Digital Badges- Gold, Silver, Bronze Category After Challenging yourself on the Final Assessment
+            <p className={`${styles.p_tags_certificate} mb-5`}>
+            Once you complete the 2 days Live session, you will be given a course assessment which will be hands-on. Once you clear the assessment and submit the report with a 70% score; you will be awarded with a course completion certificate. It won't be any MCQ!! You will be doing real Threat Intel work and need to submit a report. And you will have 3 attempts to clear the assessment. Once you submit the report, you will get feedback within 1 business day from us and if you are not clearing it, you can reattempt.<br/><br/>
+
+Since you will have 30 days of access of the recorded session; you should complete the assessment within this time frame.
+
         </p>
           </b>
         </div>
         
       </section>
-      <div className={styles.span_disc}>
+      <div className={`${styles.span_disc} mt-4`}>
         <div className="row mt-5 mb-5 pb-5 pt-3">
           <div className="col-lg-9 px-0 col-md-9">
               <img src={certificate_1} className={styles.certificateWidthMain}/>

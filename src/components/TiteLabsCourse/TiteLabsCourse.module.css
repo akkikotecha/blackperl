@@ -389,9 +389,20 @@
   text-transform: uppercase;
   margin-bottom: 0px;
 }
+
+.BcadLabsText
+{
+  font-size: 42px;
+  color: var(--white);
+  text-align: left;
+  font-family: "Pilat Wide";
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
 .SetupIn
 {
-  font-size: 32px;
+  font-size: 26px;
   color: var(--green);
   text-transform: uppercase;
   font-weight: bolder;
