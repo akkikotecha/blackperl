@@ -4,7 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import BcdeCourseSummary from '../BcdeCourseSummary/BcdeCourseSummary'
 import BcdeLabsCourse from '../BcdeLabsCourse/BcdeLabsCourse'
-import BcdeToolsCoverd from '../BcdeToolsCoverd/BcdeToolsCoverd'
+// import BcdeToolsCoverd from '../BcdeToolsCoverd/BcdeToolsCoverd'
 import BcdeFaqTab from '../BcdeFaqTab/BcdeFaqTab'
 import BcdeInstructors from '../BcdeInstructors/BcdeInstructors'
 
@@ -25,9 +25,9 @@ const BcdeTrainingTab: FunctionComponent = () => {
       <Tab eventKey="LABS/ COURSe" title="LABS/ COURSe">
       <BcdeLabsCourse />
       </Tab>
-      <Tab eventKey="Tools Covered" title="Tools Covered">
+      {/* <Tab eventKey="Tools Covered" title="Tools Covered">
       <BcdeToolsCoverd />
-      </Tab>
+      </Tab> */}
       <Tab eventKey="Instructors" title="Instructors">
       <BcdeInstructors />
       </Tab>
