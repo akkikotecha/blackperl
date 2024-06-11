@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./BcdeLabsCourse.module.css";
-import Carousel from "../BcdelabsCourseCarousel/BcdelabsCourseCarousel";
+// import Carousel from "../BcdelabsCourseCarousel/BcdelabsCourseCarousel";
 const BcdeLabsCourse: FunctionComponent = () => {
   return (
     <>
