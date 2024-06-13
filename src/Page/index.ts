@@ -12,3 +12,4 @@ export { default as ReviewAll } from "./ReviewAll";
 export { default as TermAndCondition } from "./TermAndCondition";
 export { default as PrivacyPolicy } from "./PrivacyPolicy";
 export { default as Services } from "./services";
+export { default as AcademicCollbration } from "./academicCollbration";

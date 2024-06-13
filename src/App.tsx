@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import { AboutUs, Home,LiveTrainning,Training,Review,GetInTouch,Certification,BCCD,BCDE,TTIA,ReviewAll,TermAndCondition,PrivacyPolicy,Services } from "./Page";
+import { AboutUs, Home,LiveTrainning,Training,Review,GetInTouch,Certification,BCCD,BCDE,TTIA,ReviewAll,TermAndCondition,PrivacyPolicy,Services,AcademicCollbration } from "./Page";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       <Route path="/TermAndCondition" element={<TermAndCondition />} />
       <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       <Route path="/Services" element={<Services />} />
+      <Route path="/academicCollbration" element={<AcademicCollbration />} />
     </Routes>
   );
 }

@@ -5,6 +5,7 @@ export { default as Services } from "./Services/index";
 export { default as HowAreWeDiffenrent } from "./HowAreWeDiffenrent";
 export { default as MainSection } from "./MainSection/MainSection";
 export { default as PortfolioServices } from "./PortfolioServices";
+export { default as ColbratorServices } from "./ColbratorServices";
 export { default as Relation } from "./Relations/Relation";
 export { default as TTIARelation } from "./TTIARelation/TTIARelation";
 export { default as ReviewCertificate } from "./Review/ReviewCertificate";

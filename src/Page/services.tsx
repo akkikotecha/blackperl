@@ -3,6 +3,7 @@ import styles from "./css/Services.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "./css/Services.module.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Services() {
   useEffect(() => {
@@ -69,30 +70,12 @@ CERTIFICATION
         </div>
 
 
-        <div className={`row mt-5 pt-5 ${styles.postionSetRelative}`}>
-          <div className="col-lg-5 col-md-6 p-4 pt-5">
-            <img src="./portfolio/porfolio_3.png" />
-          </div>
-          <div className="col-lg-7 col-md-6 p-4 pt-5">
-            <h1 className={styles.title_text}>
-            LIVE TRAINING & <br/>
-            CERTIFICATION
-            </h1>
-            <p className={styles.title_p}>
-              You will get our custom tools, software, virtual machines images,
-              sample analysis data sets, logs which will can be around 100+ GBs.
-              You will get our custom tools, software, virtual machines images,
-              sample analysis data sets, logs which will can be around 100+ GBs.
-            </p>
-
-            <button className={`${styles.am} ms-auto`}>
-              <b className={styles.contactUs}>Read More</b>
-              <img className={styles.amChild} alt="" src="/group-457.svg" />
-            </button>
-          </div>
-        </div>
 
         <div className={`row mt-5 pt-5 pb-5 ${styles.postionSetRelative}`}>
+       
+          <div className="col-lg-5 col-md-6 p-4 pt-5">
+            <img src="./portfolio/porfolio_4.png" />
+          </div>
           <div className="col-lg-7 col-md-6 p-4 pt-5">
             <h1 className={styles.title_text}>
             Academic <br/>
@@ -101,16 +84,11 @@ collaboration
             <p className={styles.title_p}>
             You will get our custom tools, software, virtual machines images, sample analysis data sets, logs which will can be around 100+ GBs.You will get our custom tools, software, virtual machines images, sample analysis data sets, logs which will can be around 100+ GBs.
             </p>
-
-            <button className={styles.am}>
+            <Link to="/AcademicCollbration"><button className={styles.am}>
               <b className={styles.contactUs}>Read More</b>
               <img className={styles.amChild} alt="" src="/group-457.svg" />
-            </button>
+            </button></Link>
           </div>
-          <div className="col-lg-5 col-md-6 p-4 pt-5">
-            <img src="./portfolio/porfolio_4.png" />
-          </div>
-          
         </div>
 
       </div>
