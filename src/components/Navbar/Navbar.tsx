@@ -91,7 +91,7 @@ const GroupComponent: FunctionComponent = () => {
               location.pathname === "/LiveTrainning" ||
               location.pathname === "/Certification" ||
               location.pathname === "/BCAD" ||
-              location.pathname === "/BCCD" ||
+              location.pathname === "/BPCD" ||
               location.pathname === "/BCDE" ||
               location.pathname === "/TTIA"
                 ? `${styles.aboutUs1} ${styles.borderBottom} ${styles.greenMenu}  pt-4`
@@ -138,7 +138,7 @@ const GroupComponent: FunctionComponent = () => {
                   className={
                     location.pathname === "/LiveTrainning" ||
                     location.pathname === "/BCAD" ||
-                    location.pathname === "/BCCD" ||
+                    location.pathname === "/BPCD" ||
                     location.pathname === "/BCDE" ||
                     location.pathname === "/TTIA"
                       ? `${styles.aboutUs1} ${styles.borderBottom} ${styles.greenMenu}   pt-4`
@@ -166,14 +166,14 @@ const GroupComponent: FunctionComponent = () => {
                   BCAD
                 </div>
               </Link>
-                    {/* <Link to="/BCCD"> */}
+                    {/* <Link to="/BPCD"> */}
                 <div
                   className={
                     `${styles.reviews1} ${styles.borderBottom} text-white pt-4`
                   }
                   onClick={handleShow}
                 >
-                   BCCD
+                   BPCD
                 </div>
               {/* </Link> */}
                     <Link to="/BCDE">
@@ -292,7 +292,7 @@ const GroupComponent: FunctionComponent = () => {
                   location.pathname === "/LiveTrainning" ||
                   location.pathname === "/Certification" ||
                   location.pathname === "/BCAD" ||
-                  location.pathname === "/BCCD" ||
+                  location.pathname === "/BPCD" ||
                   location.pathname === "/BCDE" ||
                   location.pathname === "/TTIA"
                     ? `${styles.training1} ${styles.greenMenu}`
@@ -367,13 +367,13 @@ const GroupComponent: FunctionComponent = () => {
                         <div
                           style={{ cursor: "pointer", color: "white" }}
                           className={
-                            location.pathname === "/BCCD"
+                            location.pathname === "/BPCD"
                               ? `${styles.subMenuItem}`
                               : styles.subMenuItem
                           }
                           onClick={handleShow}
                         >
-                          BCCD
+                          BPCD
                         </div>
 
                         <Link to="/BCDE">
@@ -447,7 +447,7 @@ const GroupComponent: FunctionComponent = () => {
           <Modal.Body className={styles.ModalCurv}>
             {/* <h4>JOIN OUR</h4> */}
             <h1 className={styles.data_box}>
-              <p className={styles.title_text}>BCCD</p>
+              <p className={styles.title_text}>BPCD</p>
               <p className={styles.title_text_2}>COMING SOON!</p>
             </h1>
           </Modal.Body>

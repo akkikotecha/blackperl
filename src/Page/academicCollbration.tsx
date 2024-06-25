@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./css/academicCollbration.module.css";
 import Carousel from "../components/ColbratorServices/Service";
 import { Tab, Tabs } from "react-bootstrap";
+import { useEffect } from "react";
 
 // import { useEffect } from "react";
 // import { Link } from "react-router-dom";
@@ -674,50 +675,12 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              Check point Software Technologies
             </h1>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
-            </h1>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
-            </h1>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
-            </h1>
-              </div>
-            </div>
-          </div>
+
         </div>
       </Tab>
       <Tab eventKey="Finance and Banking" title="Finance and Banking">
@@ -730,7 +693,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              JPMorgan Chase
             </h1>
               </div>
             </div>
@@ -743,7 +706,8 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
+              Goldman Sachs
+
             </h1>
               </div>
             </div>
@@ -756,7 +720,8 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
+              Bank of America
+
             </h1>
               </div>
             </div>
@@ -769,7 +734,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
+              Citigroup
             </h1>
               </div>
             </div>
@@ -782,7 +747,8 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              Wells Fargo
+
             </h1>
               </div>
             </div>
@@ -795,7 +761,8 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
+              ICICI Bank
+
             </h1>
               </div>
             </div>
@@ -808,7 +775,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
+              Barclays
             </h1>
               </div>
             </div>
@@ -821,7 +788,8 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
+              Bandhan Bank
+
             </h1>
               </div>
             </div>
@@ -839,7 +807,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              Cerner Corporation
             </h1>
               </div>
             </div>
@@ -852,7 +820,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
+              Siemens Healthineers
             </h1>
               </div>
             </div>
@@ -865,7 +833,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
+              Philips Healthcare
             </h1>
               </div>
             </div>
@@ -878,7 +846,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
+              McKesson Corporation
             </h1>
               </div>
             </div>
@@ -891,46 +859,8 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
-            </h1>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
-            </h1>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
-            </h1>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
+              Epic Systems Corporation
+
             </h1>
               </div>
             </div>
@@ -948,7 +878,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              Lockheed Martin
             </h1>
               </div>
             </div>
@@ -961,7 +891,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
+              Northrop Grumman Corporation
             </h1>
               </div>
             </div>
@@ -974,7 +904,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
+              Raytheon Technologies
             </h1>
               </div>
             </div>
@@ -987,7 +917,8 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
+              BAE Systems
+
             </h1>
               </div>
             </div>
@@ -1000,50 +931,13 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              Booz Allen Hamilton
+
             </h1>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
-            </h1>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
-            </h1>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 mt-4">
-            <div className={styles.positionRealtive}>
-              <img
-                src="./collbrator/button-confirm.svg"
-                className={styles.positionRealtive}
-              />
-              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
-              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
-            </h1>
-              </div>
-            </div>
-          </div>
+
         </div>
       
       </Tab>
@@ -1057,7 +951,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              Amazon Web Services (AWS)
             </h1>
               </div>
             </div>
@@ -1070,7 +964,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
+              Walmart
             </h1>
               </div>
             </div>
@@ -1083,7 +977,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
+              Alibaba Group
             </h1>
               </div>
             </div>
@@ -1096,7 +990,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
+              eBay Inc
             </h1>
               </div>
             </div>
@@ -1109,7 +1003,65 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Cisco Systems
+              Shopify
+            </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </Tab>
+      <Tab eventKey="Telecommunications" title="Telecommunications">
+      <div className={`row mt-0 pt-5 pb-5 px-5`}>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Verizon Communications
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              AT&T
+
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              T-Mobile
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Orange S.A
             </h1>
               </div>
             </div>
@@ -1122,7 +1074,66 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Palo Alto Networks
+              Vodafone Group
+
+            </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </Tab>
+      <Tab eventKey="Energy and Utilities" title="Energy and Utilities">
+      <div className={`row mt-0 pt-5 pb-5 px-5`}>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Siemens Energy
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Schneider Electric
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Duke Energy Corporation
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Exelon Corporation
+
             </h1>
               </div>
             </div>
@@ -1135,7 +1146,67 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              Symantec Corporation
+              General Electric (GE) Power
+            </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </Tab>
+      <Tab eventKey="Manufacturing" title="Manufacturing">
+      <div className={`row mt-0 pt-5 pb-5 px-5`}>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              General Motors (GM)
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Toyota Motor Corporation
+
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Ford Motor Company
+
+            </h1>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className={styles.positionRealtive}>
+              <img
+                src="./collbrator/button-confirm.svg"
+                className={styles.positionRealtive}
+              />
+              <div className={`${styles.indexTopTab} ps-3 mt-3`}>
+              <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
+              Siemens AG
+
             </h1>
               </div>
             </div>
@@ -1148,7 +1219,7 @@ function AcademicCollbration() {
               />
               <div className={`${styles.indexTopTab} ps-3 mt-3`}>
               <h1 className={`${styles.title_text_tab} mt-2 ps-2`}>
-              McAfee
+              Bosch Group
             </h1>
               </div>
             </div>

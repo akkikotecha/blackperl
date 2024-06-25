@@ -342,7 +342,7 @@ body {
 }
   .title_text_tab
 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   color:#fff;
   text-transform: uppercase;
@@ -533,10 +533,7 @@ body {
     font-weight: 600;
     color: #fffE;
     text-align: center;
-
-    /* text-transform: uppercase; */
-    /* font-family: var(--font-pilat-wide); */
-
+    line-height: 29px;
   }
   .organisationImage {
     margin: 0;
@@ -749,6 +746,10 @@ body {
   }
 
   @media (max-width:1398px) {
+    .title_text_tab
+    {
+      font-size: 22px;
+    }
     .PopularSet
     {
       right: 0%;
@@ -760,6 +761,10 @@ body {
     }
   }
   @media screen and (max-width:1250px) {
+    .title_text_tab
+    {
+      font-size: 18px;
+    }
     .PopularPriceChooseButton
   {
     margin-bottom:21%;

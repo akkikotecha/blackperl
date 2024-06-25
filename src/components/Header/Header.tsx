@@ -51,7 +51,7 @@ const FrameTitle: FunctionComponent = () => {
               className={styles.image11Icon}
               loading="lazy"
               alt=""
-              src="/image-11@2x.png"
+              src="/Badge.png"
             />
             <Link to="/BCAD"><button className={styles.column}>
               <b className={styles.knowMore}>Know more</b>
