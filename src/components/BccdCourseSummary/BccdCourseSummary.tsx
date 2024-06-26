@@ -457,7 +457,7 @@ const CourseSummary: FunctionComponent = () => {
         <div className={styles.frameParent}>
           <b className={styles.learner}>Reviews</b>
           <b className={styles.whatRelationsAreContainer}>
-            <p className={styles.whatRelations}>BCAD Course</p>
+            <p className={styles.whatRelations}>BPCD Course</p>
             <p className={styles.areTelling}>Reviews</p>
           </b>
         </div>
