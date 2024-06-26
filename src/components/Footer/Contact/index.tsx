@@ -85,7 +85,9 @@ const OurLogoFrame: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.contactForm}>
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+        <form onSubmit={handleSubmit(onSubmit)} className={`space-y-4 ${styles.width_100}`}>
+        <ToastContainer />
+
           <div className={styles.nameInputField}>
             <div className={styles.phoneNumberFrame}>
               <input
@@ -143,7 +145,6 @@ const OurLogoFrame: FunctionComponent = () => {
                 >{` Terms & Conditions`}</b></Link>
               </p>
             </div>
-            <ToastContainer />
             <button type="submit">
               <img
                 className={styles.privacyPolicyTextChild}

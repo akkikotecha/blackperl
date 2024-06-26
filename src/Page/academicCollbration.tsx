@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./css/academicCollbration.module.css";
 import Carousel from "../components/ColbratorServices/Service";
 import { Tab, Tabs } from "react-bootstrap";
-import { useEffect } from "react";
 
 // import { useEffect } from "react";
 // import { Link } from "react-router-dom";
@@ -91,7 +90,7 @@ function AcademicCollbration() {
             <div className="row">
               <div
                 className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
-                style={{ width: "55px" }}>
+                style={{ width: "45px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
@@ -107,7 +106,7 @@ function AcademicCollbration() {
             <div className="row mt-4">
               <div
                 className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
-                style={{ width: "55px" }}>
+                style={{ width: "45px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
@@ -123,7 +122,7 @@ function AcademicCollbration() {
             <div className="row mt-4">
               <div
                 className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
-                style={{ width: "55px" }}>
+                style={{ width: "45px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
@@ -138,7 +137,7 @@ function AcademicCollbration() {
             <div className="row mt-4">
               <div
                 className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
-                style={{ width: "55px" }}>
+                style={{ width: "45px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
@@ -153,7 +152,7 @@ function AcademicCollbration() {
             <div className="row mt-4">
               <div
                 className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
-                style={{ width: "55px" }}>
+                style={{ width: "45px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
@@ -228,7 +227,7 @@ function AcademicCollbration() {
                 </p>
                 <div className="row mt-4">
                   <div
-                    className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
+                    className={`col-lg-2 col-md-2 width-set ${styles.width_set_small_size} pe-0 mt-1`}
                     style={{ width: "36px" }}>
                     <img
                       className={styles.float_img}
@@ -241,7 +240,7 @@ function AcademicCollbration() {
                 </div>
                 <div className="row mt-3">
                   <div
-                    className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
+                    className={`col-lg-2 col-md-2 width-set ${styles.width_set_small_size} pe-0 mt-1`}
                     style={{ width: "36px" }}>
                     <img
                       className={styles.float_img}
@@ -254,7 +253,7 @@ function AcademicCollbration() {
                 </div>
                 <div className="row mt-3">
                   <div
-                    className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
+                    className={`col-lg-2 col-md-2 width-set ${styles.width_set_small_size} pe-0 mt-1`}
                     style={{ width: "36px" }}>
                     <img
                       className={styles.float_img}
@@ -267,7 +266,7 @@ function AcademicCollbration() {
                 </div>
                 <div className="row mt-3">
                   <div
-                    className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
+                    className={`col-lg-2 col-md-2 width-set ${styles.width_set_small_size} pe-0 mt-1`}
                     style={{ width: "36px" }}>
                     <img
                       className={styles.float_img}
@@ -286,7 +285,7 @@ function AcademicCollbration() {
                 </p>
                 <div className="row mt-4">
                   <div
-                    className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
+                    className={`col-lg-2 col-md-2 width-set ${styles.width_set_small_size}  pe-0 mt-1`}
                     style={{ width: "36px" }}>
                     <img
                       className={styles.float_img}
@@ -299,7 +298,7 @@ function AcademicCollbration() {
                 </div>
                 <div className="row mt-3">
                   <div
-                    className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
+                    className={`col-lg-2 col-md-2 width-set  ${styles.width_set_small_size} pe-0 mt-1`}
                     style={{ width: "36px" }}>
                     <img
                       className={styles.float_img}
@@ -314,7 +313,7 @@ function AcademicCollbration() {
                 </div>
                 <div className="row mt-3">
                   <div
-                    className={`col-lg-2 col-md-2 width-set pe-0 mt-1`}
+                    className={`col-lg-2 col-md-2 width-set ${styles.width_set_small_size} pe-0 mt-1`}
                     style={{ width: "36px" }}>
                     <img
                       className={styles.float_img}
@@ -330,7 +329,7 @@ function AcademicCollbration() {
           </div>
         </div>
       </div>
-      <div className="container ps-5">
+      <div className={`${styles.container_left} container  ps-5` }>
         <div className={`row ${styles.backgroundChange} ms-1`}>
           <div className="col-lg-5 col-md-6 p-5 pt-5 mb-5 mt-5">
             <h1 className={`${styles.title_text} pt-3 mt-2 `}>

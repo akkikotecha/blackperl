@@ -8,10 +8,10 @@ const EnrolNow = () => {
           <div className="col-lg-4 col-md-6  mt-5">
         <EnrolNowService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="BlackPerl Certified Advanced Defender- Cyber Career Surge Framework"
+          title="BlackPerl Certified Advanced Defender - Cyber Career Surge Framework"
           dis="BCAD is a vendor-neutral, hands-on Blue Team/InfoSec training and certification Program. It is designed to prepare the next generation of SOC analysts."
           img_url="../../../training/enrol_1.png"
-          title_image_url="../../../training/zero_to_hero.png"
+          title_image_url="../../../training/zero.png"
           redirectURL="BCAD"
         />
         </div>
@@ -19,10 +19,10 @@ const EnrolNow = () => {
      
          <EnrolNowService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="BlackPerl Certified Advanced Defender- Cyber Career Surge Framework"
+          title="BCDE- BLACKPERL <br/>CERTIFIED DETECTION <br/>ENGINEER<br/><br/>"
           dis="BCAD is a vendor-neutral, hands-on Blue Team/InfoSec training and certification Program. It is designed to prepare the next generation of SOC analysts."
-          img_url="../../../training/enrol_2.png"
-          title_image_url="../../../training/secondTraining.png"
+          img_url="../../../training/enrol_3.png"
+          title_image_url="../../../training/zero_to_hero.png"
           redirectURL="BCDE"
         />
          </div>
@@ -30,10 +30,10 @@ const EnrolNow = () => {
      
          <EnrolNowService
           // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="BlackPerl Certified Advanced Defender- Cyber Career Surge Framework"
+          title="TACTICAL THREAT INTELLIGENCE <br/>ANALYST<br/><br/>"
           dis="BCAD is a vendor-neutral, hands-on Blue Team/InfoSec training and certification Program. It is designed to prepare the next generation of SOC analysts."
-          img_url="../../../training/enrol_3.png"
-          title_image_url="../../../training/zero_to_hero.png"
+          img_url="../../../training/enrol_2.png"
+          title_image_url="../../../training/secondTraining.png"
           redirectURL="TTIA"
         />
         </div>

@@ -23,7 +23,7 @@ function Bcde() {
           <div className={`${styles.flex_row} ${styles["col-2"]}`}>
             <img
               className={styles.float_img}
-              src="../../../training/image_17.png"
+              src="../../../training/BCADD.png"
             />
           </div>
           <div className={`${styles.flex_row} ${styles["col-2"]}`}>

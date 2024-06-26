@@ -22,7 +22,7 @@ import { useEffect } from "react";
         <section className={styles.dataMerger}>
         <div className={styles.row}>
         <div className={`${styles.flex_row} ${styles['col-2']}`}>
-        <img className={styles.float_img} src='../../../training/image_17.png'/>
+        <img className={styles.float_img} src='../../../training/ttiaa.png'/>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainer}>

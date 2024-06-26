@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 export type DetectType = {
   img_url?: string;
   title_image_url?: string;
-  title?: string;
+  // title?: string;
+  title: string | TrustedHTML;
+
   dis?: string;
   redirectURL?: string;
 };
@@ -41,7 +43,7 @@ const EnrolNowService: FunctionComponent<DetectType> = ({
   </div>
   </div>
     <span className={styles.advance}>Beginner - Advanced</span>
-      <h1 className={styles.cards_title}>{title}</h1>
+      <h1 className={styles.cards_title} dangerouslySetInnerHTML={{__html: title}}></h1>
 
       <div className={styles.cards_content}>
         <p>

@@ -594,3 +594,113 @@ body {
     margin-top: 5px;
   }
 }
+
+
+
+.tagColor
+{
+  color: #00F38E!important;
+}
+.ModalCurv
+{
+  clip-path: polygon(76% 0, 104% 28.8%, 100% 100%, 0 100%, 0 0);
+  background: #00F38E;
+  width: 111%;
+  height: 100%;
+  position: relative;
+  padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+    border-radius: 13px;
+    margin-top: -40px;
+}
+.ModalCurv h1
+{
+  position: relative;
+  
+}
+.title_flex_1
+{
+  color: #fff !important;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.ModalCurv:before {
+  content: "";
+  width: 98.0%;
+  height: 95.5%;
+  -webkit-clip-path: polygon(75% 0, 104% 29.4%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(75% 0, 104% 29.4%, 100% 100%, 0 100%, 0 0);
+  background: #2d3344;
+  display: block;
+  position: absolute;
+  top: 3.3px;
+  left: 3.4px;
+  border-radius: 13px;
+}
+.positionFix
+{
+  /* padding-right: 70px!important; */
+  position: relative;
+  left: 35px;
+  top: -30px;
+
+  
+}
+
+.MainmodalCurv .modal-dialog .modal-content
+{
+  background-color: transparent;
+  border: none;
+}
+.ModalHeaderCurv
+{
+  background: transparent!important;
+}
+.frameF {
+  display: flex;
+  padding: 140px var(--padding-xl) 152px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-76xl);
+  color: var(--white);
+  font-family: var(--font-pilat-wide);
+}
+.rectangleB {
+  display: grid;
+  padding: 0 var(--padding-xl) var(--padding-281xl);
+  gap: 0 24px;
+  grid-template-columns: repeat(3, minmax(312px, 1fr));
+}
+.frameImage,
+.frameText,
+.howAre,
+.rectangleB {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.title_text
+{
+  font-size: 68px;
+  font-weight: 600;
+  color:#fff;
+  text-transform: uppercase;
+  font-family: var(--font-pilat-wide);
+  /* margin-top: 30px; */
+  margin-bottom: 0px;
+
+}
+.title_text_2
+{
+  font-size: 26px;
+  font-weight: 600;
+  color:#00F38E;
+  text-transform: uppercase;
+  font-family: "Pilat Wide";
+  margin-top: 5px;
+  margin-bottom: 30px;
+
+}

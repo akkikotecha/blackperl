@@ -142,7 +142,7 @@ const Service = () => {
                 <div className="container">
                   <h1 className="textH1"> {single?.heading}</h1>
                   <div className="readMoreContainer">
-                    <h1>Comming Soon</h1>
+                    <h1>Read More</h1>
                     <img loading="lazy" alt="" src="/group-456.svg" />
                   </div>
                 </div>

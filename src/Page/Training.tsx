@@ -9,13 +9,25 @@ import {
   import styles from "./css/Training.module.css";
   import 'bootstrap/dist/css/bootstrap.css';
   import './css/Training.module.css';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { Modal } from "react-bootstrap";
   
   function Training() {
+    const [showModal, setShowModal] = useState(false);
+
     useEffect(() => {
       // Scroll to top when the component is mounted
       window.scrollTo(0, 0);
     }, []);
+    const handleClose = () => {
+      setShowModal(false);
+      // sessionStorage.setItem("HomeModal", "false");
+    };
+  
+    const handleShow = () => {
+      setShowModal(true);
+    };
+  
     return (
       <>
         <Navbar />
@@ -50,10 +62,10 @@ import { useEffect } from "react";
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
-        <button className={`${styles.am} ${styles.enrollNow}`}>
+          <a href="https://pages.razorpay.com/pl_NyOemu0RaPqx9c/view" target="_blank"><button className={`${styles.am} ${styles.enrollNow}`}>
             <b className={styles.contactUs}>Enrol NOW</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
-          </button>
+          </button></a>
           </div>
           </div>
         <div className={styles.row_third}>
@@ -65,7 +77,7 @@ import { useEffect } from "react";
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
-        <button className={`${styles.am} ${styles.ammm}`}>
+        <button className={`${styles.am} ${styles.ammm}`} onClick={handleShow}>
             <b className={styles.contactUs}>View More</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
           </button>
@@ -80,6 +92,28 @@ import { useEffect } from "react";
         <Footer />
       </section>
       <ReviewFooter />
+
+      <Modal
+        show={showModal}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+        size="sm"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton className={styles.positionFix}></Modal.Header>
+        {/* <Link to="/BCAD"> */}
+          <Modal.Body className={styles.ModalCurv}>
+            {/* <h4>JOIN OUR</h4> */}
+            <h1 className={styles.data_box}>
+
+              <p className={`${styles.title_text_2 } mt-4`}>Comming Soon</p>
+            </h1>
+          </Modal.Body>
+        {/* </Link> */}
+      </Modal>
+
       </>
     );
   }

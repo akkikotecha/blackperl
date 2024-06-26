@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Relation from "../Relations/Relation";
 
 import certificate_1 from "../../../public/training/certificate_1.png";
-import certificate_2 from "../../../public/training/certificate_2.png";
+import certificate_2 from "../../../public/training/BCDECERTIFICATE.png";
 
 const BcdeCourseSummary: FunctionComponent = () => {
   return (

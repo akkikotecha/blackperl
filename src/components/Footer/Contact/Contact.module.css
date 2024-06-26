@@ -336,7 +336,18 @@ padding-left: 30px;
     }
   }
   @media screen and (max-width: 580px) {
-    
+    .getInTouchContainer
+    {
+      margin-top: 20px;
+  }
+   .Toastify
+   {
+    display: none;
+   }
+    .width_100
+    {
+      width: 100%;
+    }
     .ourLogoFrame
     {
       padding-top: 0px;
