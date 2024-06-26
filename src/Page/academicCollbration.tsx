@@ -36,7 +36,7 @@ function AcademicCollbration() {
       </div>
       <div className={`container mt-5 pt-0 mb-0 pb-0`}>
         <div className={`row ${styles.postionSetRelative}`}>
-          <div className="col-lg-7 col-md-6 p-4 pt-5">
+          <div className="col-lg-10 col-md-6 p-4 pt-5">
             <h1 className={styles.title_text}>Why Cyber Defence as Career</h1>
           </div>
         </div>
@@ -331,7 +331,7 @@ function AcademicCollbration() {
       </div>
       <div className={`${styles.container_left} container  ps-5` }>
         <div className={`row ${styles.backgroundChange} ms-1`}>
-          <div className="col-lg-5 col-md-6 p-5 pt-5 mb-5 mt-5">
+          <div className="col-lg-7 col-md-7 p-5 pt-5 mb-5 mt-5">
             <h1 className={`${styles.title_text} pt-3 mt-2 `}>
               World Job Market
             </h1>
@@ -386,7 +386,7 @@ function AcademicCollbration() {
         </div>
 
         <div className={`row ${styles.postionSetRelative}`}>
-          <div className="col-lg-5 col-md-6 p-4 pt-3">
+          <div className="col-lg-7 col-md-6 p-4 pt-3">
             <h1 className={styles.title_text}>Our Simplified Workflow</h1>
           </div>
         </div>

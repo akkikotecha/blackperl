@@ -340,7 +340,7 @@ body {
     display: inline-block;
     margin-left: 7%;
     margin-right: auto;
-    z-index: 1;
+    /* z-index: 1; */
   }
   .dataMerger {
     align-self: stretch;
