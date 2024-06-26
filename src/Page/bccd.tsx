@@ -66,10 +66,10 @@ import { useEffect } from "react";
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
-        <button className={`${styles.am} ${styles.ammm}`}>
+        <a href="./../../public/collbrator/BPCD.pdf" download> <button className={`${styles.am} ${styles.ammm}`}>
             <b className={styles.contactUs}>View More</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
-          </button>
+          </button></a>
           </div>
           </div>
         </section>

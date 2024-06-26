@@ -53,7 +53,7 @@ const FrameTitle: FunctionComponent = () => {
               alt=""
               src="/Badge.png"
             />
-            <Link to="/BCAD"><button className={styles.column}>
+            <Link to="/BPCD"><button className={styles.column}>
               <b className={styles.knowMore}>Know more</b>
               <img className={styles.columnChild} alt="" src="/group-457.svg" />
             </button></Link>
