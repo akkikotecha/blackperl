@@ -3,7 +3,7 @@ import styles from "./TiteCourseSummary.module.css";
 import Accordion from "react-bootstrap/Accordion";
 import Relation from '../TTIARelation/TTIARelation'
 
-import certificate_1 from '../../../public/training/certificate_1.png';
+import certificate_1 from '../../../public/training/ttiaCert.png';
 import certificate_2 from '../../../public/training/TTIACERTIFICATE.png';
 
 // import {Icon} from 'react-fa'

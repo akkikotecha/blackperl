@@ -360,6 +360,8 @@ body {
 {
   position: absolute;
   top: 0px;
+  width: 89%;
+  height: 540px;
   
 }
 .backgroundChange
@@ -766,7 +768,7 @@ body {
     }
     .container_left
     {
-      padding-left: 0px!important;
+      padding-left: 20px!important;
     }
   .backgroundChange
   {
@@ -864,7 +866,48 @@ body {
     
   }
 
+  .mobile_show{
+    display: none;
+  }
+
   @media screen and (max-width: 580px) {
+    .marginServiceSet
+    {
+      margin-top: -70px!important;
+    }
+    .organisationText
+    {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 600;
+      color: #fffE;
+      text-align: center;
+      line-height: 34px;
+      margin-left: 18%;
+      margin-right: auto;
+    }
+    .container_left
+    {
+      margin-top: 98%!important;
+    }
+    .image_full_width
+    {
+      width: 100%!important;
+    }
+    .image_icon_full_width
+    {
+      width: 56%;
+      margin-left: 15%;
+  
+    }
+    .mobile_show{
+      display: block;
+    }
+    .desktop_show
+    {
+      display: none;
+    }
+  
     .weStrengthenOrganisationContainer {
       font-size: 32px;
       line-height: 37px;
@@ -875,6 +918,6 @@ body {
       }
     .title_text
     {
-      font-size:22px;
+      font-size:24px;
     }
   }

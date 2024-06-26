@@ -834,6 +834,14 @@ body {
 
 
 @media screen and (max-width:580px) {
+  .ModalCurv
+  {
+    width: 100%;
+  }
+  .positionFix
+  {
+    left: 0px;
+  }
   .reverseMarginOff
   {
     margin-top: -60px!important;

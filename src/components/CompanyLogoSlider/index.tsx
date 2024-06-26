@@ -18,6 +18,33 @@ const CompanyLogoSlider = (props: any) => {
         loop={true}
         modules={[Autoplay]}
         className={styles.swipperPushTp}
+        breakpoints={{
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 5,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 5,
+          },
+          1229: {
+            slidesPerView: 4,
+          },
+          1396: {
+            slidesPerView: 4,
+          },
+          1536: {
+            slidesPerView: 5,
+          },
+        }}
       >
         <SwiperSlide className="swipeaa">
           <div className={styles.abcde}>

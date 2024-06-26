@@ -3,7 +3,7 @@ import styles from "./BcdeCourseSummary.module.css";
 import Accordion from "react-bootstrap/Accordion";
 import Relation from "../Relations/Relation";
 
-import certificate_1 from "../../../public/training/certificate_1.png";
+import certificate_1 from "../../../public/training/bcde_side.png";
 import certificate_2 from "../../../public/training/BCDECERTIFICATE.png";
 
 const BcdeCourseSummary: FunctionComponent = () => {
@@ -291,7 +291,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
         </div>
       </section>
       <div className={styles.span_disc}>
-        <div className="row mt-5 mb-5 pb-5 pt-4">
+        <div className="row mt-5 mb-5 pb-5 pt-5">
           <div className="col-lg-9 px-0 col-md-9">
             <img src={certificate_1} className={styles.certificateWidthMain} />
           </div>

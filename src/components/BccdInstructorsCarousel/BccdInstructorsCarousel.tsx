@@ -7,7 +7,6 @@ import "swiper/css/navigation";
 import "./style.css";
 import { Navigation } from "swiper/modules";
 import archan from '../../../public/training/archan.png';
-import souvik from '../../../public/training/souvik.png';
 import sayan from '../../../public/training/sayan.png';
 const Service = () => {
   const data = [
@@ -17,12 +16,12 @@ const Service = () => {
       heading2:"Choudhury",
       content: "#",
     },
-    {
-      imgURL:souvik,
-      heading: `Souvik`,
-      heading2:"Biswas",
-      content: "#",
-    },
+    // {
+    //   imgURL:souvik,
+    //   heading: `Souvik`,
+    //   heading2:"Biswas",
+    //   content: "#",
+    // },
     {
       imgURL:sayan,
       heading: `Sayan`,
@@ -40,6 +39,8 @@ const Service = () => {
           color: "white",
           width: "100%",
           padding: "70px 15px",
+          marginLeft: "auto",
+          marginRight: "auto",
         }}
       >
         <Swiper

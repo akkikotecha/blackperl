@@ -18,9 +18,9 @@ const GroupComponent: FunctionComponent = () => {
     // sessionStorage.setItem("HomeModal", "false");
   };
 
-  const handleShow = () => {
-    setShowModal(true);
-  };
+  // const handleShow = () => {
+  //   setShowModal(true);
+  // };
 
   return (
     <>
@@ -166,16 +166,11 @@ const GroupComponent: FunctionComponent = () => {
                   BCAD
                 </div>
               </Link>
-                    {/* <Link to="/BPCD"> */}
-                <div
-                  className={
-                    `${styles.reviews1} ${styles.borderBottom} text-white pt-4`
-                  }
-                  onClick={handleShow}
-                >
+                    <Link to="/BPCD">
+                <div className={`${styles.reviews1} ${styles.borderBottom} text-white pt-4`}>
                    BPCD
                 </div>
-              {/* </Link> */}
+              </Link>
                     <Link to="/BCDE">
                 <div
                   className={
@@ -364,6 +359,7 @@ const GroupComponent: FunctionComponent = () => {
                           </div>
                         </Link>
 
+                        <Link to="/BPCD">
                         <div
                           style={{ cursor: "pointer", color: "white" }}
                           className={
@@ -371,10 +367,11 @@ const GroupComponent: FunctionComponent = () => {
                               ? `${styles.subMenuItem}`
                               : styles.subMenuItem
                           }
-                          onClick={handleShow}
+                          // onClick={handleShow}
                         >
                           BPCD
                         </div>
+                        </Link>
 
                         <Link to="/BCDE">
                           <div

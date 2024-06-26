@@ -365,13 +365,19 @@ body {
   
 }
 
-
-@media screen and (max-width:1398px) {
-  
+@media screen and (min-width:1399px) {
   .swiper-slide
   {
-    width: 440px!important;
+    /* width: 275.2px!important; */
   }
+}
+
+@media screen and (max-width:1398px) {
+  .itemcell
+  {
+    width: 186px!important;
+  }
+  
   .paddingCarosuleSet
   {
     padding: 0px 47px!important;
@@ -379,7 +385,10 @@ body {
 }
 
 @media screen and (max-width:1250px) {
-  
+  .itemcell
+  {
+    width: 196px!important;
+  }
   .paddingCarosuleSet
   {
     padding: 0px 20px!important;
@@ -394,7 +403,7 @@ body {
   }
   .swipeaa
   {
-    width: 280px!important;
+    width: 100%!important;
   }
 
 }

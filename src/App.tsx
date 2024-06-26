@@ -12,6 +12,7 @@ function App() {
       <Route path="/BCAD" element={<Training />} />
       <Route path="/BPCD" element={<BCCD />} />
       <Route path="/BCDE" element={<BCDE />} />
+      <Route path="/BCDE" element={<BCDE />} />
       <Route path="/TTIA" element={<TTIA />} />
       <Route path="/Review" element={<Review />} />
       <Route path="/GetInTouch" element={<GetInTouch />} />
