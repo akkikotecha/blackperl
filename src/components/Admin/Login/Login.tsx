@@ -130,7 +130,7 @@ export default function Signin() {
           style={{ width: "100%", height: "100vh" }} />
       </Grid>
 
-      <Grid item xs={12} md={6} component={Paper} elevation={6} square style={{"background-color":"linear-gradient(195deg, #71b2b5, rgb(25 111 114))","background":"linear-gradient(195deg, #71b2b5, rgb(25 111 114))"}}>
+      <Grid item xs={12} md={6} component={Paper} elevation={6} square style={{"backgroundColor":"linear-gradient(195deg, #71b2b5, rgb(25 111 114))","background":"linear-gradient(195deg, #71b2b5, rgb(25 111 114))"}}>
         <div className={`${classes.paper} px-5`}>
           <img loading="lazy" alt="" src="/image-1@2x.png" />
 
