@@ -126,7 +126,7 @@ const Service = () => {
           breakpoints={{
             // when window width is >= 768px
             720: {
-              slidesPerView: 3,
+              slidesPerView: 2,
             },
             425: {
               slidesPerView: 1,
@@ -134,6 +134,19 @@ const Service = () => {
             320: {
               slidesPerView: 1,
             },
+            
+            1024: {
+                slidesPerView: 2,
+              },
+              1229: {
+                slidesPerView: 2,
+              },
+              1396: {
+                slidesPerView: 3,
+              },
+              1536: {
+                slidesPerView: 3,
+              },
           }}
         >
           {data.map((single, index) => (

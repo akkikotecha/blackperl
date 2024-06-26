@@ -119,6 +119,7 @@ collaboration
         size="sm"
         aria-labelledby="contained-modal-title-vcenter"
         centered
+        
       >
         <Modal.Header closeButton className={styles.positionFix}></Modal.Header>
         {/* <Link to="/BCAD"> */}
