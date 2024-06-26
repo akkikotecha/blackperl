@@ -1,10 +1,7 @@
-import React, { useMemo, useState } from 'react';
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from '@material-ui/core/styles';
 import Sidebar from '../sidebar/Sidebar';
-import ReactTableComponent from '../reactDatatable/reactDatatable';
 import axios from 'axios';
-import { toast } from 'react-toastify';
 
 const useStyles = makeStyles({
   fullWidth: {
@@ -15,7 +12,7 @@ const useStyles = makeStyles({
   },
   textPitch: {
     color: '#fff',
-    fontWeight: '500',
+    fontWeight: 500,
     background: 'linear-gradient(195deg, #71b2b5, rgb(25 111 114))',
     padding: '10px',
     borderRadius: '10px',
@@ -26,7 +23,6 @@ const useStyles = makeStyles({
 
 const Dashboard: React.FC = () => {
   const classes = useStyles();
-  const [data, setData] = useState([]);
   const token = localStorage.getItem('accessToken'); // Adjust based on where your token is stored
 
   const config = {
@@ -55,18 +51,12 @@ const Dashboard: React.FC = () => {
 
   
 
-  const columns = useMemo(() => [
-    { Header: 'Name', accessor: 'name' },
-    { Header: 'Age', accessor: 'age' }
-  ], []);
-
   return (
     <Grid container>
       <Sidebar />
       <div className={classes.fullWidth}>
         <h1 className={`${classes.textPitch} mb-4 h5`}>Dashboard</h1>
         <div>
-          <ReactTableComponent data={data} columns={columns} />
         </div>
       </div>
     </Grid>
