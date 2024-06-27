@@ -29,11 +29,60 @@ const Service = () => {
       heading2: "Kr Dey",
       content: "#",
     },
+    {
+      imgURL: archan,
+      heading: "Archan",
+      heading2: "Choudhury",
+      content: "#",
+    },
+    {
+      imgURL: souvik,
+      heading: `Souvik`,
+      heading2: "Biswas",
+      content: "#",
+    },
+    {
+      imgURL: sayan,
+      heading: `Sayan`,
+      heading2: "Kr Dey",
+      content: "#",
+    },
   ];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const swiperRef: any = useRef(null);
+  
+  const goToNextSlide = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
+  const goToPrevSlide = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+
   return (
     <>
+     <div className="d-flex mt-4">
+                <button onClick={goToPrevSlide} className="rotateImage">
+                  <img
+                    
+                    loading="lazy"
+                    alt=""
+                    src="/group-457-2.svg"
+                  />
+                </button>
+           
+              <button onClick={goToNextSlide} className="ms-3">
+                <img
+                 
+                  alt=""
+                  src="/group-457-2.svg"
+                />
+              </button>
+              </div>
       <div
         style={{
           color: "white",

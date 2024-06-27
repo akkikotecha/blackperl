@@ -134,3 +134,7 @@
   }
   
 }
+.rotateImage
+{
+  rotate: 180deg;
+}

@@ -705,6 +705,10 @@ video{
   }
 }
 @media screen and (max-width: 580px) {
+  .servicesFrame
+  {
+    margin-top: -300px!important;
+  }
   .academicPartners
   {
     margin-bottom: 0px;

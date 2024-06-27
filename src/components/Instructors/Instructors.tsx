@@ -1,7 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { FunctionComponent } from "react";
 import styles from "./Instructors.module.css";
 import Carousel from "../InstructorsCarousel/InstructorsCarousel";
 const Instructors: FunctionComponent = () => {
+  
   return (
     <>
       <section className={` ${styles.contentBoxes}`}>
@@ -12,7 +14,7 @@ const Instructors: FunctionComponent = () => {
               
             </div>
             <div className="col-lg-1 d-flex justify-content-end align-items-start">
-              
+           
             </div>
           </div>
 

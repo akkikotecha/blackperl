@@ -51,6 +51,10 @@
 }
 
 @media screen and (max-width: 1398px) {
+  .nameInput
+  {
+    height: 818px!important;
+  }
   .maskGroupIcon {
     position: absolute;
     top: 57px;

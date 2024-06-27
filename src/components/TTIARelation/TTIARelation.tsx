@@ -13,6 +13,18 @@ const TTIARelation: FunctionComponent = () => {
     {
       imgURL: "/ttia_review/38.PNG",
     },
+    {
+      imgURL: "/ttia_review/37.PNG",
+    },
+    {
+      imgURL: "/ttia_review/38.PNG",
+    },
+    {
+      imgURL: "/ttia_review/37.PNG",
+    },
+    {
+      imgURL: "/ttia_review/38.PNG",
+    },
     
   ];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

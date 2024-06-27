@@ -509,6 +509,10 @@ video {
 
 }
 @media screen and (max-width: 580px) {
+  .itemcell
+  {
+    width: 245px!important;
+  }
   .ourServices {
     font-size: var(--font-size-9xl);
     /*/*line-height: 53px;*/
