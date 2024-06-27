@@ -834,6 +834,11 @@ body {
 
 
 @media screen and (max-width:580px) {
+  .dataMerger
+  {
+    background-size: auto;
+    height: auto;
+  }
   .ModalCurv
   {
     width: 100%;
@@ -854,6 +859,11 @@ body {
   .title_text{
     font-size: 22px;
     margin-top: -10px!important;
+  }
+  .weStrengthenOrganisationContainer
+  {
+    font-size: 52px;
+    height: 84px;
   }
 }
 @media screen and (max-width:380px) {

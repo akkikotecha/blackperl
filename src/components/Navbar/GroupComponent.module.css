@@ -400,6 +400,23 @@
       flex-wrap: wrap;
     }
   }
+  @media screen and (max-width: 550px) {
+    .topnav
+{
+  display:flex!important;
+  align-self: stretch;
+    background-color: var(--black);
+    justify-content: space-between;
+    padding: 10px 15px 0px 15px;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    z-index: 1;
+    text-align: right;
+    font-size: var(--font-size-base);
+    color: var(--white);
+    font-family: var(--font-pilat-wide);
+}
+  }
   @media screen and (max-width: 450px) {
     .textInputField {
       gap: 0 17px;
@@ -531,7 +548,7 @@
   padding-bottom: 40px;
   font-size: 21px;
   transform:translateY(-0%); 
-  padding-bottom: 130px;
+  padding-bottom: 20px;
   margin-bottom: 40px;
 
 }

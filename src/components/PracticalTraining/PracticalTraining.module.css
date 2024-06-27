@@ -119,6 +119,21 @@
 }
 
 @media screen and (max-width:1020px) {
+  
+}
+@media screen and (max-width:580px) {
   .certification
-  {}
+  {
+    padding: 0px;
+  }
+  .title_text
+  {
+    font-size: 38px;
+  }
+  .title_text_2
+  {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
 }

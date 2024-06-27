@@ -21,8 +21,8 @@ const CollaborationPartners: FunctionComponent = () => {
             CERTIFICATIONS TO BOOST YOUR DIGITAL CV
           </p>
         </b>
-       <Link to="/BCAD"> <button className={styles.viewNowFrame}>
-          <b className={styles.viewNow}>VIEW NOW</b>
+       <Link to="/BCAD" className="pb-5"> <button className={`${styles.viewNowFrame} `}>
+          <b className={`${styles.viewNow} `}>VIEW NOW</b>
         </button></Link>
       </div>
     </div>

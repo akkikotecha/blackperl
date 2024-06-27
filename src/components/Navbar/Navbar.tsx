@@ -101,7 +101,7 @@ const GroupComponent: FunctionComponent = () => {
             onClick={() => setSubShowMenu(!showSubMenu)}
           >
 
-<i className="fa fa-sharp fa-light fa-caret-right"></i> Training
+<i className="fa fa-sharp fa-light fa-caret-right me-1"></i> Training
           </div>
 
           {showSubMenu && (
@@ -145,7 +145,11 @@ const GroupComponent: FunctionComponent = () => {
                       : `${styles.aboutUs1}   ${styles.borderBottom}  pt-4`
                   }
                 >
-                  <i className="fa fa-sharp fa-light fa-caret-right"></i> Live Training
+                  <i className="fa fa-sharp fa-light fa-caret-right me-1"></i> <Link to="/LiveTrainning" className={
+                    location.pathname === "/LiveTrainning"
+                      ? `${styles.reviews1} ${styles.greenMenu} pt-0`
+                      : `${styles.reviews1}  pt-0`
+                  }>Live Training</Link>
                 </div>
 
                 {isSubSubMenuOpen && (
@@ -167,7 +171,7 @@ const GroupComponent: FunctionComponent = () => {
                 </div>
               </Link>
                     <Link to="/BPCD">
-                <div className={`${styles.reviews1} ${styles.borderBottom} text-white pt-4`}>
+                <div className={`${styles.reviews1} ${styles.borderBottom} text-white pt-0`}>
                    BPCD
                 </div>
               </Link>

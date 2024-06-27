@@ -596,3 +596,51 @@ body {
     margin-top: 5px;
   }
 }
+
+
+.mobileShow
+{
+  display: none;
+}
+
+
+@media screen and (max-width:580px)
+{
+  .dataMerger
+  {
+      background-size: auto;
+      height: fit-content;
+  }
+  .float_img_mobile
+  {
+    width: 90%;
+  }
+  .float_img{
+    width: 50%;
+  }
+  .weStrengthenOrganisationContainer
+  {
+    font-size: 22px;
+    margin-top: 15px;
+    height: auto;
+  }
+  .desktopShow
+  {
+    display: none;
+  }  
+  .mobileShow
+  {
+    display: block;
+  }
+  .weStrengthenOrganisationContainerSmall
+  {
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .row_third
+  {
+    margin-bottom: -60px;
+  }
+
+}
