@@ -577,6 +577,11 @@ body {
   
 }
 @media screen and (max-width: 580px) {
+  
+  .dataMerger
+  {
+    height: 300px;
+  }
   .weStrengthenOrganisationContainer {
     font-size: 32px;
     line-height: 37px;

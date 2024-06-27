@@ -347,7 +347,7 @@ Since you will have 30 days of access of the recorded session; you should comple
         </div>
         
       </section>
-      <div className={`${styles.span_disc} mt-4`}>
+      <div className={`${styles.span_disc} ${styles.span_disc_mobile}`}>
         <div className="row mt-5 mb-5 pb-5 pt-3">
           <div className="col-lg-9 px-0 col-md-9">
               <img src={certificate_1} className={styles.certificateWidthMain}/>

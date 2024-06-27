@@ -450,3 +450,45 @@
     font-size: 15px;
   }
 }
+
+
+.mobileShow
+{
+  display: none;
+}
+@media screen and (max-width:580px) {
+  .desktopShow
+  {
+    display: none;
+  }
+  .mobileShow
+{
+  display: block;
+}  
+.contentBoxes
+{
+  padding-bottom: 40px;
+  padding-left: 3px;
+  padding-right: 2px;
+}
+.title_flex
+{
+  line-height: 25px;
+  margin-top: -3px;
+  font-size: 17px;
+}
+.am{
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.SetupIn
+{
+  font-size: 20px;
+  padding-left: 18px!important;
+}
+.BcadLabsText
+{
+  font-size: 30px;
+  margin-top: -30px;
+}
+}

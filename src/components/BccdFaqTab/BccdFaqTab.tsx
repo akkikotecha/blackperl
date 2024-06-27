@@ -8,8 +8,8 @@ const BccdFaqTab: FunctionComponent = () => {
       <section className={` ${styles.contentBoxes}`}>
         <div className={`container ${styles.paddingView} `}>
           <div className={`${styles.row} mt-0 pt-0`}>
-          <Accordion className={`col-lg-12 mt-0 pt-0 ${styles.paddingOff}`}>
-  <Accordion.Item eventKey="0">
+          <Accordion className={`col-lg-12 mt-0 pt-0 ${styles.paddingOff} paddOff`}>
+  <Accordion.Item className="accorderPadding" eventKey="0">
     <Accordion.Header className={`ps-0`}>Is prior cybersecurity experience required?
 </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
@@ -17,7 +17,7 @@ const BccdFaqTab: FunctionComponent = () => {
 
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="1">
+  <Accordion.Item className="accorderPadding" eventKey="1">
     <Accordion.Header>How long will it take to complete?
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
@@ -88,7 +88,7 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="2">
+  <Accordion.Item className="accorderPadding" eventKey="2">
     <Accordion.Header>What will you learn?
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
@@ -252,7 +252,7 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="3">
+  <Accordion.Item className="accorderPadding" eventKey="3">
     <Accordion.Header>WHY SHOULD YOU ENROLL? 
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
@@ -261,7 +261,7 @@ Engage in real scenarios, boost up your knowledge on Cloud Security. Cloud Secur
 
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="4">
+  <Accordion.Item className="accorderPadding" eventKey="4">
     <Accordion.Header>Is there any pre-requisite for this course/session?
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
@@ -269,21 +269,21 @@ Engage in real scenarios, boost up your knowledge on Cloud Security. Cloud Secur
 
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="5">
+  <Accordion.Item className="accorderPadding" eventKey="5">
     <Accordion.Header>Will there be a video recording given?
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
     Yes, there will be. The access will be given for 1 year.
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="6">
+  <Accordion.Item className="accorderPadding" eventKey="6">
     <Accordion.Header>How the certification will be done?
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
     Once you complete the Live session, you will be given 3 projects which will be hands-on. Once you clear all the 3 projects and submit the report; you will be awarded with a course completion certificate. It won't be any MCQ!! You will be doing a real project and need to submit a report. Once you complete the project and submit it to us, you will get feedback within 1 business day from us and if you are not clearing it, you can reattempt.
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="7">
+  <Accordion.Item className="accorderPadding" eventKey="7">
     <Accordion.Header>What if I am not able to attend the live class? Will I be able to attempt the exam?
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>

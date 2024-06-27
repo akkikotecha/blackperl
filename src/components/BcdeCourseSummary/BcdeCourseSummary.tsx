@@ -65,7 +65,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
               <div className={styles.row}>
                 <div className="row col-lg-12">
                   <div
-                    className={`col-lg-1 col-md-1 width-set pe-0`}
+                    className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -73,7 +73,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0">
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       Ideal for cybersecurity enthusiasts and researchers,
                       analysts, IT administrators
@@ -82,7 +82,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                 </div>
                 <div className="row col-lg-12 mt-4">
                   <div
-                    className={`col-lg-1 col-md-1 width-set pe-0`}
+                    className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -90,7 +90,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0">
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       Any individual interested in learning more about cyber
                       threats.
@@ -99,7 +99,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                 </div>
                 <div className="row col-lg-12 mt-4">
                   <div
-                    className={`col-lg-1 col-md-1 width-set pe-0`}
+                    className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -107,7 +107,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0">
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       This course is designed for both beginners and
                       intermediate-level attendees who want to learn practical
@@ -124,7 +124,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
               <div className={styles.row}>
                 <div className="row col-lg-12">
                   <div
-                    className={`col-lg-1 col-md-1 width-set pe-0`}
+                    className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -132,7 +132,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0">
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       Participants should be familiar with basic cybersecurity
                       concepts.
@@ -141,7 +141,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                 </div>
                 <div className="row col-lg-12 mt-4">
                   <div
-                    className={`col-lg-1  col-md-1 width-set pe-0`}
+                    className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -149,7 +149,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-11 px-0">
+                  <div className="col-lg-11  col-md-11 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       For hands-on sessions, a laptop with internet connectivity
                       is essential.
@@ -158,7 +158,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                 </div>
                 <div className="row col-lg-12 mt-4">
                   <div
-                    className={`col-lg-1  col-md-1 width-set pe-0`}
+                    className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -166,13 +166,13 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0">
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>Virtual Box/VMWare</h5>
                   </div>
                 </div>
                 <div className="row col-lg-12 mt-4">
                   <div
-                    className={`col-lg-1  col-md-1 width-set pe-0`}
+                    className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -180,7 +180,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-11 px-0">
+                  <div className="col-lg-11  col-md-11 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       All other materials would be delivered during the session
                     </h5>
@@ -218,7 +218,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
               <div className={styles.row}>
                 <div className="row col-lg-12">
                   <div
-                    className={`col-lg-1 col-md-1 width-set pe-0`}
+                    className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -226,7 +226,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0">
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       15 days Cloud Lab Access
                     </h5>
@@ -234,7 +234,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                 </div>
                 <div className="row col-lg-12">
                   <div
-                    className={`col-lg-1 col-md-1 width-set pe-0`}
+                    className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -242,7 +242,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0">
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       1 month of recording access (If you need extended
                       recording access you can repurchase it)
@@ -290,7 +290,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
           </b>
         </div>
       </section>
-      <div className={styles.span_disc}>
+      <div className={`${styles.span_disc} ${styles.span_disc_mobile}`}>
         <div className="row mt-5 mb-5 pb-5 pt-5">
           <div className="col-lg-9 px-0 col-md-9">
             <img src={certificate_1} className={styles.certificateWidthMain} />

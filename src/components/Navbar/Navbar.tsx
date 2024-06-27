@@ -146,7 +146,11 @@ const GroupComponent: FunctionComponent = () => {
                   }
                 >
                   <i className="fa fa-sharp fa-light fa-caret-right me-1"></i> <Link to="/LiveTrainning" className={
-                    location.pathname === "/LiveTrainning"
+                     location.pathname === "/LiveTrainning" ||
+                     location.pathname === "/BCAD" ||
+                     location.pathname === "/BPCD" ||
+                     location.pathname === "/BCDE" ||
+                     location.pathname === "/TTIA"
                       ? `${styles.reviews1} ${styles.greenMenu} pt-0`
                       : `${styles.reviews1}  pt-0`
                   }>Live Training</Link>

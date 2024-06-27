@@ -438,3 +438,31 @@
     padding-right: 0px!important;
   }
 }
+
+@media screen and (max-width:580px) {
+  .paddingView
+  {
+    margin-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  .BcadLabs
+  {
+    font-size: 34px;
+    margin-top: 0px;
+  }
+  .BcadLabsMobile
+  {
+    margin-top: -40px;
+  }
+  .paddingRightOff > iframe
+  {
+    padding-left: 0px!important;
+    padding-right: 25px!important;
+    height: 400px;
+    margin-left: -4px;
+  }
+  .contentBoxes
+  {
+    padding-bottom: 30px;
+  }
+}

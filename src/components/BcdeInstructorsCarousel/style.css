@@ -138,3 +138,15 @@
 {
   rotate: 180deg;
 }
+
+
+@media screen and (max-width:580px) {
+  .mainContainerInstructor:before {
+    content: "";
+    width: 326px!important;
+  }
+  .readMoreContainer
+  {
+    margin-left: -10px!important;
+  }
+}

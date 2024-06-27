@@ -116,3 +116,21 @@
   width: 120px;
   color: #1e222f;
 }
+
+@media screen and (max-width:580px) {
+  .marginTopPorfolio
+  {
+    margin-left: -3px!important;
+  }
+  .textp {
+    font-family: var(--font-montserrat);
+    /* top: 40px; */
+    font-size: 16px!important;
+    font-weight: 500!important;
+    /* margin-left: 25px; */
+    padding: 25px;
+    width: 98%!important;
+    margin-top: 106px!important;
+    color: #fff;
+  }
+}

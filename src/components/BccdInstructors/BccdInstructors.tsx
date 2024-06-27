@@ -24,8 +24,8 @@ const BccdInstructors: FunctionComponent = () => {
 
           <div className="row mt-5 pt-1">
             <div className="col-lg-11">
-              <p className={styles.BcadLabs}>Watch this to feel</p>
-              <p className={styles.SetupIn}>the aroma of what we are cooking!!</p>
+            <p className={`${styles.BcadLabs} ${styles.BcadLabsMobile}`}>Watch this to feel</p>
+            <p className={styles.SetupIn}>the aroma of what we are cooking!!</p>
             </div>
             <div className="col-lg-1 d-flex justify-content-end align-items-start">
             </div>

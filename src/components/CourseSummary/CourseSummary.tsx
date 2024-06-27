@@ -20,14 +20,14 @@ const CourseSummary: FunctionComponent = () => {
 
         </p>
 
-        <Accordion>
+        <Accordion className={styles.accordion_top}>
           <Accordion.Item eventKey="0">
             <Accordion.Header>Who is this training for?</Accordion.Header>
             <Accordion.Body>
             <div className={styles.row}>
                       <div className="row col-lg-12">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 col-3 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -35,7 +35,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-9 col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Security (SOC) analysts and Blue Teams
                           </h5>
@@ -43,7 +43,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 col-4 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -51,7 +51,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11 col-8  col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Threat Hunters
                           </h5>
@@ -59,7 +59,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 col-3 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -67,7 +67,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11 col-9 col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Digital forensic and incident response (DFIR) professionals
                           </h5>
@@ -75,7 +75,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 col-4 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -83,7 +83,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11 col-8 col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Security Engineers
                           </h5>
@@ -91,7 +91,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 col-4 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -99,7 +99,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11 col-8 col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Aspiring SOC Leads
                           </h5>
@@ -107,7 +107,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 col-3 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -115,7 +115,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11 col-9 col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Someone looking to transition their career to Cyber Security
                           </h5>
@@ -130,7 +130,7 @@ const CourseSummary: FunctionComponent = () => {
           <div className={styles.row}>
                       <div className="row col-lg-12">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 col-3 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -138,7 +138,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-9 col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                             Basic understanding of Windows and Linux operating
                             systems.
@@ -147,7 +147,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 col-3 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -155,7 +155,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11 col-9 col-md-11 px-0">
                           <h5 className={styles.title_flex}>
                             Basic understanding of Networking, TCP/IP Protocols,
                             IT Infrastructure will work as a Plus
@@ -164,7 +164,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 col-3 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -172,7 +172,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11 col-9 col-md-10 px-0">
                           <h5 className={styles.title_flex}>
                           Hunger for learning, problem solving skills for Assessment Challenges
                           </h5>
@@ -180,7 +180,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 col-3 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -188,7 +188,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11 col-9 col-md-11 px-0">
                           <h5 className={styles.title_flex}>
                           Familiarity with basic system administration, networks, and security concepts.
                           </h5>
@@ -196,7 +196,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-3 col-md-1 width-set pe-0`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -204,7 +204,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11   col-md-11 px-0">
+                        <div className="col-lg-11 col-9  col-md-11 px-0">
                           <h5 className={styles.title_flex}>
                           Own Laptop/PC with minimum of 8GB RAM, with Admin Access. For smooth access on the work, we would like to dedicate 4GB RAM to the VMs.
                           </h5>
@@ -212,7 +212,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -220,17 +220,17 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-4  col-md-9 px-0">
+                        <div className="col-lg-4  col-md-9 col-9 px-0">
                           <h5 className={styles.title_flex}>
                           Download Oracle Virtual Box using the 
 
                           </h5>
                         </div>
-                        <div className="col-lg-4  col-md-2 px-0"><span><a href="#" className={styles.LinkSet}>Link   <Icon name="arrow-right" className={styles.rotated_icon} /></a></span></div>
+                        <div className="col-lg-4 col-12  col-md-2 px-0"><span><a href="#" className={styles.LinkSet}>Link   <Icon name="arrow-right" className={styles.rotated_icon} /></a></span></div>
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -238,7 +238,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Good broadband/internet speed, microphone to talk to the instructors.
                           </h5>
@@ -279,7 +279,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                             Basic understanding of Windows and Linux operating
                             systems.
@@ -288,7 +288,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -296,7 +296,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                             Basic understanding of Networking, TCP/IP Protocols,
                             IT Infrastructure will work as a Plus
@@ -305,7 +305,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -313,7 +313,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Hunger for learning, problem solving skills for Assessment Challenges
                           </h5>
@@ -321,7 +321,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -329,7 +329,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Familiarity with basic system administration, networks, and security concepts.
                           </h5>
@@ -337,7 +337,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -353,7 +353,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -371,7 +371,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -379,7 +379,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Good broadband/internet speed, microphone to talk to the instructors.
                           </h5>
@@ -414,7 +414,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           3 Months Engagement
 
@@ -424,7 +424,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -432,7 +432,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           300 GB+ Practice Dataset and 100+ Modules
 
@@ -442,7 +442,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -450,7 +450,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Self Paced learning with full recording of the Live Program for 1 Year
 
@@ -460,7 +460,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -468,7 +468,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Weekly 2 Live Session for Mentorship, Doubt Clearance and QnA
                           </h5>
@@ -476,7 +476,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -484,7 +484,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11   col-md-11 px-0">
+                        <div className="col-lg-11   col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Total 30+ hours of Live Interaction
                           </h5>
@@ -492,7 +492,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -500,7 +500,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Join and Take the assessments (Total 10) on the scheduled dates
 
@@ -510,7 +510,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -518,7 +518,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Take the Final Assessment which will mimic a Real world DFIR Engagement. Attempt it, prepare report and submit to us.
                           </h5>
@@ -526,7 +526,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -534,7 +534,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           BCAD Certification upon clearing the Final Assessment. 2 attempts included
                           </h5>
@@ -559,7 +559,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Learn using the best Industry relevant usecases
 
@@ -568,7 +568,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -576,7 +576,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11 col-md-11 col-9 px-0">
                           <h5 className={styles.title_flex}>
                           learn at your own pace but get Live Mentorship and guidance
 
@@ -585,7 +585,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -593,7 +593,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Come with basic knowledge, learn with us from the dedicatedly curated Syllabus
 
@@ -602,7 +602,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -610,7 +610,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-11 px-0">
+                        <div className="col-lg-11  col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Program Start Date- 1st week of May 2024| Program End Date- Last week of June, 2024
 
@@ -619,7 +619,7 @@ const CourseSummary: FunctionComponent = () => {
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
+                          className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -627,7 +627,7 @@ const CourseSummary: FunctionComponent = () => {
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11   col-md-11 px-0">
+                        <div className="col-lg-11   col-md-11 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Minimum 5 Curated Assessments included from the base course to boost your knowledge
                           </h5>
@@ -682,7 +682,7 @@ const CourseSummary: FunctionComponent = () => {
         </div>
         
       </section>
-      <div className={styles.span_disc}>
+      <div className={`${styles.span_disc} ${styles.span_disc_mobile}`}>
         <div className="row mt-5 mb-5 pb-5 pt-3">
           <div className="col-lg-9 px-0 col-md-9">
               <img src={certificate_1} className={styles.certificateWidthMain}/>

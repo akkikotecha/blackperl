@@ -6,13 +6,22 @@ const ToolsCoverd: FunctionComponent = () => {
     <>
       <section className={` ${styles.contentBoxes}`}>
         <div className={`container ${styles.paddingView} `}>
-          <div className="row ">
+          <div className={`row ${styles.desktopShow}`}  >
             <div className="col-lg-9">
               <p className={styles.BcadLabs}>Tools Covered</p>
               <p className={styles.SetupIn}>in the Class</p>
             </div>
             <div className="col-lg-3 d-flex justify-content-end align-items-start">
             </div>
+          </div>
+
+        
+          <div className={`row ${styles.mobileShow}`}  >
+            <div className="col-lg-8 col-md-6 ps-2">
+              <p className={styles.BcadLabs}>Tools Covered</p>
+              <p className={styles.SetupIn}>in the Class</p>
+            </div>
+           
           </div>
 
           

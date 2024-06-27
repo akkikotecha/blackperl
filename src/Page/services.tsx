@@ -128,7 +128,7 @@ collaboration
             <h1 className={styles.data_box}>
               <p className={`${styles.title_text} mt-0`}> INDUSTRIAL TRAINING & CERTIFICATION
               </p>
-              <p className={`${styles.title_text_2 } mt-4`}>Comming Soon</p>
+              <p className={`${styles.title_text_2 } mt-4`}>Coming Soon</p>
             </h1>
           </Modal.Body>
         {/* </Link> */}

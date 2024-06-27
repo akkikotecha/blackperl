@@ -138,7 +138,7 @@ const Service = () => {
               </button>
             </div>
           </div>
-          <h1 className={styles.portfolio}>Outline (High Level)</h1>
+        
         </div>
 
 
@@ -151,7 +151,7 @@ const Service = () => {
                 <h1 className={styles.services}>BCAD Course</h1>
                 
               </div>
-              <h1 className={`mt-5 pt-5 ${styles.portfolio}`}>Outline (High Level)</h1>
+              {/* <h1 className={`mt-5 pt-5 ${styles.portfolio}`}>Outline (High Level)</h1> */}
               </div>
               <div className={`col-lg-6 ${styles.marginTopPorfolio}`}>
                 <button onClick={goToPrevSlide}>

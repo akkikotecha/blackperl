@@ -8,8 +8,8 @@ const TiteFaqTab: FunctionComponent = () => {
       <section className={` ${styles.contentBoxes}`}>
         <div className={`container ${styles.paddingView} `}>
           <div className={`${styles.row} mt-0 pt-0`}>
-          <Accordion className={`col-lg-12 mt-0 pt-0 ${styles.paddingOff}`}>
-  <Accordion.Item eventKey="0">
+          <Accordion className={`col-lg-12 mt-0 pt-0 ${styles.paddingOff} paddOff`}>
+  <Accordion.Item className="accorderPadding" eventKey="0">
     <Accordion.Header className={`ps-0`}>Is prior cybersecurity experience required?
 </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
@@ -17,7 +17,7 @@ const TiteFaqTab: FunctionComponent = () => {
 Although basic cybersecurity knowledge is necessary, the course has been tailored for beginners.
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="1">
+  <Accordion.Item className="accorderPadding" eventKey="1">
     <Accordion.Header>
 What career path will this course make me ready for?
 </Accordion.Header>
@@ -27,7 +27,7 @@ Completing our Threat Intelligence course will prepare you for a variety of care
 
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="2">
+  <Accordion.Item className="accorderPadding" eventKey="2">
     <Accordion.Header>
 	Is there any pre-requisite for this course/session?
 </Accordion.Header>
@@ -37,7 +37,7 @@ Participants should be familiar with basic cybersecurity concepts. For hands-on 
 
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="3">
+  <Accordion.Item className="accorderPadding" eventKey="3">
     <Accordion.Header>
 	Will there be a video recording given?
 </Accordion.Header>
@@ -46,7 +46,7 @@ Participants should be familiar with basic cybersecurity concepts. For hands-on 
 Yes, there will be. The access will be given for 1 month.
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="4">
+  <Accordion.Item className="accorderPadding" eventKey="4">
     <Accordion.Header>
 	How the certification will be done?
 </Accordion.Header>
@@ -56,7 +56,7 @@ Once you complete Live session, you will be given a course assessment which will
 
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="5">
+  <Accordion.Item className="accorderPadding" eventKey="5">
     <Accordion.Header>
 	What if I am not able to attend the live class? Will I be able to attempt the exam?
 </Accordion.Header>
@@ -66,7 +66,7 @@ Yes. As you will be given 31 days of video access, you can leverage it and write
 
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="6">
+  <Accordion.Item className="accorderPadding" eventKey="6">
     <Accordion.Header>
 Can I get life time video access, as I don't know if I will be able to clear it within 31 days of time as I will be busy with other work during this month.
 </Accordion.Header>

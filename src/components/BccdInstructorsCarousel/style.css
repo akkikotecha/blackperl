@@ -5,6 +5,10 @@
   position: relative;
 
 }
+.mobileSHow
+{
+  display: none;
+}
 .mainContainerInstructor:before {
   content: "";
   width: 411px;
@@ -133,4 +137,20 @@
     display: block!important;
   }
   
+}
+
+
+@media screen and (max-width:580px) {
+  .mainContainerInstructor:before {
+    content: "";
+    width: 326px!important;
+  }
+  .readMoreContainer
+  {
+    margin-left: -10px!important;
+  }
+  .mobileSHow
+  {
+    display: flex;
+  }
 }

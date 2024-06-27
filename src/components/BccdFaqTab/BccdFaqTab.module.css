@@ -411,3 +411,18 @@
     padding: 0px!important;
   }
 }
+
+@media screen and (max-width:580px) {
+  .paddingView
+  {
+    padding-left: 0px!important;
+      padding-right: 0px!important;
+      padding-top: 00px;
+      margin-left: 10px!important;
+  }
+  .contentBoxes
+{
+  padding-bottom: 20px!important;
+}
+ 
+}

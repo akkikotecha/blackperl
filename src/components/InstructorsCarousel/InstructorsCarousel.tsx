@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 
 import "swiper/css/navigation";
 import "./style.css";
@@ -86,13 +86,14 @@ const Service = () => {
         style={{
           color: "white",
           width: "100%",
-          padding: "70px 15px",
+          padding: "70px 14px",
+          paddingRight: "26px"
         }}
       >
         <Swiper
           navigation={false}
           modules={[Navigation]}
-          className="mySwiperaddtab"
+          className=""
           speed={1500}
           slidesPerView={3}
           loop={true}
@@ -142,7 +143,7 @@ const Service = () => {
           ))}
         </Swiper>
 
-        <Carousel className="myCarousleSet">
+        {/* <Carousel className="myCarousleSet">
         {data.map((single, index) => (
 
 <Carousel.Item  key={index}>
@@ -160,7 +161,7 @@ const Service = () => {
               </div>
 </Carousel.Item>
         ))}
-</Carousel>
+</Carousel> */}
       </div>
 
       

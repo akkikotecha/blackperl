@@ -85,10 +85,10 @@ import { Modal } from "react-bootstrap";
           </div>
         </section>
         <section className={`${styles.dataMerger} ${styles.mobileShow}`}>
-        <div className={styles.row}>
-        <div className={``}>
+        <div className={`${styles.row}` }>
+      
         <img className={styles.float_img} src='../../../training/image_17.png'/>
-          </div>
+          
           <div className={`row`}>
           <h1 className={styles.weStrengthenOrganisationContainer}>
             <p>BlackPerl Certified Advanced Defender- Cyber Career Surge Framework</p>

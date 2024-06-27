@@ -517,8 +517,12 @@ body {
 }
 
 @media screen and (max-width:580px) {
+  .accordion-button
+  {
+    padding: 15px!important;
+  }
   .map{
-    height: 280vh;
+    height: 100vh;
     /* filter: grayscale(100%) invert(7%) contrast(100%)!important; */
   }
   
@@ -676,4 +680,15 @@ body {
 .MuiFormControl-root > .MuiInput-underline > .MuiInputBase-input
 {
   color: #000!important;
+}
+
+@media screen and (max-width:580px) {
+  .paddOff > .accorderPadding
+  {
+    width: 96%!important;
+  }
+  .accordion-button {
+    font-size: 22px;
+}
+
 }

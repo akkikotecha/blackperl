@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Carousel from 'react-bootstrap/Carousel';
 
 import "swiper/css/navigation";
 import "./style.css";
@@ -87,13 +86,14 @@ const Service = () => {
         style={{
           color: "white",
           width: "100%",
-          padding: "70px 15px",
+          padding: "70px 14px",
+          paddingRight: "26px"
         }}
       >
         <Swiper
           navigation={false}
           modules={[Navigation]}
-          className="mySwiperaddtab"
+          className=""
           speed={1500}
           slidesPerView={3}
           loop={true}
@@ -143,25 +143,7 @@ const Service = () => {
           ))}
         </Swiper>
 
-        <Carousel className="myCarousleSet">
-        {data.map((single, index) => (
-
-<Carousel.Item  key={index}>
-<div className="mainContainerInstructor">
-                <div className="container">
-                  <img src={single?.imgURL} className="imgURL"  />
-                  <h1 className="textH2Main"> {single?.heading}</h1>
-                  <h1 className="textH1Main"> {single?.heading2}</h1>
-                  
-                  <div className="readMoreContainer">
-                    <h1>Read More</h1>
-                    <img loading="lazy" alt="" src="/group-456.svg" />
-                  </div>
-                </div>
-              </div>
-</Carousel.Item>
-        ))}
-</Carousel>
+      
       </div>
 
       

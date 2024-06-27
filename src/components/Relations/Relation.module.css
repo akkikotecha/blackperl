@@ -199,6 +199,10 @@
   }
 }
 @media screen and (max-width: 580px) {
+  .nameInput
+  {
+    height: 468px !important;
+  }
   .group {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
@@ -207,6 +211,14 @@
   .callToActionWrapper
   {
     padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 15px;
+    margin-top: -40px;
+    margin-bottom: 90px;
+  }
+  .phoneNumberInput
+  {
+    gap: 10px 20px;
   }
   .line {
     gap: 0 18px;

@@ -71,6 +71,33 @@ const TTIARelation: FunctionComponent = () => {
             spaceBetween={2}
             loop={true}
             ref={swiperRef}
+            breakpoints={{
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 1024px
+              1024: {
+                slidesPerView: 2,
+              },
+              1229: {
+                slidesPerView: 2,
+              },
+              1396: {
+                slidesPerView: 2,
+              },
+              1536: {
+                slidesPerView: 2,
+              },
+            }}
           >
             {data.map((single) => (
               <SwiperSlide>
@@ -98,5 +125,7 @@ const TTIARelation: FunctionComponent = () => {
     </section>
   );
 };
+
+
 
 export default TTIARelation;
