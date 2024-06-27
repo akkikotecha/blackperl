@@ -411,6 +411,10 @@ video {
   letter-spacing: normal;
 }
 @media screen and (max-width: 1250px) {
+  .itemcell
+  {
+    width: 175px!important;
+  }
   .frameText {
     padding-bottom: 211px;
     box-sizing: border-box;

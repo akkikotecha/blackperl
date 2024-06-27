@@ -59,6 +59,10 @@
     z-index: 1;
     width: 67%;
   }
+  .nameInput
+  {
+    height: 818px!important;
+  }
 }
 @media screen and (max-width: 1250px) {
   .maskGroupIcon {
