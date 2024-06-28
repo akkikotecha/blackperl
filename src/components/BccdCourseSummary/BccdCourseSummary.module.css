@@ -418,7 +418,7 @@
   }
   .span_disc_mobile
   {
-    margin-top: 50%;
+    margin-top: 40%;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: -80px;
@@ -435,5 +435,9 @@
   .title_flex
   {
     font-size: 16px;
+  }
+  .contentBoxesNew
+  {
+    margin-top: 45%;
   }
 }

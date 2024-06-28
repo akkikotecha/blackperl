@@ -21,7 +21,7 @@ const ThreatHunting = () => {
           price="1,500.00"          
         />
         </div>
-        <div className="col-lg-4  col-md-6">
+        <div className="col-lg-4  col-md-6 mt-lg-0 mt-5">
         <ThreatHuntingService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="Threat Hunting 201"

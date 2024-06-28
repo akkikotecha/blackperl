@@ -750,5 +750,13 @@ body {
   {
     margin-bottom: -60px;
   }
-
+  .dataMerger
+  {
+    padding-top: 63px;
+  }
+  .popuppadding
+  {
+    padding-left: 20px;
+    padding-right: 55px;
+  }
 }

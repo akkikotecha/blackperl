@@ -38,7 +38,7 @@ This Course will explore the complexities of threat intelligence, including term
             <div className={styles.row}>
                       <div className="row col-lg-12">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -46,7 +46,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Ideal for cybersecurity enthusiasts and researchers, analysts, IT administrators
 
@@ -55,7 +55,7 @@ This Course will explore the complexities of threat intelligence, including term
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -63,7 +63,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Any individual interested in learning more about cyber threats.
 
@@ -72,7 +72,7 @@ This Course will explore the complexities of threat intelligence, including term
                       </div>
                       <div className="row col-lg-12 mt-4">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -80,7 +80,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           This course is designed for both beginners and intermediate-level attendees who want to learn practical threat intelligence skills.
 
@@ -96,7 +96,7 @@ This Course will explore the complexities of threat intelligence, including term
           <div className={styles.row}>
                       <div className="row col-lg-12">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -104,7 +104,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Participants should be familiar with basic cybersecurity concepts.
                           </h5>
@@ -136,7 +136,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Virtual Box/VMWare
                           </h5>
@@ -185,7 +185,7 @@ This Course will explore the complexities of threat intelligence, including term
                   <div className={styles.row}>
                       <div className="row col-lg-12">
                         <div
-                          className={`col-lg-1 col-md-1 width-set pe-0`}
+                          className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                           style={{ width: "55px" }}
                         >
                           <img
@@ -193,7 +193,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                             Basic understanding of Windows and Linux operating
                             systems.
@@ -227,7 +227,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Hunger for learning, problem solving skills for Assessment Challenges
                           </h5>
@@ -293,7 +293,7 @@ This Course will explore the complexities of threat intelligence, including term
                             src="../../../about/right.png"
                           />
                         </div>
-                        <div className="col-lg-11  col-md-10 px-0">
+                        <div className="col-lg-11  col-md-10 px-0 col-9">
                           <h5 className={styles.title_flex}>
                           Good broadband/internet speed, microphone to talk to the instructors.
                           </h5>

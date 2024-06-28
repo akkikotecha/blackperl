@@ -133,4 +133,12 @@
     margin-top: 106px!important;
     color: #fff;
   }
+  .textH2
+  {
+    margin-top: 40px!important;
+  }
+  .mainContainerLabs:before {
+    width:80%!important;
+
+    }
 }

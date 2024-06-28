@@ -153,7 +153,7 @@ function LiveTrainning() {
           </p>
 
           <div className="text-center">
-          <button className={`btn btn-warning mx-auto mt-3`} >Choose plan</button>
+          <button className={`btn btn-warning mx-auto mt-3 ${styles.PriceChooseButton}`} >Choose plan</button>
           </div>
           </div>
           <div className="col-lg-3 col-md-6  mt-4 pt-5">
@@ -174,7 +174,7 @@ function LiveTrainning() {
           </p>
 
           <div className="text-center">
-          <button className={`btn btn-warning mx-auto  mt-3`}>Choose plan</button>
+          <button className={`btn btn-warning mx-auto  mt-3 ${styles.PriceChooseButton}`}>Choose plan</button>
           </div>
           </div>
           <div className="col-lg-3 col-md-6  mt-4 pb-5 pt-5">
@@ -195,7 +195,7 @@ function LiveTrainning() {
 
           </p>
           <div className="text-center">
-          <button className={`btn btn-warning mx-auto  mt-3`}>Choose plan</button>
+          <button className={`btn btn-warning mx-auto  mt-3 ${styles.PriceChooseButton}`}>Choose plan</button>
           </div>
           </div>
           <div className={`col-lg-3 col-md-6   mt-4  ${styles.PopularSetMobile}`}>
@@ -220,7 +220,7 @@ function LiveTrainning() {
             </ul>
           </p>
           <div className="text-center">
-          <button className={`btn btn-warning mx-auto mt-3 mb-4`}>Choose plan</button>
+          <button className={`btn btn-warning mx-auto mt-3 mb-4 ${styles.PopularPriceChooseButton}`}>Choose plan</button>
           </div>
           </div>
         </div>

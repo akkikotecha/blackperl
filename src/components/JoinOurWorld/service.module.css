@@ -100,10 +100,14 @@
     line-height: 74px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
   .detect1 {
     font-size: var(--font-size-8xl);
     line-height: 55px;
+  }
+  .detect_data
+  {
+    margin-top: 20px;
   }
 }
 

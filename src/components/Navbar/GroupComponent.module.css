@@ -751,3 +751,10 @@
   font-size: 18px;
   font-weight: 600;
 }
+
+@media screen and (max-width:580px) {
+  .show
+  {
+    z-index: 1111;
+  }
+}

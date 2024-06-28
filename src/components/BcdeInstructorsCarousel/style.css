@@ -143,7 +143,7 @@
 @media screen and (max-width:580px) {
   .mainContainerInstructor:before {
     content: "";
-    width: 326px!important;
+    width: 98.2%!important;
   }
   .readMoreContainer
   {

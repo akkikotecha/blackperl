@@ -110,15 +110,15 @@ const FaqTab: FunctionComponent = () => {
      
             <div className="row col-lg-12 col-md-12 mt-4">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
-                <h5 className={`${styles.title_flex} mt-0 ms-2`} >
+              <div className="col-lg-10 col-md-10 px-0 col-9">
+                <h5 className={`${styles.title_flex} mt-0 ms-2 `} >
                 Challenging: unlike other certifications or programs, BCAD is not a spoon-fed experience. It teaches you and challenges you in every step to become a TRUE CHAMPION by improving your technical ability, research skills and changing your mindset on Cyber Defensive World. After getting certified, you will feel confident taking over a defender role in any organization and face any interviews. Our full program may cost even 12X Higher by some vendors who deliver similar content but for a specialized topic. We are brining you all in a combined course. We bring a course which is created- "For Defenders by Defenders"
                 <br /><br />
           BCAD should be your choice if you really want to learn and grow yourself. But, if you just need a certificate to boost your CV, there are many other cheaper and easier certifications which are just famous for marketing.
@@ -129,14 +129,14 @@ const FaqTab: FunctionComponent = () => {
 
             <div className="row mt-4 col-lg-12 col-md-12 ">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0 col-9">
                 <h5 className={`${styles.title_flex} mt-0 ms-2`}>
                 Quality: we value quality + quantity. We don't believe in quality over quantity. We put enormous amount of time and effort for developing course labs, study material, tool set, VMs to be as realistic and valuable as possible and not only throw a bunch of lessons and labs at you which doesn't fit into your career. Our labs are value driven and speak for themselves and you won't see them anywhere else!
                 </h5>
@@ -144,14 +144,14 @@ const FaqTab: FunctionComponent = () => {
             </div>
             <div className="row mt-4 col-lg-12 col-md-12 ">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0 col-9">
                 <h5 className={`${styles.title_flex} mt-0 ms-2`}>
                 Community: we have a top notch private community(WhatsApp) for course students and certified professionals where you will experience cool technical discussions, suggestions, and even mentorship tips.
                 </h5>
@@ -175,14 +175,14 @@ const FaqTab: FunctionComponent = () => {
       </ul>
       <div className="row col-lg-12 col-md-12 mt-4">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0 col-9">
                 <h5 className={`${styles.title_flex} mt-0 ms-2`} >
                 Discounts on bulk purchases (3+ seats).
                 </h5>
@@ -190,14 +190,14 @@ const FaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-4">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0 col-9">
                 <h5 className={`${styles.title_flex} mt-0 ms-2`} >
                 Transferable Access if you drop in middle and want to replace your place with someone, but you can't do it after completion of the full program.
                 </h5>
@@ -205,14 +205,14 @@ const FaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-4">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0 col-9">
                 <h5 className={`${styles.title_flex} mt-0 ms-2`} >
                 Onsite training for a team size more than 15.
                 </h5>
@@ -220,14 +220,14 @@ const FaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-4">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0 col-9">
                 <h5 className={`${styles.title_flex} mt-0 ms-2`} >
                 1-1 Training and Consulting for SOC process revamp for management & technical team
                 </h5>
@@ -235,14 +235,14 @@ const FaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-4">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "35px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-0">
+              <div className="col-lg-10 col-md-10 px-0 col-9">
                 <h5 className={`${styles.title_flex} mt-0 ms-2`} >
                 DFIR Experts hire from BlackPerl Pool
                 </h5>

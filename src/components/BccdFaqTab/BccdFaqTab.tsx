@@ -24,14 +24,14 @@ const BccdFaqTab: FunctionComponent = () => {
           <div className="row mt-0 justify-content-left pt-1">
             <div className="row col-lg-12 col-md-12 ">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-0">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-0 col-9">
                 <h5 className={styles.title_flex}>
                 Duration: 30 days. 
                 </h5>
@@ -39,14 +39,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Mode of Delivery: Live Instructor Led. 
 
@@ -55,14 +55,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Duration: Each day Monday to Friday each 1.5 hours. Weekdays only (No Weekends class)
 
@@ -71,14 +71,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Time: 8:30AM to 10AM IST
 
@@ -95,14 +95,14 @@ const BccdFaqTab: FunctionComponent = () => {
     <div className="row mt-0 justify-content-left pt-1">
             <div className="row col-lg-12 col-md-12 ">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-0">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-0 col-9">
                 <h5 className={styles.title_flex}>
                 Covering AWS basics so you don't need to come with list of Pre-reqs.
                 </h5>
@@ -110,14 +110,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Working with Cloud IAM, Complex Networking to secure Infra.
 
@@ -127,14 +127,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Working with Cloud Attack vectors from Offensive Security angle.
 
@@ -144,14 +144,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Working with Defending strategies to protect cloud workloads.
 
@@ -161,14 +161,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Working with Infrastructure as Code- Terraform and CloudFormation
 
@@ -179,14 +179,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Cloud Threat Protection, Incident Response and Forensics with SIEM.
 
@@ -197,14 +197,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Perform Investigation with Logs, Tools
 
@@ -215,14 +215,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Working with Cloud Posture Management- CSPM and Vulnerability Management.
 
@@ -233,14 +233,14 @@ const BccdFaqTab: FunctionComponent = () => {
             </div>
             <div className="row col-lg-12 col-md-12 mt-3">
               <div
-                className={`col-lg-2 col-md-2 width-set pe-0`}
+                className={`col-lg-2 col-md-2 width-set pe-0 col-3`}
                 style={{ width: "55px" }}>
                 <img
                   className={styles.float_img}
                   src="../../../about/right.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1">
+              <div className="col-lg-10 col-md-10 px-3 mt-2 pt-1 col-9">
                 <h5 className={styles.title_flex}>
                 Working with Kuberneters.
 

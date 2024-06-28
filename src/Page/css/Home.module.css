@@ -766,6 +766,7 @@ video{
   {
     left:28px;
   bottom: 0px;
+  height: fit-content;
   }
   .contentBoxes
   {

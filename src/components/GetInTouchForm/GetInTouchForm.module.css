@@ -219,7 +219,7 @@
   }
   .title_text
   {
-    margin-top: -35%;
+    margin-top: -15%;
   }
 }
 @media screen and (max-width: 750px) {
@@ -238,7 +238,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 580px) {
   .group {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
@@ -249,6 +249,10 @@
   }
   .callToAction {
     gap: 17px 0;
+  }
+  .enyerSecondName
+  {
+    margin-top: 20px;
   }
 }
 

@@ -21,7 +21,7 @@ const DefenderLabs = () => {
           price="1,000.00"
         />
         </div>
-        <div className="col-lg-4 col-md-6">
+        <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
         <DefenderLabsService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="Registry Deep Dive"
@@ -32,7 +32,7 @@ const DefenderLabs = () => {
 
         />
         </div>
-        <div className="col-lg-4 col-md-6">
+        <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
         <DefenderLabsService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="Cloud Website Takeover"

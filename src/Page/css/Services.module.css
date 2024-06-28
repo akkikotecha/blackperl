@@ -834,6 +834,11 @@ body {
 
 
 @media screen and (max-width:580px) {
+  .popuppadding
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .dataMerger
   {
     background-size: auto;

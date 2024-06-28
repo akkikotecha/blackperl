@@ -875,6 +875,15 @@ body {
   }
 
   @media screen and (max-width: 580px) {
+    .title_text_tab
+    {
+      font-size: 16px;
+      margin-top: 2px !important
+    }
+    .indexTop
+    {
+      padding-left: 20px!important;
+    }
     .marginServiceSet
     {
       margin-top: -70px!important;
@@ -892,7 +901,7 @@ body {
     }
     .container_left
     {
-      margin-top: 98%!important;
+      margin-top: 105%!important;
     }
     .image_full_width
     {
@@ -923,5 +932,9 @@ body {
     .title_text
     {
       font-size:24px;
+    }
+    .organisation
+    {
+      margin-top: -13px;
     }
   }

@@ -158,7 +158,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                 </div>
                 <div className="row col-lg-12 mt-4">
                   <div
-                    className={`col-lg-1  col-md-1 width-set pe-0 col-3`}
+                    className={`col-lg-1  col-md-1 width-set pe-0 col-4`}
                     style={{ width: "55px" }}
                   >
                     <img
@@ -166,7 +166,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0 col-9">
+                  <div className="col-lg-11  col-md-10 px-0 col-8">
                     <h5 className={styles.title_flex}>Virtual Box/VMWare</h5>
                   </div>
                 </div>

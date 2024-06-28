@@ -274,6 +274,10 @@
       font-weight: 700;
     }
   @media screen and (max-width: 580px) {
+    .aboutUs
+    {
+      margin-top: -13px;
+    }
    
     .aboutUs,
     .academy,

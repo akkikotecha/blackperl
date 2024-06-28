@@ -214,7 +214,7 @@
     padding-left: 25px;
     padding-right: 15px;
     margin-top: -40px;
-    margin-bottom: 90px;
+    margin-bottom: 140px;
   }
   .phoneNumberInput
   {
@@ -225,6 +225,10 @@
   }
   .callToAction {
     gap: 17px 0;
+  }
+  .group
+  {
+    /* margin-top: 21%; */
   }
 }
 

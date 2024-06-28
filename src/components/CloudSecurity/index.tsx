@@ -11,7 +11,7 @@ const CloudSecurity = () => {
 
         <div className="container">
             <div className="row mb-5 justify-content-center">
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6 mt-3">
           <CloudSecurityService
           // groupPrivacyPolicy="pending_I0:208;133:245"
           title="Cloud Security- AWS EC2 Incident Response"

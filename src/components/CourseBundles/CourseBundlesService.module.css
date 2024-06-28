@@ -189,5 +189,9 @@ a:focus:after {
 		
 		font-size: 11px;
 	}
+	.cards_title
+	{
+		margin-top: -20px!important;
+	}
 	
 }

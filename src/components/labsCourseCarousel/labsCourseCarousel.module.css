@@ -253,8 +253,10 @@
   }
   .mainContainerLabsData:before {
 
-    width: 324px!important;
+    width: 98.2%!important;
 
     }
-  
+  .textheading{
+    margin-top: 49px!important;
+  }
 }

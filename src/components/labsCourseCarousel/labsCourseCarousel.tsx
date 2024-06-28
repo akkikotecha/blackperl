@@ -224,7 +224,7 @@ const Service = () => {
               <div className={`mainContainerLabs ${styles.mainContainerLabsData}`}>
                 <div className="container">
                   <h1 className="textH1"> {single?.heading}</h1>
-                  <h1 className="textH2"> {single?.heading2}</h1>
+                  <h1 className={`textH2 ${styles.textheading}`}> {single?.heading2}</h1>
                   <p className="textp"> {single?.content}</p>
                   
                 </div>

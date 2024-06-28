@@ -10,7 +10,7 @@ const SecurityAnalyst = () => {
       </div>
       <div className="container">
         <div className="row mb-5 justify-content-center">
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-6 mt-lg-0">
             <SecurityAnalystService
               // groupPrivacyPolicy="pending_I0:208;133:245"
               title="Security Operation <br/> (SecOps) 101"
@@ -20,7 +20,7 @@ const SecurityAnalyst = () => {
               price="1,500.00"
             />
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
             <SecurityAnalystService
               // groupPrivacyPolicy="pending_I0:208;133:245"
               title="Security Mastery with QRadar SIEM"
