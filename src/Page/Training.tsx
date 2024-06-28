@@ -172,7 +172,7 @@ import { Modal } from "react-bootstrap";
             {/* <h4>JOIN OUR</h4> */}
             <h1 className={styles.data_box}>
 
-              <p className={`${styles.title_text_2 } mt-4`}>Comming Soon</p>
+              <p className={`${styles.title_text_2 } mt-4`}>Coming Soon</p>
             </h1>
           </Modal.Body>
         {/* </Link> */}

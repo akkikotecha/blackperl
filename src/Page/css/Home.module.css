@@ -707,7 +707,7 @@ video{
 @media screen and (max-width: 580px) {
   .servicesFrame
   {
-    margin-top: -300px!important;
+    margin-top: 00px!important;
   }
   .academicPartners
   {
@@ -771,6 +771,60 @@ video{
   {
     padding: 50px 0 0px!important;
   }
-  
+  .title_text
+  {
+    font-size: 18px;
+  }
+  .title_text_2
+  {
+    font-size: 18px;
+  }
+  .widthRight
+  {
+    width: 70%!important;
+  }
+  .marginoffTopSet
+  {
+    margin-bottom: -58px!important;
+    padding-top: 20px!important;
+  }
+  .marginoffTopSet > .divmargin
+  {
+    padding-top: 5px!important;
+  }
+  .sub_title_new
+  {
+    font-size: 16px!important;
+  }
+  .marginTopsetCost
+  {
+    margin-top: 20px!important;
+    /* margin-bottom: 20px!important; */
+  }
+  .data_box
+  {
+    margin-bottom: 20px;
+  }
+  .paddBottomSet
+  {
+    padding-bottom: 20px;
+  }
+  .ModalCurv:before
+  {
+    width: 98.2%;
+  }
+  .positionFix
+  {
+    padding-right: 30px !important;
+  }
+  .PaddingModalSet
+  {
+    padding-left: 7px!important;
+    padding-right: 7px!important;
+  }
+  .hr_border
+  {
+    width: 86%;
+  }
 }
 

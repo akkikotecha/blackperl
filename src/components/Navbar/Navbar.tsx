@@ -175,7 +175,11 @@ const GroupComponent: FunctionComponent = () => {
                 </div>
               </Link>
                     <Link to="/BPCD">
-                <div className={`${styles.reviews1} ${styles.borderBottom} text-white pt-0`}>
+                <div className={
+                    location.pathname === "/BPCD"
+                      ? `${styles.reviews1} ${styles.borderBottom} ${styles.greenMenu}`
+                      : `${styles.reviews1} ${styles.borderBottom}`
+                  }>
                    BPCD
                 </div>
               </Link>
@@ -344,6 +348,7 @@ const GroupComponent: FunctionComponent = () => {
                           location.pathname === "/LiveTrainning" ||
                           location.pathname === "/BCAD" ||
                           location.pathname === "/BCDE" ||
+                          location.pathname === "/BPCD" ||
                           location.pathname === "/TTIA"
                             ? `${styles.subMenuItem} ${styles.paddingBottomSetting} ${styles.greenMenu}`
                             : `${styles.subMenuItem} ${styles.paddingBottomSetting}`
@@ -372,7 +377,7 @@ const GroupComponent: FunctionComponent = () => {
                           style={{ cursor: "pointer", color: "white" }}
                           className={
                             location.pathname === "/BPCD"
-                              ? `${styles.subMenuItem}`
+                              ? `${styles.subMenuItem} ${styles.greenMenu}`
                               : styles.subMenuItem
                           }
                           // onClick={handleShow}
