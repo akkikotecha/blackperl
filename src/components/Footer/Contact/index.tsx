@@ -15,8 +15,10 @@ const OurLogoFrame: FunctionComponent = () => {
 
   const schema = yup
   .object({
-    fullName: yup.string().required("Full name is required"),
-    phoneNumber: yup.string()
+    fullName: yup.string()
+    .required("Full name is required")
+    .matches(/^[A-Za-z\s]+$/, "Full name must contain only letters and spaces"),
+      phoneNumber: yup.string()
     .required("Phone number is required")
     .matches(/^[0-9]{10}$/, "Phone number must be exactly 10 digits"),
     message: yup.string().required("Message is required"),
