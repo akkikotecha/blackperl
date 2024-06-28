@@ -828,3 +828,9 @@ video{
   }
 }
 
+@media screen and (max-width:380px) {
+  .column
+  {
+    left: 63px!important;
+  }
+}

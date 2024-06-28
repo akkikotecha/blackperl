@@ -409,7 +409,7 @@
 
 .mobileShow
 {
-  display: none;
+  display: none!important;
 }
 
 @media screen and (max-width: 580px) {
@@ -432,7 +432,7 @@
 }
   .mobileShow
   {
-    display: block;
+    display: block!important;
   }
   .title_flex_tools
   {

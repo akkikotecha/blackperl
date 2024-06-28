@@ -21,11 +21,11 @@ const CollaborationPartners1: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.lineElement}>
+      {/* <div className={styles.lineElement}>
         <button className={styles.dutyBilling}>
           <b className={styles.downloadNow}>Download NOW</b>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -11,10 +11,10 @@ const BccdLabsCourse: FunctionComponent = () => {
               {/* <p className={styles.SetupIn}>Setup Includes</p> */}
             </div>
             <div className="col-lg-6  col-md-6 d-flex justify-content-end align-items-start">
-              <button className={styles.am}>
+            <a href="./../../public/collbrator/BPCD.pdf" download=""> <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />
-              </button>
+              </button></a>
             </div>
           </div>
           <div className="row mt-4 justify-content-left pt-5">
@@ -1281,10 +1281,10 @@ const BccdLabsCourse: FunctionComponent = () => {
               <p className={styles.BcadLabs}>BPCD Labs</p>
             </div>
             <div className="col-lg-4  col-md-6  ps-2 d-flex justify-content-start mt-0 align-items-start">
-              <button className={styles.am}>
+            <a href="./../../public/collbrator/BPCD.pdf" download=""> <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />
-              </button>
+              </button></a>
             </div>
           </div>
 

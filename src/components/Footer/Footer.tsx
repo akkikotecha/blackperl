@@ -9,24 +9,24 @@ const FooterSection: FunctionComponent = () => {
         <div className={styles.instaFbYTFrame}>
         <img className={styles.image1Icon} alt="" src="/image-1-1@2x.png" />
           <div className={styles.instaFbYTLabel}>
-          <img
+          <a href="https://www.youtube.com/watch?v=t6PqjLIVgdA" target="_blank"><img
               className={styles.ytIcon}
               loading="lazy"
               alt=""
               src="/yt.svg"
-            />
-            <img
+            /></a>
+            <a href="https://www.instagram.com/blackperl_dfir/?hl=en" target="_blank"><img
               className={styles.instaIcon}
               loading="lazy"
               alt=""
               src="/insta.svg"
-            />
-            <img
+            /></a>
+            <a href="https://www.facebook.com/p/BlackPerl-DFIR-100063911747773/?_rdr" target="_blank"><img
               className={styles.fbIcon}
               loading="lazy"
               alt=""
               src="/fb.svg"
-            />
+            /></a>
             
           </div>
         </div>

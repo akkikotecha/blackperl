@@ -67,8 +67,8 @@
 	border-radius: 2px;
   font-family: var(--font-pilat-wide);
 	text-align: center;
-  font-size: 12px;
-  border-bottom: 2px solid #fff;
+  font-size: 20px;
+  /* border-bottom: 2px solid #fff; */
   color:#fff;
   text-transform: uppercase;
   margin-top: 15px;

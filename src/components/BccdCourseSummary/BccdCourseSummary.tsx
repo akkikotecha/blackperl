@@ -389,7 +389,7 @@ Basic understanding of Windows and Linux operating systems.
         </Accordion>
       </section>
 
-      <section className={` ${styles.contentBoxes}`}>
+      {/* <section className={` ${styles.contentBoxes}`}>
         <div className={styles.frameParent}>
           <b className={styles.learner}>Reviews</b>
           <b className={styles.whatRelationsAreContainer}>
@@ -398,7 +398,7 @@ Basic understanding of Windows and Linux operating systems.
           </b>
         </div>
       </section>
-      <Relation />
+      <Relation /> */}
 
       <section className={` ${styles.contentBoxes} ${styles.contentBoxesNew}`}>
         <div className={styles.frameParent}>

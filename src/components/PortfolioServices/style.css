@@ -70,11 +70,12 @@
 .textH1 {
   font-family: var(--font-pilat-wide);
   /* top: 40px; */
-  font-size: 33px;
+  font-size: 30px!important;
   font-weight: 700;
   /* margin-left: 25px; */
   padding: 25px;
   width: 80%;
+  margin-top: 20px;
 }
 .readMoreContainer {
   width: 285px;
@@ -97,6 +98,8 @@
 
 @media screen and (max-width:580px)
 {
-  
+  .mainContainer:before  {
+    width: 98.2%!important;
+  }
  
 }

@@ -10,6 +10,11 @@ import sayan from '../../../public/training/sayan.png';
 const Service = () => {
   const data = [
     {
+      imgURL:sayan,
+      heading: `Sayan`,
+      heading2:"Kr Dey",
+      content: "#",
+    },{
       imgURL:archan,
       heading: "Archan",
       heading2:"Choudhury",
@@ -21,12 +26,7 @@ const Service = () => {
     //   heading2:"Biswas",
     //   content: "#",
     // },
-    {
-      imgURL:sayan,
-      heading: `Sayan`,
-      heading2:"Kr Dey",
-      content: "#",
-    },
+   
   ];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const swiperRef: any = useRef(null);

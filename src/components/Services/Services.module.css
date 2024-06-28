@@ -520,7 +520,7 @@ video{
   }
   .ourServices {
     font-size: 36px;
-    line-height: 15px;
+    /* line-height: 15px; */
     margin-top: 30px;
   }
   .areTailored {
@@ -558,5 +558,6 @@ video{
     padding-bottom: 45px;
   }
 }
+
 
 

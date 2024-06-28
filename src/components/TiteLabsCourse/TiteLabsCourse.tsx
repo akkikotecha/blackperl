@@ -11,12 +11,12 @@ const TiteLabsCourse: FunctionComponent = () => {
               <p className={styles.BcadLabs}>TTIA LABS</p>
              
             </div>
-            {/* <div className="col-lg-6  col-md-6 d-flex justify-content-end align-items-start">
+            <div className="col-lg-6  col-md-6 d-flex justify-content-end align-items-start">
               <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />
               </button>
-            </div> */}
+            </div>
           </div>
 
           <div className="row mt-4 justify-content-between pt-5">

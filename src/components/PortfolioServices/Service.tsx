@@ -6,24 +6,42 @@ import "swiper/css/navigation";
 import "./style.css";
 import { Navigation } from "swiper/modules";
 import styles from "./PortfolioServices.module.css";
+import { Link } from "react-router-dom";
 const Service = () => {
   const data = [
     {
       heading: "DEFENSIVE SECURITY & MANAGED SERVICES",
       readMoreLink: "#",
+      textButton:"Coming Soon",
     },
     {
       heading: `INDUSTRIAL TRAINING & CERTIFICATION`,
       readMoreLink: "#",
+      textButton:"Coming Soon",
     },
     {
-      heading: `LIVE TRAINING & CERTIFICATION`,
+      heading: `ACADEMIC COLLABORATION`,
+      readMoreLink: "./AcademicCollbration",
+      textButton:"Read More",
+    },
+   
+    {
+      heading: "DEFENSIVE SECURITY & MANAGED SERVICES",
       readMoreLink: "#",
+      textButton:"Coming Soon",
     },
     {
-      heading: `LIVE TRAINING & CERTIFICATION`,
+      heading: `INDUSTRIAL TRAINING & CERTIFICATION`,
       readMoreLink: "#",
+      textButton:"Coming Soon",
     },
+    {
+      heading: `ACADEMIC COLLABORATION`,
+      readMoreLink: "./AcademicCollbration",
+      textButton:"Read More",
+    },
+   
+   
   ];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const swiperRef: any = useRef(null);
@@ -154,10 +172,10 @@ const Service = () => {
               <div className="mainContainer">
                 <div className="container">
                   <h1 className="textH1"> {single?.heading}</h1>
-                  <div className="readMoreContainer">
-                    <h1>Read More</h1>
+                  <Link to={single?.readMoreLink}><div className="readMoreContainer">
+                    <h1>{single?.textButton}</h1>
                     <img loading="lazy" alt="" src="/group-456.svg" />
-                  </div>
+                  </div></Link>
                 </div>
               </div>
             </SwiperSlide>

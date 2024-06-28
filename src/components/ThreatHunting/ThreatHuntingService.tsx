@@ -35,11 +35,11 @@ const ThreatHuntingService: FunctionComponent<DetectType> = ({
     </div>
     <hr className={styles.LineSet} />
     <div className={styles.cards_footer}>
-    <h1 className={styles.cards_footer_title}>₹ {price}</h1>
+    {/* <h1 className={styles.cards_footer_title}>₹ {price}</h1> */}
     <div className="row px-0">
     <div className="col-lg-6 col-md-6 text-start">
    
-    <a href="#">Start Free Trial</a>
+    <a href="#">₹ {price}</a>
  
     </div>
     <div className="col-lg-6 col-md-6 text-end">
