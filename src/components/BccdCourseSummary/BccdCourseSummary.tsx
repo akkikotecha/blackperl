@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from "./BccdCourseSummary.module.css";
 import Accordion from "react-bootstrap/Accordion";
-import Relation from "../Relations/Relation";
+// import Relation from "../Relations/Relation";
 
 import certificate_1 from "../../../public/training/pcd_main.png";
 import certificate_2 from "../../../public/training/pcd_side.png";
