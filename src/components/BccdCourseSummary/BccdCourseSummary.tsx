@@ -278,152 +278,88 @@ const CourseSummary: FunctionComponent = () => {
                     </p>
                   </div>
                 </div>
+
+                <p className={`${styles.p_tags} mt-4 mb-4 pt-0 `}>
+Basic understanding of Windows and Linux operating systems.
+
+                </p>
+
+                <div className="row col-lg-12">
+                  <div
+                    className={`col-lg-1 col-md-1 width-set col-3 pe-0`}
+                    style={{ width: "55px" }}>
+                    <img
+                      className={styles.float_img}
+                      src="../../../about/right.png"
+                    />
+                  </div>
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
+                    <h5 className={styles.title_flex}>
+                    Basic understanding of Networking, TCP/IP Protocols, IT Infrastructure will work as a Plus
+                    </h5>
+                  </div>
+                </div>
+                <div className="row col-lg-12 mt-3">
+                  <div
+                    className={`col-lg-1 col-md-1 width-set col-4 pe-0`}
+                    style={{ width: "55px" }}>
+                    <img
+                      className={styles.float_img}
+                      src="../../../about/right.png"
+                    />
+                  </div>
+                  <div className="col-lg-11  col-md-10 px-0 col-8">
+                    <h5 className={styles.title_flex}>
+                    Hunger for learning                    </h5>
+                  </div>
+                </div>
+                <div className="row col-lg-12 mt-3">
+                  <div
+                    className={`col-lg-1 col-md-1 width-set col-3 pe-0`}
+                    style={{ width: "55px" }}>
+                    <img
+                      className={styles.float_img}
+                      src="../../../about/right.png"
+                    />
+                  </div>
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
+                    <h5 className={styles.title_flex}>
+                    Familiarity with basic system administration, networks, cloud and security concepts.
+                    </h5>
+                  </div>
+                </div>
+                <div className="row col-lg-12 mt-3">
+                  <div
+                    className={`col-lg-1 col-md-1 width-set col-3 pe-0`}
+                    style={{ width: "55px" }}>
+                    <img
+                      className={styles.float_img}
+                      src="../../../about/right.png"
+                    />
+                  </div>
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
+                    <h5 className={styles.title_flex}>
+                    Own Laptop/PC with minimum of 8GB RAM, with Admin Access. 
+                                      </h5>
+                  </div>
+                </div>
+                <div className="row col-lg-12 mt-3">
+                  <div
+                    className={`col-lg-1 col-md-1 width-set col-3 pe-0`}
+                    style={{ width: "55px" }}>
+                    <img
+                      className={styles.float_img}
+                      src="../../../about/right.png"
+                    />
+                  </div>
+                  <div className="col-lg-11  col-md-10 px-0 col-9">
+                    <h5 className={styles.title_flex}>
+                    Good broadband/internet speed, microphone to talk to the instructors                                      </h5>
+                  </div>
+                </div>
               </div>
             </Accordion.Body>
-            {/* <Accordion.Header>Prerequisites</Accordion.Header>
-            <Accordion.Body>
-            <Accordion className="AccordionSub">
-                <Accordion.Item eventKey="7">
-                  <Accordion.Header className="AccordionTitle">
-                    Program Engagement Options- Choose what you need
-                  </Accordion.Header>
-                  <Accordion.Body>
-                  <p className={`${styles.p_tags} mt-0 pt-0`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="8">
-                  <Accordion.Header className="AccordionTitle">
-                    Career Ready Engagement- Rs 74670 / USD 899
-                  </Accordion.Header>
-                  <Accordion.Body>
-                  <div className={styles.row}>
-                      <div className="row col-lg-12">
-                        <div
-                          className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0 col-9">
-                          <h5 className={styles.title_flex}>
-                            Basic understanding of Windows and Linux operating
-                            systems.
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                            Basic understanding of Networking, TCP/IP Protocols,
-                            IT Infrastructure will work as a Plus
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0 col-9">
-                          <h5 className={styles.title_flex}>
-                          Hunger for learning, problem solving skills for Assessment Challenges
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Familiarity with basic system administration, networks, and security concepts.
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11   col-md-11 px-0">
-                          <h5 className={styles.title_flex}>
-                          Own Laptop/PC with minimum of 8GB RAM, with Admin Access. For smooth access on the work, we would like to dedicate 4GB RAM to the VMs.
-                          </h5>
-                        </div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-3  col-md-8 px-0">
-                          <h5 className={styles.title_flex}>
-                          Download Oracle Virtual Box using the 
-
-                          </h5>
-                        </div>
-                        <div className="col-lg-4  col-md-2 px-0"><span><a href="#" className={styles.LinkSet}>Link   <Icon name="arrow-right" className={styles.rotated_icon} /></a></span></div>
-                      </div>
-                      <div className="row col-lg-12 mt-4">
-                        <div
-                          className={`col-lg-1  col-md-1 width-set pe-0`}
-                          style={{ width: "55px" }}
-                        >
-                          <img
-                            className={styles.float_img}
-                            src="../../../about/right.png"
-                          />
-                        </div>
-                        <div className="col-lg-11  col-md-10 px-0 col-9">
-                          <h5 className={styles.title_flex}>
-                          Good broadband/internet speed, microphone to talk to the instructors.
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </Accordion.Body> */}
+            
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header>

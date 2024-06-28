@@ -39,7 +39,7 @@ import { useEffect } from "react";
           <div className={styles.row_right}>
             <div className={`${styles.flex_row} ${styles['col-2']}`}>
               <img className={styles.float_img} src='../../../training/small_check.png'/>
-              <h5 className={styles.title_flex}>3 Engagement Plans</h5>
+              <h5 className={styles.title_flex}>LIVE ENGAGEMENT</h5>
             </div>
             <div className={`${styles.flex_row} ${styles['col-2']}`}>
               <img className={styles.float_img} src='../../../training/small_check.png'/>
@@ -59,10 +59,10 @@ import { useEffect } from "react";
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
-        <button className={`${styles.am} ${styles.enrollNow}`}>
+        <a href="https://pages.razorpay.com/pl_OP8XBnAAgiGjXm/view" target="_blank"><button className={`${styles.am} ${styles.enrollNow}`}>
             <b className={styles.contactUs}>Enrol NOW</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
-          </button>
+          </button></a>
           </div>
           </div>
         <div className={styles.row_third}>
@@ -70,7 +70,7 @@ import { useEffect } from "react";
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainerWhite}>
             <p className={styles.weStrengthenSmall}>JOIN OUR BPCD<br/>
-              ACCELERATED PROGRAM</p>
+              PROGRAM</p>
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
@@ -97,7 +97,7 @@ import { useEffect } from "react";
                 
               </div>
               <div className="col-10 px-0 pt-1">
-              <h5 className={styles.title_flex}>3 Engagement Plans</h5>
+              <h5 className={styles.title_flex}>LIVE ENGAGEMENT</h5>
                 
               </div>
             </div>
@@ -123,7 +123,7 @@ import { useEffect } from "react";
             <p className={styles.weStrengthen}>The BlackPerl Certified, Practical Cloud Defender (PCD) program equips you with the skills to secure cloud environments. Through a blend of theory and hands-on labs, you'll, master cloud security fundamentals, threat detection, incident response and more.</p>
           </h1>
           <div className={`row ms-2`}>
-          <a href="https://pages.razorpay.com/pl_NyOemu0RaPqx9c/view" target="_blank"><button className={`${styles.am} ${styles.enrollNow}`}>
+          <a href="https://pages.razorpay.com/pl_OP8XBnAAgiGjXm/view" target="_blank"><button className={`${styles.am} ${styles.enrollNow}`}>
             <b className={styles.contactUs}>Enrol NOW</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
           </button></a>
@@ -134,7 +134,7 @@ import { useEffect } from "react";
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainerWhite}>
             <p className={styles.weStrengthenSmall}>JOIN OUR BCAD<br/>
-              ACCELERATED PROGRAM</p>
+              PROGRAM</p>
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']} mb-3`}>
