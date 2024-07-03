@@ -15,9 +15,14 @@ const Service = () => {
       textButton:"Coming Soon",
     },
     {
-      heading: `INDUSTRIAL TRAINING & CERTIFICATION`,
-      readMoreLink: "#",
-      textButton:"Coming Soon",
+      heading: `INDUSTRIAL TRAINING`,
+      readMoreLink: "./LiveTrainning",
+      textButton:"Read More",
+    },
+    {
+      heading: `CERTIFICATION`,
+      readMoreLink: "./Certification",
+      textButton:"Read More",
     },
     {
       heading: `ACADEMIC COLLABORATION`,
@@ -31,9 +36,14 @@ const Service = () => {
       textButton:"Coming Soon",
     },
     {
-      heading: `INDUSTRIAL TRAINING & CERTIFICATION`,
-      readMoreLink: "#",
-      textButton:"Coming Soon",
+      heading: `INDUSTRIAL TRAINING`,
+      readMoreLink: "./LiveTrainning",
+      textButton:"Read More",
+    },
+    {
+      heading: `CERTIFICATION`,
+      readMoreLink: "./Certification",
+      textButton:"Read More",
     },
     {
       heading: `ACADEMIC COLLABORATION`,

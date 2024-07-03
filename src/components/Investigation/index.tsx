@@ -16,16 +16,16 @@ const CollaborationPartners1: FunctionComponent = () => {
               className={styles.image12Icon}
               loading="lazy"
               alt=""
-              src="/image-12@2x.png"
+              src="/booklate.png"
             />
           </div>
         </div>
       </div>
-      {/* <div className={styles.lineElement}>
-        <button className={styles.dutyBilling}>
+      <div className={styles.lineElement}>
+        <a href="./booklate.pdf" target="_blank" download><button className={styles.dutyBilling}>
           <b className={styles.downloadNow}>Download NOW</b>
-        </button>
-      </div> */}
+        </button></a>
+      </div>
     </div>
   );
 };

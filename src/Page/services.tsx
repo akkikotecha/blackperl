@@ -54,7 +54,7 @@ function Services() {
             </p>
 
             <button className={`${styles.am} ms-auto`}>
-              <b className={styles.contactUs}>Read More</b>
+              <b className={styles.contactUs}>COMING SOON</b>
               <img className={styles.amChild} alt="" src="/group-457.svg" />
             </button>
           </div>

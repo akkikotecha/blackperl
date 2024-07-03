@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
 import styles from "./Certificates.module.css";
-import { Link } from "react-router-dom";
 
 const CollaborationPartners: FunctionComponent = () => {
   return (
@@ -21,9 +20,9 @@ const CollaborationPartners: FunctionComponent = () => {
             CERTIFICATIONS TO BOOST YOUR DIGITAL CV
           </p>
         </b>
-       <Link to="/BCAD" className="pb-5"> <button className={`${styles.viewNowFrame} `}>
+       <a href="https://credsverse.com/credentials/d3b4301a-aa51-44d3-abe5-250ffc0c4b02" target="_blank" className="pb-5"> <button className={`${styles.viewNowFrame} `}>
           <b className={`${styles.viewNow} `}>VIEW NOW</b>
-        </button></Link>
+        </button></a>
       </div>
     </div>
   );

@@ -9,14 +9,14 @@ const ServiceContainer = () => {
           imageURL="../../../about/world_1.png"
           detect="INR"
           detect_data="Budget"
-          itClosesAllTheSecuirtyGap="₹ 3300"
+          itClosesAllTheSecuirtyGap="₹ 1000 to ₹ 30000"
         />
         <Service
           imageURL="../../../about/world_2.png"
           // groupPrivacyPolicy="pending_I0:209;133:246"
           detect="Joined"
           detect_data="Students"
-          itClosesAllTheSecuirtyGap="5500 +"
+          itClosesAllTheSecuirtyGap="10000 +"
         />
         <Service
           // groupPrivacyPolicy="pending_I0:210;133:247"
@@ -25,6 +25,8 @@ const ServiceContainer = () => {
           detect_data="Courses"
           itClosesAllTheSecuirtyGap="55 +"
         />
+
+
       </section>
     </>
   );
