@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { FunctionComponent } from "react";
 import styles from "./BcdeCourseSummary.module.css";
 import Accordion from "react-bootstrap/Accordion";
-import Relation from "../Relations/Relation";
+// import Relation from "../Relations/Relation";
 
 import certificate_1 from "../../../public/training/bcde_side.png";
 import certificate_2 from "../../../public/training/BCDECERTIFICATE.png";
@@ -256,7 +257,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
         </Accordion>
       </section>
 
-      <section className={` ${styles.contentBoxes}`}>
+      <section className={` ${styles.contentBoxes} d-none `}>
         <div className={styles.frameParent}>
           <b className={styles.learner}>Reviews</b>
           <b className={styles.whatRelationsAreContainer}>
@@ -265,7 +266,7 @@ const BcdeCourseSummary: FunctionComponent = () => {
           </b>
         </div>
       </section>
-      <Relation />
+      {/* <Relation  /> */}
 
       <section className={` ${styles.contentBoxes} ${styles.contentBoxesNew}`}>
         <div className={styles.frameParent}>

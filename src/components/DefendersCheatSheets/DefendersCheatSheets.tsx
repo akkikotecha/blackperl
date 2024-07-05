@@ -38,8 +38,8 @@ const DefendersCheatSheetsService: FunctionComponent<DetectType> = ({
     {/* <h1 className={styles.cards_footer_title}>₹ {price}</h1> */}
     <div className="row px-0">
     <div className="col-lg-6 col-md-6 text-start col-6">
-   
-    <a href="#">₹ {price}</a>
+   {price=="Free"?<a href="#">{price}</a>:<a href="#">₹ {price}</a>}
+    
  
     </div>
     <div className="col-lg-6 col-md-6 text-end col-6">

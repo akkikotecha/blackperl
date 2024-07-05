@@ -5,6 +5,7 @@ import "./css/academicCollbration.module.css";
 import Carousel from "../components/ColbratorServices/Service";
 import { Tab, Tabs } from "react-bootstrap";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 // import { useEffect } from "react";
 // import { Link } from "react-router-dom";
@@ -350,10 +351,14 @@ function AcademicCollbration() {
 
         <div className={`row mt-0 pt-5 pb-5 ${styles.postionSetRelative}`}>
           <div className="col-lg-6 col-md-6 p-4 pt-0">
+          <Link target="_blank" to={"https://miro.com/app/board/uXjVKQZ2quM=/?share_link_id=250713726876"}>
             <img src="./collbrator/learning1.png" />
+            </Link>
           </div>
           <div className="col-lg-6 col-md-6 p-4 pt-0">
+              <Link target="_blank" to={"https://miro.com/app/board/uXjVKQZ2quM=/?share_link_id=250713726876"}>
             <img src="./collbrator/learning2.png" />
+            </Link>
           </div>
         </div>
 

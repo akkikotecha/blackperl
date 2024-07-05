@@ -7,13 +7,13 @@ const BccdInstructors: FunctionComponent = () => {
       <section className={` ${styles.contentBoxes}`}>
         <div className={`container ${styles.paddingView} `}>
           <div className="row ">
-            <div className="col-lg-11">
+            <div className="col-lg-12 flex justify-center items-center">
               <p className={styles.BcadLabs}>Main Instructors</p>
               
             </div>
-            <div className="col-lg-1 d-flex justify-content-end align-items-start">
+            {/* <div className="col-lg-1 d-flex justify-content-end align-items-start">
               
-            </div>
+            </div> */}
           </div>
 
           <div className="row mt-0 justify-content-between">

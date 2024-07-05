@@ -11,7 +11,7 @@ const TiteLabsCourse: FunctionComponent = () => {
               <p className={styles.BcadLabs}>TTIA LABS</p>
              
             </div>
-            <div className="col-lg-6  col-md-6 d-flex justify-content-end align-items-start">
+            <div className="col-lg-6 d-none  col-md-6 d-flex justify-content-end align-items-start">
               <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />
@@ -615,7 +615,7 @@ const TiteLabsCourse: FunctionComponent = () => {
               <p className={styles.BcadLabs}>TTIA Labs</p>
               {/* <p className={styles.SetupIn}>Setup Includes</p> */}
             </div>
-            <div className="col-lg-4  col-md-6 d-flex justify-content-start mt-0 align-items-start">
+            <div className="col-lg-4 d-none col-md-6 d-flex justify-content-start mt-0 align-items-start">
               <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />

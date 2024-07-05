@@ -153,18 +153,18 @@ const CourseSummary: FunctionComponent = () => {
                   <div
                     className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}>
-                    <img
+                    {/* <img
                       className={styles.float_img}
                       src="../../../about/right.png"
-                    />
+                    /> */}
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0 col-9">
+                  <div className="col-lg-11 d-none  col-md-10 px-0 col-9">
                     <h5 className={styles.title_flex}>
                       STRONG FOUNDATIONAL COVERAGE
                     </h5>
                   </div>
 
-                  <div className="col-lg-12 mt-3">
+                  <div className="col-lg-12 mt-3 d-none">
                     <p className={`${styles.p_tags} mt-0 pt-0 `}>
                       The PCD certification provides a strong foundation for
                       cloud security domain coverage with key concepts in each
@@ -177,7 +177,7 @@ const CourseSummary: FunctionComponent = () => {
                     </p>
                   </div>
                 </div>
-                <div className="row col-lg-12 mt-4">
+                <div className="row col-lg-12 mt-4 d-none">
                   <div
                     className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}>
@@ -192,7 +192,7 @@ const CourseSummary: FunctionComponent = () => {
                     </h5>
                   </div>
 
-                  <div className="col-lg-12 mt-3">
+                  <div className="col-lg-12 mt-3 d-none">
                     <p className={`${styles.p_tags} mt-0 pt-0 `}>
                       The PCD program is delivered utilizing live real world
                       engagement style utilizing live targets and real attack
@@ -203,7 +203,7 @@ const CourseSummary: FunctionComponent = () => {
                     </p>
                   </div>
                 </div>
-                <div className="row col-lg-12 mt-4">
+                <div className="row col-lg-12 mt-4 d-none">
                   <div
                     className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}>
@@ -229,7 +229,7 @@ const CourseSummary: FunctionComponent = () => {
                     </p>
                   </div>
                 </div>
-                <div className="row col-lg-12 mt-4">
+                <div className="row col-lg-12 mt-4 d-none">
                   <div
                     className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
                     style={{ width: "55px" }}>
@@ -256,20 +256,20 @@ const CourseSummary: FunctionComponent = () => {
                     </p>
                   </div>
                 </div>
-                <div className="row col-lg-12 mt-4">
+                <div className="row col-lg-12 mt-4 d-none">
                   <div
-                    className={`col-lg-1 col-md-1 width-set pe-0 col-3`}
+                    className={`col-lg-1 col-md-1 width-set pe-0 col-3 d-none`}
                     style={{ width: "55px" }}>
                     <img
                       className={styles.float_img}
                       src="../../../about/right.png"
                     />
                   </div>
-                  <div className="col-lg-11  col-md-10 px-0 col-9">
+                  <div className="col-lg-11  col-md-10 px-0 col-9 d-none">
                     <h5 className={styles.title_flex}>MOST AFFORDABLE</h5>
                   </div>
 
-                  <div className="col-lg-12 mt-3">
+                  <div className="col-lg-12 mt-3 d-none">
                     <p className={`${styles.p_tags} mt-0 pt-0 `}>
                       The Despite the unique design of the heavily hands-on
                       course and its uses of real-world cyber range capability,

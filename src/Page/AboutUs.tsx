@@ -94,7 +94,7 @@ testament to the transformative power of determination. Facing setbacks and chal
 leveraging his experiences to make a meaningful impact in the industry.
 
 </p></div>
-        <div className="row mt-3">
+        <div className="row mt-3 mb-5">
           <h3 className={styles.details_title}>
           Join Us in this Transformative Journey:
           </h3>

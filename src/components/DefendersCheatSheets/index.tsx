@@ -3,39 +3,36 @@ import DefendersCheatSheetsService from "./DefendersCheatSheets";
 const DefendersCheatSheets = () => {
   return (
     <>
-    <div className="container mt-5 pt-4">
-    <div className="row text-center mb-5">
-        <h1 className={styles.workAt}>Defender's Cheat Sheets</h1>
+      <div className="container mt-5 pt-4">
+        <div className="row text-center mb-5">
+          <h1 className={styles.workAt}>Defender's Cheat Sheets</h1>
         </div>
-        </div>
+      </div>
 
-        <div className="container">
-            <div className="row mb-5 justify-content-center">
-              <div className="col-lg-4 col-md-6">
-          <DefendersCheatSheetsService
-          // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="Tactical Threat Intelligence Analyst"
-          dis="The course is aimed to provide learners with comprehensive knowledge and practical skills in the subject of threat intelligence. This course takes you from novice to expert, from learning the principles to hands-on experience. "
-          img_url="../../../certificate/tita_one.png"
-          redirect_url="https://academy.blackperldfir.com/learn/ttia-join"
-          price="1,999.00"
-
-        />
+      <div className="container">
+        <div className="row mb-5 justify-content-center">
+          <div className="col-lg-4 col-md-6">
+            <DefendersCheatSheetsService
+              // groupPrivacyPolicy="pending_I0:208;133:245"
+              title="Tactical Threat Intelligence Analyst<br/><br/>"
+              dis="Click on the KNOW MORE button, and you will find all the essential cheatsheets conveniently compiled in one place. These cheatsheets offer quick tips, shortcuts, and step-by-step guides designed to help you keep things handy."
+              img_url="../../../certificate/thumbnail_defender.jpg"
+              redirect_url="https://github.com/BlackPerl-DFIR/IR-Cheatsheets"
+              price="Free"
+            />
+          </div>
+          <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
+            <DefendersCheatSheetsService
+              // groupPrivacyPolicy="pending_I0:208;133:245"
+              title="BCDE- BlackPerl Certified Detection Engineer"
+              dis="Click on the KNOW MORE button, and you will find all the essential cheatsheets conveniently compiled in one place. These cheatsheets offer quick tips, shortcuts, and step-by-step guides designed to help you keep things handy."
+              img_url="../../../certificate/thumbnail_defender.jpg"
+              redirect_url="https://github.com/BlackPerl-DFIR/IR-Cheatsheets"
+              price="Free"
+            />
+          </div>
         </div>
-        <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
-        <DefendersCheatSheetsService
-          // groupPrivacyPolicy="pending_I0:208;133:245"
-          title="BCDE- BlackPerl Certified Detection Engineer"
-          dis="The course is aimed to provide learners with comprehensive knowledge and practical skills in the subject of Detection Engineering Process. This course takes you from novice to expert, from learning..."
-          img_url="../../../certificate/tita_one.png"
-          redirect_url="https://academy.blackperldfir.com/learn/bcde-live"
-          price="2,999.00"
-
-        />
-        </div>
-        </div>
-        </div>
-
+      </div>
     </>
   );
 };

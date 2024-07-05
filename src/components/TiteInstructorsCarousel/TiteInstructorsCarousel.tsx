@@ -6,8 +6,8 @@ import "swiper/css/navigation";
 import "./style.css";
 import { Navigation } from "swiper/modules";
 import archan from "../../../public/training/archan.png";
-import souvik from "../../../public/training/souvik.png";
-import sayan from "../../../public/training/sayan.png";
+// import souvik from "../../../public/training/souvik.png";
+// import sayan from "../../../public/training/sayan.png";
 const Service = () => {
   const data = [
     {
@@ -16,36 +16,36 @@ const Service = () => {
       heading2: "Choudhury",
       content: "#",
     },
-    {
-      imgURL: souvik,
-      heading: `Souvik`,
-      heading2: "Biswas",
-      content: "#",
-    },
-    {
-      imgURL: sayan,
-      heading: `Sayan`,
-      heading2: "Kr Dey",
-      content: "#",
-    },
-    {
-      imgURL: archan,
-      heading: "Archan",
-      heading2: "Choudhury",
-      content: "#",
-    },
-    {
-      imgURL: souvik,
-      heading: `Souvik`,
-      heading2: "Biswas",
-      content: "#",
-    },
-    {
-      imgURL: sayan,
-      heading: `Sayan`,
-      heading2: "Kr Dey",
-      content: "#",
-    },
+    // // {
+    // //   imgURL: souvik,
+    // //   heading: `Souvik`,
+    // //   heading2: "Biswas",
+    // //   content: "#",
+    // // },
+    // // {
+    // //   imgURL: sayan,
+    // //   heading: `Sayan`,
+    // //   heading2: "Kr Dey",
+    // //   content: "#",
+    // // },
+    // {
+    //   imgURL: archan,
+    //   heading: "Archan",
+    //   heading2: "Choudhury",
+    //   content: "#",
+    // },
+    // {
+    //   imgURL: souvik,
+    //   heading: `Souvik`,
+    //   heading2: "Biswas",
+    //   content: "#",
+    // },
+    // {
+    //   imgURL: sayan,
+    //   heading: `Sayan`,
+    //   heading2: "Kr Dey",
+    //   content: "#",
+    // },
   ];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const swiperRef: any = useRef(null);
@@ -95,7 +95,7 @@ const Service = () => {
           modules={[Navigation]}
           className=""
           speed={1500}
-          slidesPerView={3}
+          slidesPerView={1}
           loop={true}
           autoplay={{ delay: 3000 }}
           ref={swiperRef}

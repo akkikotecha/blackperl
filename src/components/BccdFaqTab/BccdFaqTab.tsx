@@ -287,7 +287,7 @@ Engage in real scenarios, boost up your knowledge on Cloud Security. Cloud Secur
     <Accordion.Header>What if I am not able to attend the live class? Will I be able to attempt the exam?
     </Accordion.Header>
     <Accordion.Body className={styles.content_body}>
-    Yes. As you will be given1 year of video access, you can leverage it and write the assessment and submit the report for the certification.
+    Yes. As you will be given 1 year of video access, you can leverage it and write the assessment and submit the report for the certification.
     </Accordion.Body>
   </Accordion.Item>
 </Accordion>

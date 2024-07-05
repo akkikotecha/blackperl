@@ -150,3 +150,8 @@
     margin-left: -10px!important;
   }
 }
+.my-swiper .swiper-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
