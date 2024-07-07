@@ -44,7 +44,7 @@ function Trainning() {
       <AboutServices />
       <WhyChooseUs/>
       <JoinOurWorld/>
-      <div className="container px-5">
+      <div className="container px-4">
         <div className="row">
           <h3 className={styles.details_title}>
           MEET THE CHANGE MAKER: ARCHAN CHOUDHURY (CEO) & BLACKPERL DFIR TEAM

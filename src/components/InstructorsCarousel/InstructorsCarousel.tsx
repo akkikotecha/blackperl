@@ -126,19 +126,26 @@ const Service = () => {
             // when window width is >= 320px
             720: {
               slidesPerView: 2,
+              spaceBetween: 20,
             },
             425: {
               slidesPerView: 1,
+              spaceBetween: 20,
             },
             320: {
               slidesPerView: 1,
+              spaceBetween: 20,
             },
             
             1024: {
                 slidesPerView: 2,
+              spaceBetween: 0,
+
               },
               1229: {
                 slidesPerView: 2,
+                spaceBetween: 0,
+
               },
               1396: {
                 slidesPerView: 2,

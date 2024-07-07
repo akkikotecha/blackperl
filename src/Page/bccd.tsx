@@ -133,15 +133,17 @@ import { useEffect } from "react";
         
           <div className={`${styles.flex_row} ${styles['col-2']}`}>
           <h1 className={styles.weStrengthenOrganisationContainerWhite}>
-            <p className={styles.weStrengthenSmall}>JOIN OUR BCAD<br/>
+            <p className={styles.weStrengthenSmall}>JOIN OUR BPCD<br/>
               PROGRAM</p>
           </h1>
           </div>
           <div className={`${styles.flex_row} ${styles['col-2']} mb-3`}>
+              <a href="./../../collbrator/BPCD.pdf" download> 
         <button className={`${styles.am} ${styles.ammm}`} >
             <b className={styles.contactUs}>View More</b>
             <img className={styles.amChild} alt="" src="/group-457.svg" />
           </button>
+          </a>
           </div>
           </div>
         </section>

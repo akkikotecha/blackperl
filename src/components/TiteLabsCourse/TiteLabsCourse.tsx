@@ -623,7 +623,7 @@ const TiteLabsCourse: FunctionComponent = () => {
             </div>
           </div>
 
-          <div className="row mt-4 justify-content-between pt-5">
+          <div className="row  justify-content-between pt-4">
           <p className={`${styles.SetupIn} mb-4`}>LABS/COURSE</p>
             <div className="row col-lg-4 col-md-4 ">
               <div

@@ -20,7 +20,7 @@ const Service = () => {
       textButton:"Read More",
     },
     {
-      heading: `CERTIFICATION`,
+      heading: `INDUSTRIAL CERTIFICATION`,
       readMoreLink: "./Certification",
       textButton:"Read More",
     },
@@ -155,12 +155,15 @@ const Service = () => {
             // when window width is >= 768px
             720: {
               slidesPerView: 2,
+              spaceBetween: 20,
             },
             425: {
               slidesPerView: 1,
+              spaceBetween:20,
             },
             320: {
               slidesPerView: 1,
+              spaceBetween: 20,
             },
             
             1024: {

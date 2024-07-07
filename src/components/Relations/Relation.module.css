@@ -219,6 +219,7 @@
   .phoneNumberInput
   {
     gap: 10px 20px;
+    margin-top: 40px;
   }
   .line {
     gap: 0 18px;

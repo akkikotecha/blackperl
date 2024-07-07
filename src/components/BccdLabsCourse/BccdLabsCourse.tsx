@@ -1280,7 +1280,7 @@ const BccdLabsCourse: FunctionComponent = () => {
             <div className="col-lg-8 col-md-6 ps-2">
               <p className={styles.BcadLabs}>BPCD Labs</p>
             </div>
-            <div className="col-lg-4  col-md-6  ps-2 d-flex justify-content-start mt-0 align-items-start">
+            <div className="col-lg-4 d-none col-md-6  ps-2 d-flex justify-content-start mt-0 align-items-start">
             <a href="./../../collbrator/BPCD.pdf" download=""> <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />
@@ -1288,7 +1288,7 @@ const BccdLabsCourse: FunctionComponent = () => {
             </div>
           </div>
 
-          <div className="row mt-4 justify-content-left pt-5">
+          <div className="row  justify-content-left pt-3">
             <p className={`${styles.SetupIn} mb-4`}> DAY 1 </p>
             <div className="row col-lg-4 col-md-4 ">
               <div

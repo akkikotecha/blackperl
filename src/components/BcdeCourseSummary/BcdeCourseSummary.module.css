@@ -413,7 +413,9 @@
   .contentBoxes
   {
     padding-bottom: 0px!important;
-    padding-top: 20px!important;
+    /* padding-top: 20px!important; */
+    padding-top: 170px!important;
+
   }
   .span_disc_mobile
   {

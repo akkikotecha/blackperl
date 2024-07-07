@@ -476,7 +476,7 @@ const LabsCourse: FunctionComponent = () => {
               <p className={styles.BcadLabs}>BCAD Labs</p>
               <p className={styles.SetupIn}>Setup Includes</p>
             </div>
-            <div className="col-lg-4  col-md-6 ps-2 d-flex justify-content-start mt-0 align-items-start">
+            <div className="col-lg-4 d-none  col-md-6 ps-2 d-flex justify-content-start mt-0 align-items-start">
               <button className={styles.am}>
                 <b className={styles.contactUs}>VIEW ALL</b>
                 <img className={styles.amChild} alt="" src="/group-457.svg" />
@@ -484,7 +484,7 @@ const LabsCourse: FunctionComponent = () => {
             </div>
           </div>
 
-          <div className="row mt-4 justify-content-between pt-5">
+          <div className="row  justify-content-between pt-3">
             <div className="row col-lg-6 col-md-6 ">
               <div
                 className={`col-lg-2 col-md-2 col-2 width-set pe-0`}
