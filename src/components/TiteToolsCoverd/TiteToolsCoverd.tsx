@@ -16,7 +16,7 @@ const TiteToolsCoverd: FunctionComponent = () => {
           </div>
 
         
-          <div className={`row d-none ${styles.mobileShow}`}  >
+          <div className={`row  d-md-none ${styles.mobileShow}`}  >
             <div className="col-lg-8 col-md-6 ps-2">
               <p className={styles.BcadLabs}>Tools Covered</p>
               <p className={styles.SetupIn}>in the Class</p>
