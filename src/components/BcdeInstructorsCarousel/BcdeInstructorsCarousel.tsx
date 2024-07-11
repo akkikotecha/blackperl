@@ -84,7 +84,7 @@ const Service = () => {
 
     return (
       <>
-        <div className="d-flex mt-4">
+        <div className="d-flex mt-4 d-none">
           <button onClick={goToPrevSlide} className="rotateImage">
             <img loading="lazy" alt="" src="/group-457-2.svg" />
           </button>

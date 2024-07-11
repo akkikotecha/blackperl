@@ -64,36 +64,28 @@ const Service = () => {
 
   return (
     <>
-     <div className="d-flex mt-4">
-                <button onClick={goToPrevSlide} className="rotateImage">
-                  <img
-                    
-                    loading="lazy"
-                    alt=""
-                    src="/group-457-2.svg"
-                  />
-                </button>
-           
-              <button onClick={goToNextSlide} className="ms-3">
-                <img
-                 
-                  alt=""
-                  src="/group-457-2.svg"
-                />
-              </button>
-              </div>
+      <div className="d-flex mt-4 d-none">
+        <button onClick={goToPrevSlide} className="rotateImage">
+          <img loading="lazy" alt="" src="/group-457-2.svg" />
+        </button>
+
+        <button onClick={goToNextSlide} className="ms-3">
+          <img alt="" src="/group-457-2.svg" />
+        </button>
+      </div>
       <div
         style={{
           color: "white",
           width: "100%",
           padding: "70px 14px",
-          paddingRight: "26px"
+          paddingRight: "26px",
         }}
       >
         <Swiper
           navigation={false}
           modules={[Navigation]}
-          className=""
+          className="flex justify-center items-start my-swiper"
+      
           speed={1500}
           slidesPerView={1}
           loop={true}
@@ -110,19 +102,19 @@ const Service = () => {
             320: {
               slidesPerView: 1,
             },
-            
+
             1024: {
-                slidesPerView: 2,
-              },
-              1229: {
-                slidesPerView: 2,
-              },
-              1396: {
-                slidesPerView: 2,
-              },
-              1536: {
-                slidesPerView: 3,
-              },
+              slidesPerView: 2,
+            },
+            1229: {
+              slidesPerView: 2,
+            },
+            1396: {
+              slidesPerView: 2,
+            },
+            1536: {
+              slidesPerView: 3,
+            },
           }}
         >
           {data.map((single, index) => (
@@ -142,7 +134,6 @@ const Service = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-
       </div>
     </>
   );
